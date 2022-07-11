@@ -1,0 +1,1501 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class SimpleWebTransport
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class SimpleWebTransport
+   ">
+    <meta name="generator" content="docfx 2.56.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" style="display:flex;" href="http://mirror-networking.com">
+                <img id="logo" class="svg" style="vertical-align: middle;align-self:center;" src="../logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Mirror.SimpleWeb.SimpleWebTransport">
+  
+  
+  <h1 id="Mirror_SimpleWeb_SimpleWebTransport" data-uid="Mirror.SimpleWeb.SimpleWebTransport" class="text-break">Class SimpleWebTransport
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><span class="xref">UnityEngine.Object</span></div>
+    <div class="level2"><span class="xref">UnityEngine.Component</span></div>
+    <div class="level3"><span class="xref">UnityEngine.Behaviour</span></div>
+    <div class="level4"><span class="xref">UnityEngine.MonoBehaviour</span></div>
+    <div class="level5"><a class="xref" href="Mirror.Transport.html">Transport</a></div>
+    <div class="level6"><span class="xref">SimpleWebTransport</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Mirror.Transport.html#Mirror_Transport_activeTransport">Transport.activeTransport</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.Transport.html#Mirror_Transport_OnClientConnected">Transport.OnClientConnected</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.Transport.html#Mirror_Transport_OnClientDataReceived">Transport.OnClientDataReceived</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.Transport.html#Mirror_Transport_OnClientDataSent">Transport.OnClientDataSent</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.Transport.html#Mirror_Transport_OnClientError">Transport.OnClientError</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.Transport.html#Mirror_Transport_OnClientDisconnected">Transport.OnClientDisconnected</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.Transport.html#Mirror_Transport_OnServerConnected">Transport.OnServerConnected</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.Transport.html#Mirror_Transport_OnServerDataReceived">Transport.OnServerDataReceived</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.Transport.html#Mirror_Transport_OnServerDataSent">Transport.OnServerDataSent</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.Transport.html#Mirror_Transport_OnServerError">Transport.OnServerError</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.Transport.html#Mirror_Transport_OnServerDisconnected">Transport.OnServerDisconnected</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.Transport.html#Mirror_Transport_ClientConnect_System_Uri_">Transport.ClientConnect(Uri)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.Transport.html#Mirror_Transport_GetBatchThreshold_System_Int32_">Transport.GetBatchThreshold(Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.Transport.html#Mirror_Transport_Update">Transport.Update()</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.Transport.html#Mirror_Transport_LateUpdate">Transport.LateUpdate()</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.Transport.html#Mirror_Transport_ClientLateUpdate">Transport.ClientLateUpdate()</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.Transport.html#Mirror_Transport_ServerLateUpdate">Transport.ServerLateUpdate()</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.Transport.html#Mirror_Transport_OnApplicationQuit">Transport.OnApplicationQuit()</a>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.IsInvoking()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.CancelInvoke()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.Invoke(System.String, System.Single)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.InvokeRepeating(System.String, System.Single, System.Single)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.CancelInvoke(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.IsInvoking(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StartCoroutine(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StartCoroutine(System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StartCoroutine(System.Collections.IEnumerator)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StartCoroutine_Auto(System.Collections.IEnumerator)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StopCoroutine(System.Collections.IEnumerator)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StopCoroutine(UnityEngine.Coroutine)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StopCoroutine(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StopAllCoroutines()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.print(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.useGUILayout</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.runInEditMode</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Behaviour.enabled</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Behaviour.isActiveAndEnabled</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponent(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponent&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.TryGetComponent(System.Type, UnityEngine.Component)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.TryGetComponent&lt;T&gt;(T)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponent(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInChildren(System.Type, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInChildren(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInChildren&lt;T&gt;(System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInChildren&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren(System.Type, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren&lt;T&gt;(System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren&lt;T&gt;(System.Boolean, System.Collections.Generic.List&lt;T&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren&lt;T&gt;(System.Collections.Generic.List&lt;T&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInParent(System.Type, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInParent(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInParent&lt;T&gt;(System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInParent&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInParent(System.Type, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInParent(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInParent&lt;T&gt;(System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInParent&lt;T&gt;(System.Boolean, System.Collections.Generic.List&lt;T&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInParent&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponents(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponents(System.Type, System.Collections.Generic.List&lt;UnityEngine.Component&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponents&lt;T&gt;(System.Collections.Generic.List&lt;T&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponents&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.CompareTag(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessageUpwards(System.String, System.Object, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessageUpwards(System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessageUpwards(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessageUpwards(System.String, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessage(System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessage(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessage(System.String, System.Object, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessage(System.String, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.BroadcastMessage(System.String, System.Object, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.BroadcastMessage(System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.BroadcastMessage(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.BroadcastMessage(System.String, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.transform</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.gameObject</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.tag</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.GetInstanceID()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Vector3, UnityEngine.Quaternion)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Vector3, UnityEngine.Quaternion, UnityEngine.Transform)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Transform)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Transform, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Vector3, UnityEngine.Quaternion)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Vector3, UnityEngine.Quaternion, UnityEngine.Transform)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Transform)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Transform, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Destroy(UnityEngine.Object, System.Single)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Destroy(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DestroyImmediate(UnityEngine.Object, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DestroyImmediate(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfType(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfType(System.Type, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DontDestroyOnLoad(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DestroyObject(UnityEngine.Object, System.Single)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DestroyObject(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindSceneObjectsOfType(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfTypeIncludingAssets(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfType&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfType&lt;T&gt;(System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectOfType&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectOfType&lt;T&gt;(System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfTypeAll(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectOfType(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectOfType(System.Type, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.name</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.hideFlags</span>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">Object.Equals(Object, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#system-object-gettype">Object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.memberwiseclone#system-object-memberwiseclone">Object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#system-object-referenceequals(system-object-system-object)">Object.ReferenceEquals(Object, Object)</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Mirror.SimpleWeb.html">Mirror.SimpleWeb</a></h6>
+  <h6><strong>Assembly</strong>: SimpleWebTransport.dll</h6>
+  <h5 id="Mirror_SimpleWeb_SimpleWebTransport_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DisallowMultipleComponent]
+public class SimpleWebTransport : Transport</code></pre>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_SimpleWeb_SimpleWebTransport_batchSend.md&amp;value=---%0Auid%3A%20Mirror.SimpleWeb.SimpleWebTransport.batchSend%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/Transports/SimpleWebTransport/SimpleWebTransport.cs/#L43">View Source</a>
+  </span>
+  <h4 id="Mirror_SimpleWeb_SimpleWebTransport_batchSend" data-uid="Mirror.SimpleWeb.SimpleWebTransport.batchSend">batchSend</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Header(&quot;Server settings&quot;)]
+[Tooltip(&quot;Groups messages in queue before calling Stream.Send&quot;)]
+public bool batchSend</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_SimpleWeb_SimpleWebTransport_clientMaxMessagesPerTick.md&amp;value=---%0Auid%3A%20Mirror.SimpleWeb.SimpleWebTransport.clientMaxMessagesPerTick%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/Transports/SimpleWebTransport/SimpleWebTransport.cs/#L38">View Source</a>
+  </span>
+  <h4 id="Mirror_SimpleWeb_SimpleWebTransport_clientMaxMessagesPerTick" data-uid="Mirror.SimpleWeb.SimpleWebTransport.clientMaxMessagesPerTick">clientMaxMessagesPerTick</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Caps the number of messages the client will process per tick. Allows LateUpdate to finish to let the reset of unity continue in case more messages arrive before they are processed&quot;)]
+public int clientMaxMessagesPerTick</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_SimpleWeb_SimpleWebTransport_clientUseWss.md&amp;value=---%0Auid%3A%20Mirror.SimpleWeb.SimpleWebTransport.clientUseWss%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/Transports/SimpleWebTransport/SimpleWebTransport.cs/#L53">View Source</a>
+  </span>
+  <h4 id="Mirror_SimpleWeb_SimpleWebTransport_clientUseWss" data-uid="Mirror.SimpleWeb.SimpleWebTransport.clientUseWss">clientUseWss</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Header(&quot;Ssl Settings&quot;)]
+[Tooltip(&quot;Sets connect scheme to wss. Useful when client needs to connect using wss when TLS is outside of transport, NOTE: if sslEnabled is true clientUseWss is also true&quot;)]
+public bool clientUseWss</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_SimpleWeb_SimpleWebTransport_handshakeMaxSize.md&amp;value=---%0Auid%3A%20Mirror.SimpleWeb.SimpleWebTransport.handshakeMaxSize%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/Transports/SimpleWebTransport/SimpleWebTransport.cs/#L23">View Source</a>
+  </span>
+  <h4 id="Mirror_SimpleWeb_SimpleWebTransport_handshakeMaxSize" data-uid="Mirror.SimpleWeb.SimpleWebTransport.handshakeMaxSize">handshakeMaxSize</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Max size for http header send as handshake for websockets&quot;)]
+public int handshakeMaxSize</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_SimpleWeb_SimpleWebTransport_maxMessageSize.md&amp;value=---%0Auid%3A%20Mirror.SimpleWeb.SimpleWebTransport.maxMessageSize%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/Transports/SimpleWebTransport/SimpleWebTransport.cs/#L20">View Source</a>
+  </span>
+  <h4 id="Mirror_SimpleWeb_SimpleWebTransport_maxMessageSize" data-uid="Mirror.SimpleWeb.SimpleWebTransport.maxMessageSize">maxMessageSize</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Protect against allocation attacks by keeping the max message size small. Otherwise an attacker might send multiple fake packets with 2GB headers, causing the server to run out of memory after allocating multiple large packets.&quot;)]
+public int maxMessageSize</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_SimpleWeb_SimpleWebTransport_noDelay.md&amp;value=---%0Auid%3A%20Mirror.SimpleWeb.SimpleWebTransport.noDelay%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/Transports/SimpleWebTransport/SimpleWebTransport.cs/#L26">View Source</a>
+  </span>
+  <h4 id="Mirror_SimpleWeb_SimpleWebTransport_noDelay" data-uid="Mirror.SimpleWeb.SimpleWebTransport.noDelay">noDelay</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;disables nagle algorithm. lowers CPU% and latency but increases bandwidth&quot;)]
+public bool noDelay</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_SimpleWeb_SimpleWebTransport_NormalScheme.md&amp;value=---%0Auid%3A%20Mirror.SimpleWeb.SimpleWebTransport.NormalScheme%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/Transports/SimpleWebTransport/SimpleWebTransport.cs/#L12">View Source</a>
+  </span>
+  <h4 id="Mirror_SimpleWeb_SimpleWebTransport_NormalScheme" data-uid="Mirror.SimpleWeb.SimpleWebTransport.NormalScheme">NormalScheme</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const string NormalScheme = &quot;ws&quot;</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_SimpleWeb_SimpleWebTransport_port.md&amp;value=---%0Auid%3A%20Mirror.SimpleWeb.SimpleWebTransport.port%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/Transports/SimpleWebTransport/SimpleWebTransport.cs/#L16">View Source</a>
+  </span>
+  <h4 id="Mirror_SimpleWeb_SimpleWebTransport_port" data-uid="Mirror.SimpleWeb.SimpleWebTransport.port">port</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Port to use for server and client&quot;)]
+public ushort port</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uint16">UInt16</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_SimpleWeb_SimpleWebTransport_receiveTimeout.md&amp;value=---%0Auid%3A%20Mirror.SimpleWeb.SimpleWebTransport.receiveTimeout%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/Transports/SimpleWebTransport/SimpleWebTransport.cs/#L32">View Source</a>
+  </span>
+  <h4 id="Mirror_SimpleWeb_SimpleWebTransport_receiveTimeout" data-uid="Mirror.SimpleWeb.SimpleWebTransport.receiveTimeout">receiveTimeout</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;How long without a message before disconnecting (in milliseconds)&quot;)]
+public int receiveTimeout</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_SimpleWeb_SimpleWebTransport_SecureScheme.md&amp;value=---%0Auid%3A%20Mirror.SimpleWeb.SimpleWebTransport.SecureScheme%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/Transports/SimpleWebTransport/SimpleWebTransport.cs/#L13">View Source</a>
+  </span>
+  <h4 id="Mirror_SimpleWeb_SimpleWebTransport_SecureScheme" data-uid="Mirror.SimpleWeb.SimpleWebTransport.SecureScheme">SecureScheme</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const string SecureScheme = &quot;wss&quot;</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_SimpleWeb_SimpleWebTransport_sendTimeout.md&amp;value=---%0Auid%3A%20Mirror.SimpleWeb.SimpleWebTransport.sendTimeout%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/Transports/SimpleWebTransport/SimpleWebTransport.cs/#L29">View Source</a>
+  </span>
+  <h4 id="Mirror_SimpleWeb_SimpleWebTransport_sendTimeout" data-uid="Mirror.SimpleWeb.SimpleWebTransport.sendTimeout">sendTimeout</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Send would stall forever if the network is cut off during a send, so we need a timeout (in milliseconds)&quot;)]
+public int sendTimeout</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_SimpleWeb_SimpleWebTransport_serverMaxMessagesPerTick.md&amp;value=---%0Auid%3A%20Mirror.SimpleWeb.SimpleWebTransport.serverMaxMessagesPerTick%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/Transports/SimpleWebTransport/SimpleWebTransport.cs/#L35">View Source</a>
+  </span>
+  <h4 id="Mirror_SimpleWeb_SimpleWebTransport_serverMaxMessagesPerTick" data-uid="Mirror.SimpleWeb.SimpleWebTransport.serverMaxMessagesPerTick">serverMaxMessagesPerTick</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Caps the number of messages the server will process per tick. Allows LateUpdate to finish to let the reset of unity continue in case more messages arrive before they are processed&quot;)]
+public int serverMaxMessagesPerTick</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_SimpleWeb_SimpleWebTransport_sslCertJson.md&amp;value=---%0Auid%3A%20Mirror.SimpleWeb.SimpleWebTransport.sslCertJson%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/Transports/SimpleWebTransport/SimpleWebTransport.cs/#L57">View Source</a>
+  </span>
+  <h4 id="Mirror_SimpleWeb_SimpleWebTransport_sslCertJson" data-uid="Mirror.SimpleWeb.SimpleWebTransport.sslCertJson">sslCertJson</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Path to json file that contains path to cert and its password\n\nUse Json file so that cert password is not included in client builds\n\nSee cert.example.Json&quot;)]
+public string sslCertJson</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_SimpleWeb_SimpleWebTransport_sslEnabled.md&amp;value=---%0Auid%3A%20Mirror.SimpleWeb.SimpleWebTransport.sslEnabled%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/Transports/SimpleWebTransport/SimpleWebTransport.cs/#L55">View Source</a>
+  </span>
+  <h4 id="Mirror_SimpleWeb_SimpleWebTransport_sslEnabled" data-uid="Mirror.SimpleWeb.SimpleWebTransport.sslEnabled">sslEnabled</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool sslEnabled</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_SimpleWeb_SimpleWebTransport_sslProtocols.md&amp;value=---%0Auid%3A%20Mirror.SimpleWeb.SimpleWebTransport.sslProtocols%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/Transports/SimpleWebTransport/SimpleWebTransport.cs/#L58">View Source</a>
+  </span>
+  <h4 id="Mirror_SimpleWeb_SimpleWebTransport_sslProtocols" data-uid="Mirror.SimpleWeb.SimpleWebTransport.sslProtocols">sslProtocols</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SslProtocols sslProtocols</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.security.authentication.sslprotocols">SslProtocols</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_SimpleWeb_SimpleWebTransport_waitBeforeSend.md&amp;value=---%0Auid%3A%20Mirror.SimpleWeb.SimpleWebTransport.waitBeforeSend%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/Transports/SimpleWebTransport/SimpleWebTransport.cs/#L48">View Source</a>
+  </span>
+  <h4 id="Mirror_SimpleWeb_SimpleWebTransport_waitBeforeSend" data-uid="Mirror.SimpleWeb.SimpleWebTransport.waitBeforeSend">waitBeforeSend</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Waits for 1ms before grouping and sending messages. This gives time for mirror to finish adding message to queue so that less groups need to be made. If WaitBeforeSend is true then BatchSend Will also be set to true&quot;)]
+public bool waitBeforeSend</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_SimpleWeb_SimpleWebTransport_LogLevels.md&amp;value=---%0Auid%3A%20Mirror.SimpleWeb.SimpleWebTransport.LogLevels%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/Transports/SimpleWebTransport/SimpleWebTransport.cs/#L69">View Source</a>
+  </span>
+  <a id="Mirror_SimpleWeb_SimpleWebTransport_LogLevels_" data-uid="Mirror.SimpleWeb.SimpleWebTransport.LogLevels*"></a>
+  <h4 id="Mirror_SimpleWeb_SimpleWebTransport_LogLevels" data-uid="Mirror.SimpleWeb.SimpleWebTransport.LogLevels">LogLevels</h4>
+  <div class="markdown level1 summary"><p>Gets _logLevels field</p>
+<p>Sets _logLevels and Log.level fields</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Log.Levels LogLevels { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mirror.SimpleWeb.Log.Levels.html">Log.Levels</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_SimpleWeb_SimpleWebTransport_Available.md&amp;value=---%0Auid%3A%20Mirror.SimpleWeb.SimpleWebTransport.Available%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/Transports/SimpleWebTransport/SimpleWebTransport.cs/#L89">View Source</a>
+  </span>
+  <a id="Mirror_SimpleWeb_SimpleWebTransport_Available_" data-uid="Mirror.SimpleWeb.SimpleWebTransport.Available*"></a>
+  <h4 id="Mirror_SimpleWeb_SimpleWebTransport_Available" data-uid="Mirror.SimpleWeb.SimpleWebTransport.Available">Available()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool Available()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Mirror.Transport.html#Mirror_Transport_Available">Transport.Available()</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_SimpleWeb_SimpleWebTransport_ClientConnect_System_String_.md&amp;value=---%0Auid%3A%20Mirror.SimpleWeb.SimpleWebTransport.ClientConnect(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/Transports/SimpleWebTransport/SimpleWebTransport.cs/#L119">View Source</a>
+  </span>
+  <a id="Mirror_SimpleWeb_SimpleWebTransport_ClientConnect_" data-uid="Mirror.SimpleWeb.SimpleWebTransport.ClientConnect*"></a>
+  <h4 id="Mirror_SimpleWeb_SimpleWebTransport_ClientConnect_System_String_" data-uid="Mirror.SimpleWeb.SimpleWebTransport.ClientConnect(System.String)">ClientConnect(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void ClientConnect(string hostname)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">hostname</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Mirror.Transport.html#Mirror_Transport_ClientConnect_System_String_">Transport.ClientConnect(String)</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_SimpleWeb_SimpleWebTransport_ClientConnected.md&amp;value=---%0Auid%3A%20Mirror.SimpleWeb.SimpleWebTransport.ClientConnected%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/Transports/SimpleWebTransport/SimpleWebTransport.cs/#L113">View Source</a>
+  </span>
+  <a id="Mirror_SimpleWeb_SimpleWebTransport_ClientConnected_" data-uid="Mirror.SimpleWeb.SimpleWebTransport.ClientConnected*"></a>
+  <h4 id="Mirror_SimpleWeb_SimpleWebTransport_ClientConnected" data-uid="Mirror.SimpleWeb.SimpleWebTransport.ClientConnected">ClientConnected()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool ClientConnected()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Mirror.Transport.html#Mirror_Transport_ClientConnected">Transport.ClientConnected()</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_SimpleWeb_SimpleWebTransport_ClientDisconnect.md&amp;value=---%0Auid%3A%20Mirror.SimpleWeb.SimpleWebTransport.ClientDisconnect%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/Transports/SimpleWebTransport/SimpleWebTransport.cs/#L157">View Source</a>
+  </span>
+  <a id="Mirror_SimpleWeb_SimpleWebTransport_ClientDisconnect_" data-uid="Mirror.SimpleWeb.SimpleWebTransport.ClientDisconnect*"></a>
+  <h4 id="Mirror_SimpleWeb_SimpleWebTransport_ClientDisconnect" data-uid="Mirror.SimpleWeb.SimpleWebTransport.ClientDisconnect">ClientDisconnect()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void ClientDisconnect()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Mirror.Transport.html#Mirror_Transport_ClientDisconnect">Transport.ClientDisconnect()</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_SimpleWeb_SimpleWebTransport_ClientEarlyUpdate.md&amp;value=---%0Auid%3A%20Mirror.SimpleWeb.SimpleWebTransport.ClientEarlyUpdate%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/Transports/SimpleWebTransport/SimpleWebTransport.cs/#L190">View Source</a>
+  </span>
+  <a id="Mirror_SimpleWeb_SimpleWebTransport_ClientEarlyUpdate_" data-uid="Mirror.SimpleWeb.SimpleWebTransport.ClientEarlyUpdate*"></a>
+  <h4 id="Mirror_SimpleWeb_SimpleWebTransport_ClientEarlyUpdate" data-uid="Mirror.SimpleWeb.SimpleWebTransport.ClientEarlyUpdate">ClientEarlyUpdate()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void ClientEarlyUpdate()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Mirror.Transport.html#Mirror_Transport_ClientEarlyUpdate">Transport.ClientEarlyUpdate()</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_SimpleWeb_SimpleWebTransport_ClientSend_System_ArraySegment_System_Byte__System_Int32_.md&amp;value=---%0Auid%3A%20Mirror.SimpleWeb.SimpleWebTransport.ClientSend(System.ArraySegment%7BSystem.Byte%7D%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/Transports/SimpleWebTransport/SimpleWebTransport.cs/#L163">View Source</a>
+  </span>
+  <a id="Mirror_SimpleWeb_SimpleWebTransport_ClientSend_" data-uid="Mirror.SimpleWeb.SimpleWebTransport.ClientSend*"></a>
+  <h4 id="Mirror_SimpleWeb_SimpleWebTransport_ClientSend_System_ArraySegment_System_Byte__System_Int32_" data-uid="Mirror.SimpleWeb.SimpleWebTransport.ClientSend(System.ArraySegment{System.Byte},System.Int32)">ClientSend(ArraySegment&lt;Byte&gt;, Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void ClientSend(ArraySegment&lt;byte&gt; segment, int channelId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.arraysegment-1">ArraySegment</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.byte">Byte</a>&gt;</td>
+        <td><span class="parametername">segment</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">channelId</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Mirror.Transport.html#Mirror_Transport_ClientSend_System_ArraySegment_System_Byte__System_Int32_">Transport.ClientSend(ArraySegment&lt;Byte&gt;, Int32)</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_SimpleWeb_SimpleWebTransport_GetMaxPacketSize_System_Int32_.md&amp;value=---%0Auid%3A%20Mirror.SimpleWeb.SimpleWebTransport.GetMaxPacketSize(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/Transports/SimpleWebTransport/SimpleWebTransport.cs/#L93">View Source</a>
+  </span>
+  <a id="Mirror_SimpleWeb_SimpleWebTransport_GetMaxPacketSize_" data-uid="Mirror.SimpleWeb.SimpleWebTransport.GetMaxPacketSize*"></a>
+  <h4 id="Mirror_SimpleWeb_SimpleWebTransport_GetMaxPacketSize_System_Int32_" data-uid="Mirror.SimpleWeb.SimpleWebTransport.GetMaxPacketSize(System.Int32)">GetMaxPacketSize(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int GetMaxPacketSize(int channelId = 0)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">channelId</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Mirror.Transport.html#Mirror_Transport_GetMaxPacketSize_System_Int32_">Transport.GetMaxPacketSize(Int32)</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_SimpleWeb_SimpleWebTransport_ServerActive.md&amp;value=---%0Auid%3A%20Mirror.SimpleWeb.SimpleWebTransport.ServerActive%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/Transports/SimpleWebTransport/SimpleWebTransport.cs/#L197">View Source</a>
+  </span>
+  <a id="Mirror_SimpleWeb_SimpleWebTransport_ServerActive_" data-uid="Mirror.SimpleWeb.SimpleWebTransport.ServerActive*"></a>
+  <h4 id="Mirror_SimpleWeb_SimpleWebTransport_ServerActive" data-uid="Mirror.SimpleWeb.SimpleWebTransport.ServerActive">ServerActive()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool ServerActive()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Mirror.Transport.html#Mirror_Transport_ServerActive">Transport.ServerActive()</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_SimpleWeb_SimpleWebTransport_ServerDisconnect_System_Int32_.md&amp;value=---%0Auid%3A%20Mirror.SimpleWeb.SimpleWebTransport.ServerDisconnect(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/Transports/SimpleWebTransport/SimpleWebTransport.cs/#L234">View Source</a>
+  </span>
+  <a id="Mirror_SimpleWeb_SimpleWebTransport_ServerDisconnect_" data-uid="Mirror.SimpleWeb.SimpleWebTransport.ServerDisconnect*"></a>
+  <h4 id="Mirror_SimpleWeb_SimpleWebTransport_ServerDisconnect_System_Int32_" data-uid="Mirror.SimpleWeb.SimpleWebTransport.ServerDisconnect(System.Int32)">ServerDisconnect(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void ServerDisconnect(int connectionId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">connectionId</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Mirror.Transport.html#Mirror_Transport_ServerDisconnect_System_Int32_">Transport.ServerDisconnect(Int32)</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_SimpleWeb_SimpleWebTransport_ServerEarlyUpdate.md&amp;value=---%0Auid%3A%20Mirror.SimpleWeb.SimpleWebTransport.ServerEarlyUpdate%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/Transports/SimpleWebTransport/SimpleWebTransport.cs/#L287">View Source</a>
+  </span>
+  <a id="Mirror_SimpleWeb_SimpleWebTransport_ServerEarlyUpdate_" data-uid="Mirror.SimpleWeb.SimpleWebTransport.ServerEarlyUpdate*"></a>
+  <h4 id="Mirror_SimpleWeb_SimpleWebTransport_ServerEarlyUpdate" data-uid="Mirror.SimpleWeb.SimpleWebTransport.ServerEarlyUpdate">ServerEarlyUpdate()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void ServerEarlyUpdate()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Mirror.Transport.html#Mirror_Transport_ServerEarlyUpdate">Transport.ServerEarlyUpdate()</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_SimpleWeb_SimpleWebTransport_ServerGetClientAddress_System_Int32_.md&amp;value=---%0Auid%3A%20Mirror.SimpleWeb.SimpleWebTransport.ServerGetClientAddress(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/Transports/SimpleWebTransport/SimpleWebTransport.cs/#L270">View Source</a>
+  </span>
+  <a id="Mirror_SimpleWeb_SimpleWebTransport_ServerGetClientAddress_" data-uid="Mirror.SimpleWeb.SimpleWebTransport.ServerGetClientAddress*"></a>
+  <h4 id="Mirror_SimpleWeb_SimpleWebTransport_ServerGetClientAddress_System_Int32_" data-uid="Mirror.SimpleWeb.SimpleWebTransport.ServerGetClientAddress(System.Int32)">ServerGetClientAddress(Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ServerGetClientAddress(int connectionId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">connectionId</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Mirror.Transport.html#Mirror_Transport_ServerGetClientAddress_System_Int32_">Transport.ServerGetClientAddress(Int32)</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_SimpleWeb_SimpleWebTransport_ServerSend_System_Int32_System_ArraySegment_System_Byte__System_Int32_.md&amp;value=---%0Auid%3A%20Mirror.SimpleWeb.SimpleWebTransport.ServerSend(System.Int32%2CSystem.ArraySegment%7BSystem.Byte%7D%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/Transports/SimpleWebTransport/SimpleWebTransport.cs/#L244">View Source</a>
+  </span>
+  <a id="Mirror_SimpleWeb_SimpleWebTransport_ServerSend_" data-uid="Mirror.SimpleWeb.SimpleWebTransport.ServerSend*"></a>
+  <h4 id="Mirror_SimpleWeb_SimpleWebTransport_ServerSend_System_Int32_System_ArraySegment_System_Byte__System_Int32_" data-uid="Mirror.SimpleWeb.SimpleWebTransport.ServerSend(System.Int32,System.ArraySegment{System.Byte},System.Int32)">ServerSend(Int32, ArraySegment&lt;Byte&gt;, Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void ServerSend(int connectionId, ArraySegment&lt;byte&gt; segment, int channelId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">connectionId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.arraysegment-1">ArraySegment</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.byte">Byte</a>&gt;</td>
+        <td><span class="parametername">segment</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">channelId</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Mirror.Transport.html#Mirror_Transport_ServerSend_System_Int32_System_ArraySegment_System_Byte__System_Int32_">Transport.ServerSend(Int32, ArraySegment&lt;Byte&gt;, Int32)</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_SimpleWeb_SimpleWebTransport_ServerStart.md&amp;value=---%0Auid%3A%20Mirror.SimpleWeb.SimpleWebTransport.ServerStart%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/Transports/SimpleWebTransport/SimpleWebTransport.cs/#L202">View Source</a>
+  </span>
+  <a id="Mirror_SimpleWeb_SimpleWebTransport_ServerStart_" data-uid="Mirror.SimpleWeb.SimpleWebTransport.ServerStart*"></a>
+  <h4 id="Mirror_SimpleWeb_SimpleWebTransport_ServerStart" data-uid="Mirror.SimpleWeb.SimpleWebTransport.ServerStart">ServerStart()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void ServerStart()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Mirror.Transport.html#Mirror_Transport_ServerStart">Transport.ServerStart()</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_SimpleWeb_SimpleWebTransport_ServerStop.md&amp;value=---%0Auid%3A%20Mirror.SimpleWeb.SimpleWebTransport.ServerStop%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/Transports/SimpleWebTransport/SimpleWebTransport.cs/#L223">View Source</a>
+  </span>
+  <a id="Mirror_SimpleWeb_SimpleWebTransport_ServerStop_" data-uid="Mirror.SimpleWeb.SimpleWebTransport.ServerStop*"></a>
+  <h4 id="Mirror_SimpleWeb_SimpleWebTransport_ServerStop" data-uid="Mirror.SimpleWeb.SimpleWebTransport.ServerStop">ServerStop()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void ServerStop()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Mirror.Transport.html#Mirror_Transport_ServerStop">Transport.ServerStop()</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_SimpleWeb_SimpleWebTransport_ServerUri.md&amp;value=---%0Auid%3A%20Mirror.SimpleWeb.SimpleWebTransport.ServerUri%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/Transports/SimpleWebTransport/SimpleWebTransport.cs/#L275">View Source</a>
+  </span>
+  <a id="Mirror_SimpleWeb_SimpleWebTransport_ServerUri_" data-uid="Mirror.SimpleWeb.SimpleWebTransport.ServerUri*"></a>
+  <h4 id="Mirror_SimpleWeb_SimpleWebTransport_ServerUri" data-uid="Mirror.SimpleWeb.SimpleWebTransport.ServerUri">ServerUri()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override Uri ServerUri()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uri">Uri</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Mirror.Transport.html#Mirror_Transport_ServerUri">Transport.ServerUri()</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_SimpleWeb_SimpleWebTransport_Shutdown.md&amp;value=---%0Auid%3A%20Mirror.SimpleWeb.SimpleWebTransport.Shutdown%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/Transports/SimpleWebTransport/SimpleWebTransport.cs/#L102">View Source</a>
+  </span>
+  <a id="Mirror_SimpleWeb_SimpleWebTransport_Shutdown_" data-uid="Mirror.SimpleWeb.SimpleWebTransport.Shutdown*"></a>
+  <h4 id="Mirror_SimpleWeb_SimpleWebTransport_Shutdown" data-uid="Mirror.SimpleWeb.SimpleWebTransport.Shutdown">Shutdown()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void Shutdown()</code></pre>
+  </div>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Mirror.Transport.html#Mirror_Transport_Shutdown">Transport.Shutdown()</a></div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_SimpleWeb_SimpleWebTransport.md&amp;value=---%0Auid%3A%20Mirror.SimpleWeb.SimpleWebTransport%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/Transports/SimpleWebTransport/SimpleWebTransport.cs/#L9" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

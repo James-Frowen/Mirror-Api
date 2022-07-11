@@ -1,0 +1,3414 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class NetworkReaderExtensions
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class NetworkReaderExtensions
+   ">
+    <meta name="generator" content="docfx 2.56.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" style="display:flex;" href="http://mirror-networking.com">
+                <img id="logo" class="svg" style="vertical-align: middle;align-self:center;" src="../logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Mirror.NetworkReaderExtensions">
+  
+  
+  <h1 id="Mirror_NetworkReaderExtensions" data-uid="Mirror.NetworkReaderExtensions" class="text-break">Class NetworkReaderExtensions
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><span class="xref">NetworkReaderExtensions</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">Object.Equals(Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">Object.Equals(Object, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gethashcode#system-object-gethashcode">Object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#system-object-gettype">Object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.memberwiseclone#system-object-memberwiseclone">Object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#system-object-referenceequals(system-object-system-object)">Object.ReferenceEquals(Object, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.tostring#system-object-tostring">Object.ToString()</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Mirror.html">Mirror</a></h6>
+  <h6><strong>Assembly</strong>: Mirror.dll</h6>
+  <h5 id="Mirror_NetworkReaderExtensions_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class NetworkReaderExtensions</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkReaderExtensions_ReadArray__1_Mirror_NetworkReader_.md&amp;value=---%0Auid%3A%20Mirror.NetworkReaderExtensions.ReadArray%60%601(Mirror.NetworkReader)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkReaderExtensions.cs/#L240">View Source</a>
+  </span>
+  <a id="Mirror_NetworkReaderExtensions_ReadArray_" data-uid="Mirror.NetworkReaderExtensions.ReadArray*"></a>
+  <h4 id="Mirror_NetworkReaderExtensions_ReadArray__1_Mirror_NetworkReader_" data-uid="Mirror.NetworkReaderExtensions.ReadArray``1(Mirror.NetworkReader)">ReadArray&lt;T&gt;(NetworkReader)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T[] ReadArray&lt;T&gt;(this NetworkReader reader)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mirror.NetworkReader.html">NetworkReader</a></td>
+        <td><span class="parametername">reader</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>T[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkReaderExtensions_ReadBool_Mirror_NetworkReader_.md&amp;value=---%0Auid%3A%20Mirror.NetworkReaderExtensions.ReadBool(Mirror.NetworkReader)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkReaderExtensions.cs/#L29">View Source</a>
+  </span>
+  <a id="Mirror_NetworkReaderExtensions_ReadBool_" data-uid="Mirror.NetworkReaderExtensions.ReadBool*"></a>
+  <h4 id="Mirror_NetworkReaderExtensions_ReadBool_Mirror_NetworkReader_" data-uid="Mirror.NetworkReaderExtensions.ReadBool(Mirror.NetworkReader)">ReadBool(NetworkReader)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool ReadBool(this NetworkReader reader)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mirror.NetworkReader.html">NetworkReader</a></td>
+        <td><span class="parametername">reader</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkReaderExtensions_ReadBoolNullable_Mirror_NetworkReader_.md&amp;value=---%0Auid%3A%20Mirror.NetworkReaderExtensions.ReadBoolNullable(Mirror.NetworkReader)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkReaderExtensions.cs/#L30">View Source</a>
+  </span>
+  <a id="Mirror_NetworkReaderExtensions_ReadBoolNullable_" data-uid="Mirror.NetworkReaderExtensions.ReadBoolNullable*"></a>
+  <h4 id="Mirror_NetworkReaderExtensions_ReadBoolNullable_Mirror_NetworkReader_" data-uid="Mirror.NetworkReaderExtensions.ReadBoolNullable(Mirror.NetworkReader)">ReadBoolNullable(NetworkReader)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool? ReadBoolNullable(this NetworkReader reader)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mirror.NetworkReader.html">NetworkReader</a></td>
+        <td><span class="parametername">reader</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkReaderExtensions_ReadByte_Mirror_NetworkReader_.md&amp;value=---%0Auid%3A%20Mirror.NetworkReaderExtensions.ReadByte(Mirror.NetworkReader)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkReaderExtensions.cs/#L18">View Source</a>
+  </span>
+  <a id="Mirror_NetworkReaderExtensions_ReadByte_" data-uid="Mirror.NetworkReaderExtensions.ReadByte*"></a>
+  <h4 id="Mirror_NetworkReaderExtensions_ReadByte_Mirror_NetworkReader_" data-uid="Mirror.NetworkReaderExtensions.ReadByte(Mirror.NetworkReader)">ReadByte(NetworkReader)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static byte ReadByte(this NetworkReader reader)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mirror.NetworkReader.html">NetworkReader</a></td>
+        <td><span class="parametername">reader</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.byte">Byte</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkReaderExtensions_ReadByteNullable_Mirror_NetworkReader_.md&amp;value=---%0Auid%3A%20Mirror.NetworkReaderExtensions.ReadByteNullable(Mirror.NetworkReader)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkReaderExtensions.cs/#L19">View Source</a>
+  </span>
+  <a id="Mirror_NetworkReaderExtensions_ReadByteNullable_" data-uid="Mirror.NetworkReaderExtensions.ReadByteNullable*"></a>
+  <h4 id="Mirror_NetworkReaderExtensions_ReadByteNullable_Mirror_NetworkReader_" data-uid="Mirror.NetworkReaderExtensions.ReadByteNullable(Mirror.NetworkReader)">ReadByteNullable(NetworkReader)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static byte? ReadByteNullable(this NetworkReader reader)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mirror.NetworkReader.html">NetworkReader</a></td>
+        <td><span class="parametername">reader</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.byte">Byte</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkReaderExtensions_ReadBytes_Mirror_NetworkReader_System_Int32_.md&amp;value=---%0Auid%3A%20Mirror.NetworkReaderExtensions.ReadBytes(Mirror.NetworkReader%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkReaderExtensions.cs/#L97">View Source</a>
+  </span>
+  <a id="Mirror_NetworkReaderExtensions_ReadBytes_" data-uid="Mirror.NetworkReaderExtensions.ReadBytes*"></a>
+  <h4 id="Mirror_NetworkReaderExtensions_ReadBytes_Mirror_NetworkReader_System_Int32_" data-uid="Mirror.NetworkReaderExtensions.ReadBytes(Mirror.NetworkReader,System.Int32)">ReadBytes(NetworkReader, Int32)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static byte[] ReadBytes(this NetworkReader reader, int count)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mirror.NetworkReader.html">NetworkReader</a></td>
+        <td><span class="parametername">reader</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td><span class="parametername">count</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.byte">Byte</a>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkReaderExtensions_ReadBytesAndSize_Mirror_NetworkReader_.md&amp;value=---%0Auid%3A%20Mirror.NetworkReaderExtensions.ReadBytesAndSize(Mirror.NetworkReader)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkReaderExtensions.cs/#L88">View Source</a>
+  </span>
+  <a id="Mirror_NetworkReaderExtensions_ReadBytesAndSize_" data-uid="Mirror.NetworkReaderExtensions.ReadBytesAndSize*"></a>
+  <h4 id="Mirror_NetworkReaderExtensions_ReadBytesAndSize_Mirror_NetworkReader_" data-uid="Mirror.NetworkReaderExtensions.ReadBytesAndSize(Mirror.NetworkReader)">ReadBytesAndSize(NetworkReader)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static byte[] ReadBytesAndSize(this NetworkReader reader)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mirror.NetworkReader.html">NetworkReader</a></td>
+        <td><span class="parametername">reader</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.byte">Byte</a>[]</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">OverflowException</span></td>
+        <td><p>if count is invalid</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkReaderExtensions_ReadBytesAndSizeSegment_Mirror_NetworkReader_.md&amp;value=---%0Auid%3A%20Mirror.NetworkReaderExtensions.ReadBytesAndSizeSegment(Mirror.NetworkReader)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkReaderExtensions.cs/#L105">View Source</a>
+  </span>
+  <a id="Mirror_NetworkReaderExtensions_ReadBytesAndSizeSegment_" data-uid="Mirror.NetworkReaderExtensions.ReadBytesAndSizeSegment*"></a>
+  <h4 id="Mirror_NetworkReaderExtensions_ReadBytesAndSizeSegment_Mirror_NetworkReader_" data-uid="Mirror.NetworkReaderExtensions.ReadBytesAndSizeSegment(Mirror.NetworkReader)">ReadBytesAndSizeSegment(NetworkReader)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ArraySegment&lt;byte&gt; ReadBytesAndSizeSegment(this NetworkReader reader)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mirror.NetworkReader.html">NetworkReader</a></td>
+        <td><span class="parametername">reader</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.arraysegment-1">ArraySegment</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.byte">Byte</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">OverflowException</span></td>
+        <td><p>if count is invalid</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkReaderExtensions_ReadChar_Mirror_NetworkReader_.md&amp;value=---%0Auid%3A%20Mirror.NetworkReaderExtensions.ReadChar(Mirror.NetworkReader)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkReaderExtensions.cs/#L25">View Source</a>
+  </span>
+  <a id="Mirror_NetworkReaderExtensions_ReadChar_" data-uid="Mirror.NetworkReaderExtensions.ReadChar*"></a>
+  <h4 id="Mirror_NetworkReaderExtensions_ReadChar_Mirror_NetworkReader_" data-uid="Mirror.NetworkReaderExtensions.ReadChar(Mirror.NetworkReader)">ReadChar(NetworkReader)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static char ReadChar(this NetworkReader reader)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mirror.NetworkReader.html">NetworkReader</a></td>
+        <td><span class="parametername">reader</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.char">Char</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkReaderExtensions_ReadCharNullable_Mirror_NetworkReader_.md&amp;value=---%0Auid%3A%20Mirror.NetworkReaderExtensions.ReadCharNullable(Mirror.NetworkReader)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkReaderExtensions.cs/#L26">View Source</a>
+  </span>
+  <a id="Mirror_NetworkReaderExtensions_ReadCharNullable_" data-uid="Mirror.NetworkReaderExtensions.ReadCharNullable*"></a>
+  <h4 id="Mirror_NetworkReaderExtensions_ReadCharNullable_Mirror_NetworkReader_" data-uid="Mirror.NetworkReaderExtensions.ReadCharNullable(Mirror.NetworkReader)">ReadCharNullable(NetworkReader)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static char? ReadCharNullable(this NetworkReader reader)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mirror.NetworkReader.html">NetworkReader</a></td>
+        <td><span class="parametername">reader</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.char">Char</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkReaderExtensions_ReadColor_Mirror_NetworkReader_.md&amp;value=---%0Auid%3A%20Mirror.NetworkReaderExtensions.ReadColor(Mirror.NetworkReader)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkReaderExtensions.cs/#L129">View Source</a>
+  </span>
+  <a id="Mirror_NetworkReaderExtensions_ReadColor_" data-uid="Mirror.NetworkReaderExtensions.ReadColor*"></a>
+  <h4 id="Mirror_NetworkReaderExtensions_ReadColor_Mirror_NetworkReader_" data-uid="Mirror.NetworkReaderExtensions.ReadColor(Mirror.NetworkReader)">ReadColor(NetworkReader)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color ReadColor(this NetworkReader reader)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mirror.NetworkReader.html">NetworkReader</a></td>
+        <td><span class="parametername">reader</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Color</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkReaderExtensions_ReadColor32_Mirror_NetworkReader_.md&amp;value=---%0Auid%3A%20Mirror.NetworkReaderExtensions.ReadColor32(Mirror.NetworkReader)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkReaderExtensions.cs/#L132">View Source</a>
+  </span>
+  <a id="Mirror_NetworkReaderExtensions_ReadColor32_" data-uid="Mirror.NetworkReaderExtensions.ReadColor32*"></a>
+  <h4 id="Mirror_NetworkReaderExtensions_ReadColor32_Mirror_NetworkReader_" data-uid="Mirror.NetworkReaderExtensions.ReadColor32(Mirror.NetworkReader)">ReadColor32(NetworkReader)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color32 ReadColor32(this NetworkReader reader)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mirror.NetworkReader.html">NetworkReader</a></td>
+        <td><span class="parametername">reader</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Color32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkReaderExtensions_ReadColor32Nullable_Mirror_NetworkReader_.md&amp;value=---%0Auid%3A%20Mirror.NetworkReaderExtensions.ReadColor32Nullable(Mirror.NetworkReader)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkReaderExtensions.cs/#L133">View Source</a>
+  </span>
+  <a id="Mirror_NetworkReaderExtensions_ReadColor32Nullable_" data-uid="Mirror.NetworkReaderExtensions.ReadColor32Nullable*"></a>
+  <h4 id="Mirror_NetworkReaderExtensions_ReadColor32Nullable_Mirror_NetworkReader_" data-uid="Mirror.NetworkReaderExtensions.ReadColor32Nullable(Mirror.NetworkReader)">ReadColor32Nullable(NetworkReader)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color32? ReadColor32Nullable(this NetworkReader reader)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mirror.NetworkReader.html">NetworkReader</a></td>
+        <td><span class="parametername">reader</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<span class="xref">UnityEngine.Color32</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkReaderExtensions_ReadColorNullable_Mirror_NetworkReader_.md&amp;value=---%0Auid%3A%20Mirror.NetworkReaderExtensions.ReadColorNullable(Mirror.NetworkReader)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkReaderExtensions.cs/#L130">View Source</a>
+  </span>
+  <a id="Mirror_NetworkReaderExtensions_ReadColorNullable_" data-uid="Mirror.NetworkReaderExtensions.ReadColorNullable*"></a>
+  <h4 id="Mirror_NetworkReaderExtensions_ReadColorNullable_Mirror_NetworkReader_" data-uid="Mirror.NetworkReaderExtensions.ReadColorNullable(Mirror.NetworkReader)">ReadColorNullable(NetworkReader)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color? ReadColorNullable(this NetworkReader reader)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mirror.NetworkReader.html">NetworkReader</a></td>
+        <td><span class="parametername">reader</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<span class="xref">UnityEngine.Color</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkReaderExtensions_ReadDecimal_Mirror_NetworkReader_.md&amp;value=---%0Auid%3A%20Mirror.NetworkReaderExtensions.ReadDecimal(Mirror.NetworkReader)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkReaderExtensions.cs/#L60">View Source</a>
+  </span>
+  <a id="Mirror_NetworkReaderExtensions_ReadDecimal_" data-uid="Mirror.NetworkReaderExtensions.ReadDecimal*"></a>
+  <h4 id="Mirror_NetworkReaderExtensions_ReadDecimal_Mirror_NetworkReader_" data-uid="Mirror.NetworkReaderExtensions.ReadDecimal(Mirror.NetworkReader)">ReadDecimal(NetworkReader)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static decimal ReadDecimal(this NetworkReader reader)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mirror.NetworkReader.html">NetworkReader</a></td>
+        <td><span class="parametername">reader</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.decimal">Decimal</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkReaderExtensions_ReadDecimalNullable_Mirror_NetworkReader_.md&amp;value=---%0Auid%3A%20Mirror.NetworkReaderExtensions.ReadDecimalNullable(Mirror.NetworkReader)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkReaderExtensions.cs/#L61">View Source</a>
+  </span>
+  <a id="Mirror_NetworkReaderExtensions_ReadDecimalNullable_" data-uid="Mirror.NetworkReaderExtensions.ReadDecimalNullable*"></a>
+  <h4 id="Mirror_NetworkReaderExtensions_ReadDecimalNullable_Mirror_NetworkReader_" data-uid="Mirror.NetworkReaderExtensions.ReadDecimalNullable(Mirror.NetworkReader)">ReadDecimalNullable(NetworkReader)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static decimal? ReadDecimalNullable(this NetworkReader reader)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mirror.NetworkReader.html">NetworkReader</a></td>
+        <td><span class="parametername">reader</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.decimal">Decimal</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkReaderExtensions_ReadDouble_Mirror_NetworkReader_.md&amp;value=---%0Auid%3A%20Mirror.NetworkReaderExtensions.ReadDouble(Mirror.NetworkReader)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkReaderExtensions.cs/#L57">View Source</a>
+  </span>
+  <a id="Mirror_NetworkReaderExtensions_ReadDouble_" data-uid="Mirror.NetworkReaderExtensions.ReadDouble*"></a>
+  <h4 id="Mirror_NetworkReaderExtensions_ReadDouble_Mirror_NetworkReader_" data-uid="Mirror.NetworkReaderExtensions.ReadDouble(Mirror.NetworkReader)">ReadDouble(NetworkReader)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double ReadDouble(this NetworkReader reader)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mirror.NetworkReader.html">NetworkReader</a></td>
+        <td><span class="parametername">reader</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.double">Double</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkReaderExtensions_ReadDoubleNullable_Mirror_NetworkReader_.md&amp;value=---%0Auid%3A%20Mirror.NetworkReaderExtensions.ReadDoubleNullable(Mirror.NetworkReader)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkReaderExtensions.cs/#L58">View Source</a>
+  </span>
+  <a id="Mirror_NetworkReaderExtensions_ReadDoubleNullable_" data-uid="Mirror.NetworkReaderExtensions.ReadDoubleNullable*"></a>
+  <h4 id="Mirror_NetworkReaderExtensions_ReadDoubleNullable_Mirror_NetworkReader_" data-uid="Mirror.NetworkReaderExtensions.ReadDoubleNullable(Mirror.NetworkReader)">ReadDoubleNullable(NetworkReader)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double? ReadDoubleNullable(this NetworkReader reader)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mirror.NetworkReader.html">NetworkReader</a></td>
+        <td><span class="parametername">reader</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.double">Double</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkReaderExtensions_ReadFloat_Mirror_NetworkReader_.md&amp;value=---%0Auid%3A%20Mirror.NetworkReaderExtensions.ReadFloat(Mirror.NetworkReader)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkReaderExtensions.cs/#L54">View Source</a>
+  </span>
+  <a id="Mirror_NetworkReaderExtensions_ReadFloat_" data-uid="Mirror.NetworkReaderExtensions.ReadFloat*"></a>
+  <h4 id="Mirror_NetworkReaderExtensions_ReadFloat_Mirror_NetworkReader_" data-uid="Mirror.NetworkReaderExtensions.ReadFloat(Mirror.NetworkReader)">ReadFloat(NetworkReader)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float ReadFloat(this NetworkReader reader)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mirror.NetworkReader.html">NetworkReader</a></td>
+        <td><span class="parametername">reader</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkReaderExtensions_ReadFloatNullable_Mirror_NetworkReader_.md&amp;value=---%0Auid%3A%20Mirror.NetworkReaderExtensions.ReadFloatNullable(Mirror.NetworkReader)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkReaderExtensions.cs/#L55">View Source</a>
+  </span>
+  <a id="Mirror_NetworkReaderExtensions_ReadFloatNullable_" data-uid="Mirror.NetworkReaderExtensions.ReadFloatNullable*"></a>
+  <h4 id="Mirror_NetworkReaderExtensions_ReadFloatNullable_Mirror_NetworkReader_" data-uid="Mirror.NetworkReaderExtensions.ReadFloatNullable(Mirror.NetworkReader)">ReadFloatNullable(NetworkReader)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float? ReadFloatNullable(this NetworkReader reader)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mirror.NetworkReader.html">NetworkReader</a></td>
+        <td><span class="parametername">reader</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkReaderExtensions_ReadGameObject_Mirror_NetworkReader_.md&amp;value=---%0Auid%3A%20Mirror.NetworkReaderExtensions.ReadGameObject(Mirror.NetworkReader)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkReaderExtensions.cs/#L220">View Source</a>
+  </span>
+  <a id="Mirror_NetworkReaderExtensions_ReadGameObject_" data-uid="Mirror.NetworkReaderExtensions.ReadGameObject*"></a>
+  <h4 id="Mirror_NetworkReaderExtensions_ReadGameObject_Mirror_NetworkReader_" data-uid="Mirror.NetworkReaderExtensions.ReadGameObject(Mirror.NetworkReader)">ReadGameObject(NetworkReader)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static GameObject ReadGameObject(this NetworkReader reader)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mirror.NetworkReader.html">NetworkReader</a></td>
+        <td><span class="parametername">reader</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.GameObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkReaderExtensions_ReadGuid_Mirror_NetworkReader_.md&amp;value=---%0Auid%3A%20Mirror.NetworkReaderExtensions.ReadGuid(Mirror.NetworkReader)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkReaderExtensions.cs/#L150">View Source</a>
+  </span>
+  <a id="Mirror_NetworkReaderExtensions_ReadGuid_" data-uid="Mirror.NetworkReaderExtensions.ReadGuid*"></a>
+  <h4 id="Mirror_NetworkReaderExtensions_ReadGuid_Mirror_NetworkReader_" data-uid="Mirror.NetworkReaderExtensions.ReadGuid(Mirror.NetworkReader)">ReadGuid(NetworkReader)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Guid ReadGuid(this NetworkReader reader)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mirror.NetworkReader.html">NetworkReader</a></td>
+        <td><span class="parametername">reader</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.guid">Guid</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkReaderExtensions_ReadGuidNullable_Mirror_NetworkReader_.md&amp;value=---%0Auid%3A%20Mirror.NetworkReaderExtensions.ReadGuidNullable(Mirror.NetworkReader)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkReaderExtensions.cs/#L151">View Source</a>
+  </span>
+  <a id="Mirror_NetworkReaderExtensions_ReadGuidNullable_" data-uid="Mirror.NetworkReaderExtensions.ReadGuidNullable*"></a>
+  <h4 id="Mirror_NetworkReaderExtensions_ReadGuidNullable_Mirror_NetworkReader_" data-uid="Mirror.NetworkReaderExtensions.ReadGuidNullable(Mirror.NetworkReader)">ReadGuidNullable(NetworkReader)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Guid? ReadGuidNullable(this NetworkReader reader)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mirror.NetworkReader.html">NetworkReader</a></td>
+        <td><span class="parametername">reader</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.guid">Guid</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkReaderExtensions_ReadInt_Mirror_NetworkReader_.md&amp;value=---%0Auid%3A%20Mirror.NetworkReaderExtensions.ReadInt(Mirror.NetworkReader)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkReaderExtensions.cs/#L42">View Source</a>
+  </span>
+  <a id="Mirror_NetworkReaderExtensions_ReadInt_" data-uid="Mirror.NetworkReaderExtensions.ReadInt*"></a>
+  <h4 id="Mirror_NetworkReaderExtensions_ReadInt_Mirror_NetworkReader_" data-uid="Mirror.NetworkReaderExtensions.ReadInt(Mirror.NetworkReader)">ReadInt(NetworkReader)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int ReadInt(this NetworkReader reader)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mirror.NetworkReader.html">NetworkReader</a></td>
+        <td><span class="parametername">reader</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkReaderExtensions_ReadIntNullable_Mirror_NetworkReader_.md&amp;value=---%0Auid%3A%20Mirror.NetworkReaderExtensions.ReadIntNullable(Mirror.NetworkReader)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkReaderExtensions.cs/#L43">View Source</a>
+  </span>
+  <a id="Mirror_NetworkReaderExtensions_ReadIntNullable_" data-uid="Mirror.NetworkReaderExtensions.ReadIntNullable*"></a>
+  <h4 id="Mirror_NetworkReaderExtensions_ReadIntNullable_Mirror_NetworkReader_" data-uid="Mirror.NetworkReaderExtensions.ReadIntNullable(Mirror.NetworkReader)">ReadIntNullable(NetworkReader)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int? ReadIntNullable(this NetworkReader reader)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mirror.NetworkReader.html">NetworkReader</a></td>
+        <td><span class="parametername">reader</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkReaderExtensions_ReadList__1_Mirror_NetworkReader_.md&amp;value=---%0Auid%3A%20Mirror.NetworkReaderExtensions.ReadList%60%601(Mirror.NetworkReader)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkReaderExtensions.cs/#L227">View Source</a>
+  </span>
+  <a id="Mirror_NetworkReaderExtensions_ReadList_" data-uid="Mirror.NetworkReaderExtensions.ReadList*"></a>
+  <h4 id="Mirror_NetworkReaderExtensions_ReadList__1_Mirror_NetworkReader_" data-uid="Mirror.NetworkReaderExtensions.ReadList``1(Mirror.NetworkReader)">ReadList&lt;T&gt;(NetworkReader)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static List&lt;T&gt; ReadList&lt;T&gt;(this NetworkReader reader)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mirror.NetworkReader.html">NetworkReader</a></td>
+        <td><span class="parametername">reader</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;T&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkReaderExtensions_ReadLong_Mirror_NetworkReader_.md&amp;value=---%0Auid%3A%20Mirror.NetworkReaderExtensions.ReadLong(Mirror.NetworkReader)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkReaderExtensions.cs/#L48">View Source</a>
+  </span>
+  <a id="Mirror_NetworkReaderExtensions_ReadLong_" data-uid="Mirror.NetworkReaderExtensions.ReadLong*"></a>
+  <h4 id="Mirror_NetworkReaderExtensions_ReadLong_Mirror_NetworkReader_" data-uid="Mirror.NetworkReaderExtensions.ReadLong(Mirror.NetworkReader)">ReadLong(NetworkReader)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static long ReadLong(this NetworkReader reader)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mirror.NetworkReader.html">NetworkReader</a></td>
+        <td><span class="parametername">reader</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int64">Int64</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkReaderExtensions_ReadLongNullable_Mirror_NetworkReader_.md&amp;value=---%0Auid%3A%20Mirror.NetworkReaderExtensions.ReadLongNullable(Mirror.NetworkReader)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkReaderExtensions.cs/#L49">View Source</a>
+  </span>
+  <a id="Mirror_NetworkReaderExtensions_ReadLongNullable_" data-uid="Mirror.NetworkReaderExtensions.ReadLongNullable*"></a>
+  <h4 id="Mirror_NetworkReaderExtensions_ReadLongNullable_Mirror_NetworkReader_" data-uid="Mirror.NetworkReaderExtensions.ReadLongNullable(Mirror.NetworkReader)">ReadLongNullable(NetworkReader)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static long? ReadLongNullable(this NetworkReader reader)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mirror.NetworkReader.html">NetworkReader</a></td>
+        <td><span class="parametername">reader</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int64">Int64</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkReaderExtensions_ReadMatrix4x4_Mirror_NetworkReader_.md&amp;value=---%0Auid%3A%20Mirror.NetworkReaderExtensions.ReadMatrix4x4(Mirror.NetworkReader)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkReaderExtensions.cs/#L147">View Source</a>
+  </span>
+  <a id="Mirror_NetworkReaderExtensions_ReadMatrix4x4_" data-uid="Mirror.NetworkReaderExtensions.ReadMatrix4x4*"></a>
+  <h4 id="Mirror_NetworkReaderExtensions_ReadMatrix4x4_Mirror_NetworkReader_" data-uid="Mirror.NetworkReaderExtensions.ReadMatrix4x4(Mirror.NetworkReader)">ReadMatrix4x4(NetworkReader)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Matrix4x4 ReadMatrix4x4(this NetworkReader reader)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mirror.NetworkReader.html">NetworkReader</a></td>
+        <td><span class="parametername">reader</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Matrix4x4</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkReaderExtensions_ReadMatrix4x4Nullable_Mirror_NetworkReader_.md&amp;value=---%0Auid%3A%20Mirror.NetworkReaderExtensions.ReadMatrix4x4Nullable(Mirror.NetworkReader)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkReaderExtensions.cs/#L148">View Source</a>
+  </span>
+  <a id="Mirror_NetworkReaderExtensions_ReadMatrix4x4Nullable_" data-uid="Mirror.NetworkReaderExtensions.ReadMatrix4x4Nullable*"></a>
+  <h4 id="Mirror_NetworkReaderExtensions_ReadMatrix4x4Nullable_Mirror_NetworkReader_" data-uid="Mirror.NetworkReaderExtensions.ReadMatrix4x4Nullable(Mirror.NetworkReader)">ReadMatrix4x4Nullable(NetworkReader)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Matrix4x4? ReadMatrix4x4Nullable(this NetworkReader reader)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mirror.NetworkReader.html">NetworkReader</a></td>
+        <td><span class="parametername">reader</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<span class="xref">UnityEngine.Matrix4x4</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkReaderExtensions_ReadNetworkBehaviour_Mirror_NetworkReader_.md&amp;value=---%0Auid%3A%20Mirror.NetworkReaderExtensions.ReadNetworkBehaviour(Mirror.NetworkReader)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkReaderExtensions.cs/#L166">View Source</a>
+  </span>
+  <a id="Mirror_NetworkReaderExtensions_ReadNetworkBehaviour_" data-uid="Mirror.NetworkReaderExtensions.ReadNetworkBehaviour*"></a>
+  <h4 id="Mirror_NetworkReaderExtensions_ReadNetworkBehaviour_Mirror_NetworkReader_" data-uid="Mirror.NetworkReaderExtensions.ReadNetworkBehaviour(Mirror.NetworkReader)">ReadNetworkBehaviour(NetworkReader)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static NetworkBehaviour ReadNetworkBehaviour(this NetworkReader reader)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mirror.NetworkReader.html">NetworkReader</a></td>
+        <td><span class="parametername">reader</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mirror.NetworkBehaviour.html">NetworkBehaviour</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkReaderExtensions_ReadNetworkBehaviour__1_Mirror_NetworkReader_.md&amp;value=---%0Auid%3A%20Mirror.NetworkReaderExtensions.ReadNetworkBehaviour%60%601(Mirror.NetworkReader)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkReaderExtensions.cs/#L194">View Source</a>
+  </span>
+  <a id="Mirror_NetworkReaderExtensions_ReadNetworkBehaviour_" data-uid="Mirror.NetworkReaderExtensions.ReadNetworkBehaviour*"></a>
+  <h4 id="Mirror_NetworkReaderExtensions_ReadNetworkBehaviour__1_Mirror_NetworkReader_" data-uid="Mirror.NetworkReaderExtensions.ReadNetworkBehaviour``1(Mirror.NetworkReader)">ReadNetworkBehaviour&lt;T&gt;(NetworkReader)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static T ReadNetworkBehaviour&lt;T&gt;(this NetworkReader reader)
+    where T : NetworkBehaviour</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mirror.NetworkReader.html">NetworkReader</a></td>
+        <td><span class="parametername">reader</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkReaderExtensions_ReadNetworkBehaviourSyncVar_Mirror_NetworkReader_.md&amp;value=---%0Auid%3A%20Mirror.NetworkReaderExtensions.ReadNetworkBehaviourSyncVar(Mirror.NetworkReader)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkReaderExtensions.cs/#L199">View Source</a>
+  </span>
+  <a id="Mirror_NetworkReaderExtensions_ReadNetworkBehaviourSyncVar_" data-uid="Mirror.NetworkReaderExtensions.ReadNetworkBehaviourSyncVar*"></a>
+  <h4 id="Mirror_NetworkReaderExtensions_ReadNetworkBehaviourSyncVar_Mirror_NetworkReader_" data-uid="Mirror.NetworkReaderExtensions.ReadNetworkBehaviourSyncVar(Mirror.NetworkReader)">ReadNetworkBehaviourSyncVar(NetworkReader)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static NetworkBehaviour.NetworkBehaviourSyncVar ReadNetworkBehaviourSyncVar(this NetworkReader reader)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mirror.NetworkReader.html">NetworkReader</a></td>
+        <td><span class="parametername">reader</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mirror.NetworkBehaviour.NetworkBehaviourSyncVar.html">NetworkBehaviour.NetworkBehaviourSyncVar</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkReaderExtensions_ReadNetworkIdentity_Mirror_NetworkReader_.md&amp;value=---%0Auid%3A%20Mirror.NetworkReaderExtensions.ReadNetworkIdentity(Mirror.NetworkReader)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkReaderExtensions.cs/#L153">View Source</a>
+  </span>
+  <a id="Mirror_NetworkReaderExtensions_ReadNetworkIdentity_" data-uid="Mirror.NetworkReaderExtensions.ReadNetworkIdentity*"></a>
+  <h4 id="Mirror_NetworkReaderExtensions_ReadNetworkIdentity_Mirror_NetworkReader_" data-uid="Mirror.NetworkReaderExtensions.ReadNetworkIdentity(Mirror.NetworkReader)">ReadNetworkIdentity(NetworkReader)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static NetworkIdentity ReadNetworkIdentity(this NetworkReader reader)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mirror.NetworkReader.html">NetworkReader</a></td>
+        <td><span class="parametername">reader</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mirror.NetworkIdentity.html">NetworkIdentity</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkReaderExtensions_ReadPlane_Mirror_NetworkReader_.md&amp;value=---%0Auid%3A%20Mirror.NetworkReaderExtensions.ReadPlane(Mirror.NetworkReader)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkReaderExtensions.cs/#L141">View Source</a>
+  </span>
+  <a id="Mirror_NetworkReaderExtensions_ReadPlane_" data-uid="Mirror.NetworkReaderExtensions.ReadPlane*"></a>
+  <h4 id="Mirror_NetworkReaderExtensions_ReadPlane_Mirror_NetworkReader_" data-uid="Mirror.NetworkReaderExtensions.ReadPlane(Mirror.NetworkReader)">ReadPlane(NetworkReader)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Plane ReadPlane(this NetworkReader reader)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mirror.NetworkReader.html">NetworkReader</a></td>
+        <td><span class="parametername">reader</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Plane</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkReaderExtensions_ReadPlaneNullable_Mirror_NetworkReader_.md&amp;value=---%0Auid%3A%20Mirror.NetworkReaderExtensions.ReadPlaneNullable(Mirror.NetworkReader)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkReaderExtensions.cs/#L142">View Source</a>
+  </span>
+  <a id="Mirror_NetworkReaderExtensions_ReadPlaneNullable_" data-uid="Mirror.NetworkReaderExtensions.ReadPlaneNullable*"></a>
+  <h4 id="Mirror_NetworkReaderExtensions_ReadPlaneNullable_Mirror_NetworkReader_" data-uid="Mirror.NetworkReaderExtensions.ReadPlaneNullable(Mirror.NetworkReader)">ReadPlaneNullable(NetworkReader)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Plane? ReadPlaneNullable(this NetworkReader reader)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mirror.NetworkReader.html">NetworkReader</a></td>
+        <td><span class="parametername">reader</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<span class="xref">UnityEngine.Plane</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkReaderExtensions_ReadQuaternion_Mirror_NetworkReader_.md&amp;value=---%0Auid%3A%20Mirror.NetworkReaderExtensions.ReadQuaternion(Mirror.NetworkReader)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkReaderExtensions.cs/#L135">View Source</a>
+  </span>
+  <a id="Mirror_NetworkReaderExtensions_ReadQuaternion_" data-uid="Mirror.NetworkReaderExtensions.ReadQuaternion*"></a>
+  <h4 id="Mirror_NetworkReaderExtensions_ReadQuaternion_Mirror_NetworkReader_" data-uid="Mirror.NetworkReaderExtensions.ReadQuaternion(Mirror.NetworkReader)">ReadQuaternion(NetworkReader)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Quaternion ReadQuaternion(this NetworkReader reader)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mirror.NetworkReader.html">NetworkReader</a></td>
+        <td><span class="parametername">reader</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Quaternion</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkReaderExtensions_ReadQuaternionNullable_Mirror_NetworkReader_.md&amp;value=---%0Auid%3A%20Mirror.NetworkReaderExtensions.ReadQuaternionNullable(Mirror.NetworkReader)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkReaderExtensions.cs/#L136">View Source</a>
+  </span>
+  <a id="Mirror_NetworkReaderExtensions_ReadQuaternionNullable_" data-uid="Mirror.NetworkReaderExtensions.ReadQuaternionNullable*"></a>
+  <h4 id="Mirror_NetworkReaderExtensions_ReadQuaternionNullable_Mirror_NetworkReader_" data-uid="Mirror.NetworkReaderExtensions.ReadQuaternionNullable(Mirror.NetworkReader)">ReadQuaternionNullable(NetworkReader)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Quaternion? ReadQuaternionNullable(this NetworkReader reader)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mirror.NetworkReader.html">NetworkReader</a></td>
+        <td><span class="parametername">reader</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<span class="xref">UnityEngine.Quaternion</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkReaderExtensions_ReadRay_Mirror_NetworkReader_.md&amp;value=---%0Auid%3A%20Mirror.NetworkReaderExtensions.ReadRay(Mirror.NetworkReader)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkReaderExtensions.cs/#L144">View Source</a>
+  </span>
+  <a id="Mirror_NetworkReaderExtensions_ReadRay_" data-uid="Mirror.NetworkReaderExtensions.ReadRay*"></a>
+  <h4 id="Mirror_NetworkReaderExtensions_ReadRay_Mirror_NetworkReader_" data-uid="Mirror.NetworkReaderExtensions.ReadRay(Mirror.NetworkReader)">ReadRay(NetworkReader)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Ray ReadRay(this NetworkReader reader)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mirror.NetworkReader.html">NetworkReader</a></td>
+        <td><span class="parametername">reader</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Ray</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkReaderExtensions_ReadRayNullable_Mirror_NetworkReader_.md&amp;value=---%0Auid%3A%20Mirror.NetworkReaderExtensions.ReadRayNullable(Mirror.NetworkReader)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkReaderExtensions.cs/#L145">View Source</a>
+  </span>
+  <a id="Mirror_NetworkReaderExtensions_ReadRayNullable_" data-uid="Mirror.NetworkReaderExtensions.ReadRayNullable*"></a>
+  <h4 id="Mirror_NetworkReaderExtensions_ReadRayNullable_Mirror_NetworkReader_" data-uid="Mirror.NetworkReaderExtensions.ReadRayNullable(Mirror.NetworkReader)">ReadRayNullable(NetworkReader)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Ray? ReadRayNullable(this NetworkReader reader)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mirror.NetworkReader.html">NetworkReader</a></td>
+        <td><span class="parametername">reader</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<span class="xref">UnityEngine.Ray</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkReaderExtensions_ReadRect_Mirror_NetworkReader_.md&amp;value=---%0Auid%3A%20Mirror.NetworkReaderExtensions.ReadRect(Mirror.NetworkReader)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkReaderExtensions.cs/#L138">View Source</a>
+  </span>
+  <a id="Mirror_NetworkReaderExtensions_ReadRect_" data-uid="Mirror.NetworkReaderExtensions.ReadRect*"></a>
+  <h4 id="Mirror_NetworkReaderExtensions_ReadRect_Mirror_NetworkReader_" data-uid="Mirror.NetworkReaderExtensions.ReadRect(Mirror.NetworkReader)">ReadRect(NetworkReader)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Rect ReadRect(this NetworkReader reader)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mirror.NetworkReader.html">NetworkReader</a></td>
+        <td><span class="parametername">reader</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Rect</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkReaderExtensions_ReadRectNullable_Mirror_NetworkReader_.md&amp;value=---%0Auid%3A%20Mirror.NetworkReaderExtensions.ReadRectNullable(Mirror.NetworkReader)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkReaderExtensions.cs/#L139">View Source</a>
+  </span>
+  <a id="Mirror_NetworkReaderExtensions_ReadRectNullable_" data-uid="Mirror.NetworkReaderExtensions.ReadRectNullable*"></a>
+  <h4 id="Mirror_NetworkReaderExtensions_ReadRectNullable_Mirror_NetworkReader_" data-uid="Mirror.NetworkReaderExtensions.ReadRectNullable(Mirror.NetworkReader)">ReadRectNullable(NetworkReader)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Rect? ReadRectNullable(this NetworkReader reader)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mirror.NetworkReader.html">NetworkReader</a></td>
+        <td><span class="parametername">reader</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<span class="xref">UnityEngine.Rect</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkReaderExtensions_ReadSByte_Mirror_NetworkReader_.md&amp;value=---%0Auid%3A%20Mirror.NetworkReaderExtensions.ReadSByte(Mirror.NetworkReader)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkReaderExtensions.cs/#L21">View Source</a>
+  </span>
+  <a id="Mirror_NetworkReaderExtensions_ReadSByte_" data-uid="Mirror.NetworkReaderExtensions.ReadSByte*"></a>
+  <h4 id="Mirror_NetworkReaderExtensions_ReadSByte_Mirror_NetworkReader_" data-uid="Mirror.NetworkReaderExtensions.ReadSByte(Mirror.NetworkReader)">ReadSByte(NetworkReader)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static sbyte ReadSByte(this NetworkReader reader)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mirror.NetworkReader.html">NetworkReader</a></td>
+        <td><span class="parametername">reader</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.sbyte">SByte</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkReaderExtensions_ReadSByteNullable_Mirror_NetworkReader_.md&amp;value=---%0Auid%3A%20Mirror.NetworkReaderExtensions.ReadSByteNullable(Mirror.NetworkReader)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkReaderExtensions.cs/#L22">View Source</a>
+  </span>
+  <a id="Mirror_NetworkReaderExtensions_ReadSByteNullable_" data-uid="Mirror.NetworkReaderExtensions.ReadSByteNullable*"></a>
+  <h4 id="Mirror_NetworkReaderExtensions_ReadSByteNullable_Mirror_NetworkReader_" data-uid="Mirror.NetworkReaderExtensions.ReadSByteNullable(Mirror.NetworkReader)">ReadSByteNullable(NetworkReader)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static sbyte? ReadSByteNullable(this NetworkReader reader)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mirror.NetworkReader.html">NetworkReader</a></td>
+        <td><span class="parametername">reader</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.sbyte">SByte</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkReaderExtensions_ReadShort_Mirror_NetworkReader_.md&amp;value=---%0Auid%3A%20Mirror.NetworkReaderExtensions.ReadShort(Mirror.NetworkReader)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkReaderExtensions.cs/#L36">View Source</a>
+  </span>
+  <a id="Mirror_NetworkReaderExtensions_ReadShort_" data-uid="Mirror.NetworkReaderExtensions.ReadShort*"></a>
+  <h4 id="Mirror_NetworkReaderExtensions_ReadShort_Mirror_NetworkReader_" data-uid="Mirror.NetworkReaderExtensions.ReadShort(Mirror.NetworkReader)">ReadShort(NetworkReader)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static short ReadShort(this NetworkReader reader)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mirror.NetworkReader.html">NetworkReader</a></td>
+        <td><span class="parametername">reader</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int16">Int16</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkReaderExtensions_ReadShortNullable_Mirror_NetworkReader_.md&amp;value=---%0Auid%3A%20Mirror.NetworkReaderExtensions.ReadShortNullable(Mirror.NetworkReader)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkReaderExtensions.cs/#L37">View Source</a>
+  </span>
+  <a id="Mirror_NetworkReaderExtensions_ReadShortNullable_" data-uid="Mirror.NetworkReaderExtensions.ReadShortNullable*"></a>
+  <h4 id="Mirror_NetworkReaderExtensions_ReadShortNullable_Mirror_NetworkReader_" data-uid="Mirror.NetworkReaderExtensions.ReadShortNullable(Mirror.NetworkReader)">ReadShortNullable(NetworkReader)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static short? ReadShortNullable(this NetworkReader reader)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mirror.NetworkReader.html">NetworkReader</a></td>
+        <td><span class="parametername">reader</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int16">Int16</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkReaderExtensions_ReadSprite_Mirror_NetworkReader_.md&amp;value=---%0Auid%3A%20Mirror.NetworkReaderExtensions.ReadSprite(Mirror.NetworkReader)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkReaderExtensions.cs/#L293">View Source</a>
+  </span>
+  <a id="Mirror_NetworkReaderExtensions_ReadSprite_" data-uid="Mirror.NetworkReaderExtensions.ReadSprite*"></a>
+  <h4 id="Mirror_NetworkReaderExtensions_ReadSprite_Mirror_NetworkReader_" data-uid="Mirror.NetworkReaderExtensions.ReadSprite(Mirror.NetworkReader)">ReadSprite(NetworkReader)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Sprite ReadSprite(this NetworkReader reader)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mirror.NetworkReader.html">NetworkReader</a></td>
+        <td><span class="parametername">reader</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Sprite</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkReaderExtensions_ReadString_Mirror_NetworkReader_.md&amp;value=---%0Auid%3A%20Mirror.NetworkReaderExtensions.ReadString(Mirror.NetworkReader)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkReaderExtensions.cs/#L64">View Source</a>
+  </span>
+  <a id="Mirror_NetworkReaderExtensions_ReadString_" data-uid="Mirror.NetworkReaderExtensions.ReadString*"></a>
+  <h4 id="Mirror_NetworkReaderExtensions_ReadString_Mirror_NetworkReader_" data-uid="Mirror.NetworkReaderExtensions.ReadString(Mirror.NetworkReader)">ReadString(NetworkReader)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string ReadString(this NetworkReader reader)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mirror.NetworkReader.html">NetworkReader</a></td>
+        <td><span class="parametername">reader</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentexception">ArgumentException</a></td>
+        <td><p>if an invalid utf8 string is sent</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkReaderExtensions_ReadTexture2D_Mirror_NetworkReader_.md&amp;value=---%0Auid%3A%20Mirror.NetworkReaderExtensions.ReadTexture2D(Mirror.NetworkReader)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkReaderExtensions.cs/#L272">View Source</a>
+  </span>
+  <a id="Mirror_NetworkReaderExtensions_ReadTexture2D_" data-uid="Mirror.NetworkReaderExtensions.ReadTexture2D*"></a>
+  <h4 id="Mirror_NetworkReaderExtensions_ReadTexture2D_Mirror_NetworkReader_" data-uid="Mirror.NetworkReaderExtensions.ReadTexture2D(Mirror.NetworkReader)">ReadTexture2D(NetworkReader)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Texture2D ReadTexture2D(this NetworkReader reader)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mirror.NetworkReader.html">NetworkReader</a></td>
+        <td><span class="parametername">reader</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Texture2D</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkReaderExtensions_ReadTransform_Mirror_NetworkReader_.md&amp;value=---%0Auid%3A%20Mirror.NetworkReaderExtensions.ReadTransform(Mirror.NetworkReader)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkReaderExtensions.cs/#L213">View Source</a>
+  </span>
+  <a id="Mirror_NetworkReaderExtensions_ReadTransform_" data-uid="Mirror.NetworkReaderExtensions.ReadTransform*"></a>
+  <h4 id="Mirror_NetworkReaderExtensions_ReadTransform_Mirror_NetworkReader_" data-uid="Mirror.NetworkReaderExtensions.ReadTransform(Mirror.NetworkReader)">ReadTransform(NetworkReader)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Transform ReadTransform(this NetworkReader reader)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mirror.NetworkReader.html">NetworkReader</a></td>
+        <td><span class="parametername">reader</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Transform</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkReaderExtensions_ReadUInt_Mirror_NetworkReader_.md&amp;value=---%0Auid%3A%20Mirror.NetworkReaderExtensions.ReadUInt(Mirror.NetworkReader)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkReaderExtensions.cs/#L45">View Source</a>
+  </span>
+  <a id="Mirror_NetworkReaderExtensions_ReadUInt_" data-uid="Mirror.NetworkReaderExtensions.ReadUInt*"></a>
+  <h4 id="Mirror_NetworkReaderExtensions_ReadUInt_Mirror_NetworkReader_" data-uid="Mirror.NetworkReaderExtensions.ReadUInt(Mirror.NetworkReader)">ReadUInt(NetworkReader)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static uint ReadUInt(this NetworkReader reader)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mirror.NetworkReader.html">NetworkReader</a></td>
+        <td><span class="parametername">reader</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uint32">UInt32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkReaderExtensions_ReadUIntNullable_Mirror_NetworkReader_.md&amp;value=---%0Auid%3A%20Mirror.NetworkReaderExtensions.ReadUIntNullable(Mirror.NetworkReader)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkReaderExtensions.cs/#L46">View Source</a>
+  </span>
+  <a id="Mirror_NetworkReaderExtensions_ReadUIntNullable_" data-uid="Mirror.NetworkReaderExtensions.ReadUIntNullable*"></a>
+  <h4 id="Mirror_NetworkReaderExtensions_ReadUIntNullable_Mirror_NetworkReader_" data-uid="Mirror.NetworkReaderExtensions.ReadUIntNullable(Mirror.NetworkReader)">ReadUIntNullable(NetworkReader)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static uint? ReadUIntNullable(this NetworkReader reader)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mirror.NetworkReader.html">NetworkReader</a></td>
+        <td><span class="parametername">reader</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uint32">UInt32</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkReaderExtensions_ReadULong_Mirror_NetworkReader_.md&amp;value=---%0Auid%3A%20Mirror.NetworkReaderExtensions.ReadULong(Mirror.NetworkReader)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkReaderExtensions.cs/#L51">View Source</a>
+  </span>
+  <a id="Mirror_NetworkReaderExtensions_ReadULong_" data-uid="Mirror.NetworkReaderExtensions.ReadULong*"></a>
+  <h4 id="Mirror_NetworkReaderExtensions_ReadULong_Mirror_NetworkReader_" data-uid="Mirror.NetworkReaderExtensions.ReadULong(Mirror.NetworkReader)">ReadULong(NetworkReader)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ulong ReadULong(this NetworkReader reader)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mirror.NetworkReader.html">NetworkReader</a></td>
+        <td><span class="parametername">reader</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uint64">UInt64</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkReaderExtensions_ReadULongNullable_Mirror_NetworkReader_.md&amp;value=---%0Auid%3A%20Mirror.NetworkReaderExtensions.ReadULongNullable(Mirror.NetworkReader)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkReaderExtensions.cs/#L52">View Source</a>
+  </span>
+  <a id="Mirror_NetworkReaderExtensions_ReadULongNullable_" data-uid="Mirror.NetworkReaderExtensions.ReadULongNullable*"></a>
+  <h4 id="Mirror_NetworkReaderExtensions_ReadULongNullable_Mirror_NetworkReader_" data-uid="Mirror.NetworkReaderExtensions.ReadULongNullable(Mirror.NetworkReader)">ReadULongNullable(NetworkReader)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ulong? ReadULongNullable(this NetworkReader reader)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mirror.NetworkReader.html">NetworkReader</a></td>
+        <td><span class="parametername">reader</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uint64">UInt64</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkReaderExtensions_ReadUri_Mirror_NetworkReader_.md&amp;value=---%0Auid%3A%20Mirror.NetworkReaderExtensions.ReadUri(Mirror.NetworkReader)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkReaderExtensions.cs/#L266">View Source</a>
+  </span>
+  <a id="Mirror_NetworkReaderExtensions_ReadUri_" data-uid="Mirror.NetworkReaderExtensions.ReadUri*"></a>
+  <h4 id="Mirror_NetworkReaderExtensions_ReadUri_Mirror_NetworkReader_" data-uid="Mirror.NetworkReaderExtensions.ReadUri(Mirror.NetworkReader)">ReadUri(NetworkReader)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Uri ReadUri(this NetworkReader reader)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mirror.NetworkReader.html">NetworkReader</a></td>
+        <td><span class="parametername">reader</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uri">Uri</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkReaderExtensions_ReadUShort_Mirror_NetworkReader_.md&amp;value=---%0Auid%3A%20Mirror.NetworkReaderExtensions.ReadUShort(Mirror.NetworkReader)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkReaderExtensions.cs/#L39">View Source</a>
+  </span>
+  <a id="Mirror_NetworkReaderExtensions_ReadUShort_" data-uid="Mirror.NetworkReaderExtensions.ReadUShort*"></a>
+  <h4 id="Mirror_NetworkReaderExtensions_ReadUShort_Mirror_NetworkReader_" data-uid="Mirror.NetworkReaderExtensions.ReadUShort(Mirror.NetworkReader)">ReadUShort(NetworkReader)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ushort ReadUShort(this NetworkReader reader)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mirror.NetworkReader.html">NetworkReader</a></td>
+        <td><span class="parametername">reader</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uint16">UInt16</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkReaderExtensions_ReadUShortNullable_Mirror_NetworkReader_.md&amp;value=---%0Auid%3A%20Mirror.NetworkReaderExtensions.ReadUShortNullable(Mirror.NetworkReader)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkReaderExtensions.cs/#L40">View Source</a>
+  </span>
+  <a id="Mirror_NetworkReaderExtensions_ReadUShortNullable_" data-uid="Mirror.NetworkReaderExtensions.ReadUShortNullable*"></a>
+  <h4 id="Mirror_NetworkReaderExtensions_ReadUShortNullable_Mirror_NetworkReader_" data-uid="Mirror.NetworkReaderExtensions.ReadUShortNullable(Mirror.NetworkReader)">ReadUShortNullable(NetworkReader)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ushort? ReadUShortNullable(this NetworkReader reader)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mirror.NetworkReader.html">NetworkReader</a></td>
+        <td><span class="parametername">reader</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uint16">UInt16</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkReaderExtensions_ReadVector2_Mirror_NetworkReader_.md&amp;value=---%0Auid%3A%20Mirror.NetworkReaderExtensions.ReadVector2(Mirror.NetworkReader)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkReaderExtensions.cs/#L114">View Source</a>
+  </span>
+  <a id="Mirror_NetworkReaderExtensions_ReadVector2_" data-uid="Mirror.NetworkReaderExtensions.ReadVector2*"></a>
+  <h4 id="Mirror_NetworkReaderExtensions_ReadVector2_Mirror_NetworkReader_" data-uid="Mirror.NetworkReaderExtensions.ReadVector2(Mirror.NetworkReader)">ReadVector2(NetworkReader)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector2 ReadVector2(this NetworkReader reader)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mirror.NetworkReader.html">NetworkReader</a></td>
+        <td><span class="parametername">reader</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector2</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkReaderExtensions_ReadVector2Int_Mirror_NetworkReader_.md&amp;value=---%0Auid%3A%20Mirror.NetworkReaderExtensions.ReadVector2Int(Mirror.NetworkReader)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkReaderExtensions.cs/#L123">View Source</a>
+  </span>
+  <a id="Mirror_NetworkReaderExtensions_ReadVector2Int_" data-uid="Mirror.NetworkReaderExtensions.ReadVector2Int*"></a>
+  <h4 id="Mirror_NetworkReaderExtensions_ReadVector2Int_Mirror_NetworkReader_" data-uid="Mirror.NetworkReaderExtensions.ReadVector2Int(Mirror.NetworkReader)">ReadVector2Int(NetworkReader)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector2Int ReadVector2Int(this NetworkReader reader)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mirror.NetworkReader.html">NetworkReader</a></td>
+        <td><span class="parametername">reader</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector2Int</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkReaderExtensions_ReadVector2IntNullable_Mirror_NetworkReader_.md&amp;value=---%0Auid%3A%20Mirror.NetworkReaderExtensions.ReadVector2IntNullable(Mirror.NetworkReader)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkReaderExtensions.cs/#L124">View Source</a>
+  </span>
+  <a id="Mirror_NetworkReaderExtensions_ReadVector2IntNullable_" data-uid="Mirror.NetworkReaderExtensions.ReadVector2IntNullable*"></a>
+  <h4 id="Mirror_NetworkReaderExtensions_ReadVector2IntNullable_Mirror_NetworkReader_" data-uid="Mirror.NetworkReaderExtensions.ReadVector2IntNullable(Mirror.NetworkReader)">ReadVector2IntNullable(NetworkReader)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector2Int? ReadVector2IntNullable(this NetworkReader reader)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mirror.NetworkReader.html">NetworkReader</a></td>
+        <td><span class="parametername">reader</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<span class="xref">UnityEngine.Vector2Int</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkReaderExtensions_ReadVector2Nullable_Mirror_NetworkReader_.md&amp;value=---%0Auid%3A%20Mirror.NetworkReaderExtensions.ReadVector2Nullable(Mirror.NetworkReader)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkReaderExtensions.cs/#L115">View Source</a>
+  </span>
+  <a id="Mirror_NetworkReaderExtensions_ReadVector2Nullable_" data-uid="Mirror.NetworkReaderExtensions.ReadVector2Nullable*"></a>
+  <h4 id="Mirror_NetworkReaderExtensions_ReadVector2Nullable_Mirror_NetworkReader_" data-uid="Mirror.NetworkReaderExtensions.ReadVector2Nullable(Mirror.NetworkReader)">ReadVector2Nullable(NetworkReader)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector2? ReadVector2Nullable(this NetworkReader reader)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mirror.NetworkReader.html">NetworkReader</a></td>
+        <td><span class="parametername">reader</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<span class="xref">UnityEngine.Vector2</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkReaderExtensions_ReadVector3_Mirror_NetworkReader_.md&amp;value=---%0Auid%3A%20Mirror.NetworkReaderExtensions.ReadVector3(Mirror.NetworkReader)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkReaderExtensions.cs/#L117">View Source</a>
+  </span>
+  <a id="Mirror_NetworkReaderExtensions_ReadVector3_" data-uid="Mirror.NetworkReaderExtensions.ReadVector3*"></a>
+  <h4 id="Mirror_NetworkReaderExtensions_ReadVector3_Mirror_NetworkReader_" data-uid="Mirror.NetworkReaderExtensions.ReadVector3(Mirror.NetworkReader)">ReadVector3(NetworkReader)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector3 ReadVector3(this NetworkReader reader)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mirror.NetworkReader.html">NetworkReader</a></td>
+        <td><span class="parametername">reader</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkReaderExtensions_ReadVector3Int_Mirror_NetworkReader_.md&amp;value=---%0Auid%3A%20Mirror.NetworkReaderExtensions.ReadVector3Int(Mirror.NetworkReader)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkReaderExtensions.cs/#L126">View Source</a>
+  </span>
+  <a id="Mirror_NetworkReaderExtensions_ReadVector3Int_" data-uid="Mirror.NetworkReaderExtensions.ReadVector3Int*"></a>
+  <h4 id="Mirror_NetworkReaderExtensions_ReadVector3Int_Mirror_NetworkReader_" data-uid="Mirror.NetworkReaderExtensions.ReadVector3Int(Mirror.NetworkReader)">ReadVector3Int(NetworkReader)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector3Int ReadVector3Int(this NetworkReader reader)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mirror.NetworkReader.html">NetworkReader</a></td>
+        <td><span class="parametername">reader</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3Int</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkReaderExtensions_ReadVector3IntNullable_Mirror_NetworkReader_.md&amp;value=---%0Auid%3A%20Mirror.NetworkReaderExtensions.ReadVector3IntNullable(Mirror.NetworkReader)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkReaderExtensions.cs/#L127">View Source</a>
+  </span>
+  <a id="Mirror_NetworkReaderExtensions_ReadVector3IntNullable_" data-uid="Mirror.NetworkReaderExtensions.ReadVector3IntNullable*"></a>
+  <h4 id="Mirror_NetworkReaderExtensions_ReadVector3IntNullable_Mirror_NetworkReader_" data-uid="Mirror.NetworkReaderExtensions.ReadVector3IntNullable(Mirror.NetworkReader)">ReadVector3IntNullable(NetworkReader)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector3Int? ReadVector3IntNullable(this NetworkReader reader)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mirror.NetworkReader.html">NetworkReader</a></td>
+        <td><span class="parametername">reader</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<span class="xref">UnityEngine.Vector3Int</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkReaderExtensions_ReadVector3Nullable_Mirror_NetworkReader_.md&amp;value=---%0Auid%3A%20Mirror.NetworkReaderExtensions.ReadVector3Nullable(Mirror.NetworkReader)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkReaderExtensions.cs/#L118">View Source</a>
+  </span>
+  <a id="Mirror_NetworkReaderExtensions_ReadVector3Nullable_" data-uid="Mirror.NetworkReaderExtensions.ReadVector3Nullable*"></a>
+  <h4 id="Mirror_NetworkReaderExtensions_ReadVector3Nullable_Mirror_NetworkReader_" data-uid="Mirror.NetworkReaderExtensions.ReadVector3Nullable(Mirror.NetworkReader)">ReadVector3Nullable(NetworkReader)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector3? ReadVector3Nullable(this NetworkReader reader)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mirror.NetworkReader.html">NetworkReader</a></td>
+        <td><span class="parametername">reader</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<span class="xref">UnityEngine.Vector3</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkReaderExtensions_ReadVector4_Mirror_NetworkReader_.md&amp;value=---%0Auid%3A%20Mirror.NetworkReaderExtensions.ReadVector4(Mirror.NetworkReader)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkReaderExtensions.cs/#L120">View Source</a>
+  </span>
+  <a id="Mirror_NetworkReaderExtensions_ReadVector4_" data-uid="Mirror.NetworkReaderExtensions.ReadVector4*"></a>
+  <h4 id="Mirror_NetworkReaderExtensions_ReadVector4_Mirror_NetworkReader_" data-uid="Mirror.NetworkReaderExtensions.ReadVector4(Mirror.NetworkReader)">ReadVector4(NetworkReader)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector4 ReadVector4(this NetworkReader reader)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mirror.NetworkReader.html">NetworkReader</a></td>
+        <td><span class="parametername">reader</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector4</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkReaderExtensions_ReadVector4Nullable_Mirror_NetworkReader_.md&amp;value=---%0Auid%3A%20Mirror.NetworkReaderExtensions.ReadVector4Nullable(Mirror.NetworkReader)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkReaderExtensions.cs/#L121">View Source</a>
+  </span>
+  <a id="Mirror_NetworkReaderExtensions_ReadVector4Nullable_" data-uid="Mirror.NetworkReaderExtensions.ReadVector4Nullable*"></a>
+  <h4 id="Mirror_NetworkReaderExtensions_ReadVector4Nullable_Mirror_NetworkReader_" data-uid="Mirror.NetworkReaderExtensions.ReadVector4Nullable(Mirror.NetworkReader)">ReadVector4Nullable(NetworkReader)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Vector4? ReadVector4Nullable(this NetworkReader reader)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mirror.NetworkReader.html">NetworkReader</a></td>
+        <td><span class="parametername">reader</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<span class="xref">UnityEngine.Vector4</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkReaderExtensions.md&amp;value=---%0Auid%3A%20Mirror.NetworkReaderExtensions%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkReaderExtensions.cs/#L11" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

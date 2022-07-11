@@ -1,0 +1,761 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class NetworkLobbyManager
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class NetworkLobbyManager
+   ">
+    <meta name="generator" content="docfx 2.56.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" style="display:flex;" href="http://mirror-networking.com">
+                <img id="logo" class="svg" style="vertical-align: middle;align-self:center;" src="../logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Mirror.NetworkLobbyManager">
+  
+  
+  <h1 id="Mirror_NetworkLobbyManager" data-uid="Mirror.NetworkLobbyManager" class="text-break">Class NetworkLobbyManager
+  </h1>
+  <div class="markdown level0 summary"><p>This is a specialized NetworkManager that includes a networked lobby.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><span class="xref">UnityEngine.Object</span></div>
+    <div class="level2"><span class="xref">UnityEngine.Component</span></div>
+    <div class="level3"><span class="xref">UnityEngine.Behaviour</span></div>
+    <div class="level4"><span class="xref">UnityEngine.MonoBehaviour</span></div>
+    <div class="level5"><a class="xref" href="Mirror.NetworkManager.html">NetworkManager</a></div>
+    <div class="level6"><a class="xref" href="Mirror.NetworkRoomManager.html">NetworkRoomManager</a></div>
+    <div class="level7"><span class="xref">NetworkLobbyManager</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Mirror.NetworkRoomManager.html#Mirror_NetworkRoomManager_showRoomGUI">NetworkRoomManager.showRoomGUI</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkRoomManager.html#Mirror_NetworkRoomManager_minPlayers">NetworkRoomManager.minPlayers</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkRoomManager.html#Mirror_NetworkRoomManager_roomPlayerPrefab">NetworkRoomManager.roomPlayerPrefab</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkRoomManager.html#Mirror_NetworkRoomManager_RoomScene">NetworkRoomManager.RoomScene</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkRoomManager.html#Mirror_NetworkRoomManager_GameplayScene">NetworkRoomManager.GameplayScene</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkRoomManager.html#Mirror_NetworkRoomManager_pendingPlayers">NetworkRoomManager.pendingPlayers</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkRoomManager.html#Mirror_NetworkRoomManager_roomSlots">NetworkRoomManager.roomSlots</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkRoomManager.html#Mirror_NetworkRoomManager_allPlayersReady">NetworkRoomManager.allPlayersReady</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkRoomManager.html#Mirror_NetworkRoomManager_OnValidate">NetworkRoomManager.OnValidate()</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkRoomManager.html#Mirror_NetworkRoomManager_ReadyStatusChanged">NetworkRoomManager.ReadyStatusChanged()</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkRoomManager.html#Mirror_NetworkRoomManager_OnServerReady_Mirror_NetworkConnectionToClient_">NetworkRoomManager.OnServerReady(NetworkConnectionToClient)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkRoomManager.html#Mirror_NetworkRoomManager_CheckReadyToBegin">NetworkRoomManager.CheckReadyToBegin()</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkRoomManager.html#Mirror_NetworkRoomManager_OnServerConnect_Mirror_NetworkConnectionToClient_">NetworkRoomManager.OnServerConnect(NetworkConnectionToClient)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkRoomManager.html#Mirror_NetworkRoomManager_OnServerDisconnect_Mirror_NetworkConnectionToClient_">NetworkRoomManager.OnServerDisconnect(NetworkConnectionToClient)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkRoomManager.html#Mirror_NetworkRoomManager_clientIndex">NetworkRoomManager.clientIndex</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkRoomManager.html#Mirror_NetworkRoomManager_OnServerAddPlayer_Mirror_NetworkConnectionToClient_">NetworkRoomManager.OnServerAddPlayer(NetworkConnectionToClient)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkRoomManager.html#Mirror_NetworkRoomManager_RecalculateRoomPlayerIndices">NetworkRoomManager.RecalculateRoomPlayerIndices()</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkRoomManager.html#Mirror_NetworkRoomManager_ServerChangeScene_System_String_">NetworkRoomManager.ServerChangeScene(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkRoomManager.html#Mirror_NetworkRoomManager_OnServerSceneChanged_System_String_">NetworkRoomManager.OnServerSceneChanged(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkRoomManager.html#Mirror_NetworkRoomManager_OnStartServer">NetworkRoomManager.OnStartServer()</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkRoomManager.html#Mirror_NetworkRoomManager_OnStartHost">NetworkRoomManager.OnStartHost()</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkRoomManager.html#Mirror_NetworkRoomManager_OnStopServer">NetworkRoomManager.OnStopServer()</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkRoomManager.html#Mirror_NetworkRoomManager_OnStopHost">NetworkRoomManager.OnStopHost()</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkRoomManager.html#Mirror_NetworkRoomManager_OnStartClient">NetworkRoomManager.OnStartClient()</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkRoomManager.html#Mirror_NetworkRoomManager_OnClientConnect">NetworkRoomManager.OnClientConnect()</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkRoomManager.html#Mirror_NetworkRoomManager_OnClientDisconnect">NetworkRoomManager.OnClientDisconnect()</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkRoomManager.html#Mirror_NetworkRoomManager_OnStopClient">NetworkRoomManager.OnStopClient()</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkRoomManager.html#Mirror_NetworkRoomManager_OnClientSceneChanged">NetworkRoomManager.OnClientSceneChanged()</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkRoomManager.html#Mirror_NetworkRoomManager_OnRoomStartHost">NetworkRoomManager.OnRoomStartHost()</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkRoomManager.html#Mirror_NetworkRoomManager_OnRoomStopHost">NetworkRoomManager.OnRoomStopHost()</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkRoomManager.html#Mirror_NetworkRoomManager_OnRoomStartServer">NetworkRoomManager.OnRoomStartServer()</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkRoomManager.html#Mirror_NetworkRoomManager_OnRoomStopServer">NetworkRoomManager.OnRoomStopServer()</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkRoomManager.html#Mirror_NetworkRoomManager_OnRoomServerConnect_Mirror_NetworkConnectionToClient_">NetworkRoomManager.OnRoomServerConnect(NetworkConnectionToClient)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkRoomManager.html#Mirror_NetworkRoomManager_OnRoomServerDisconnect_Mirror_NetworkConnectionToClient_">NetworkRoomManager.OnRoomServerDisconnect(NetworkConnectionToClient)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkRoomManager.html#Mirror_NetworkRoomManager_OnRoomServerSceneChanged_System_String_">NetworkRoomManager.OnRoomServerSceneChanged(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkRoomManager.html#Mirror_NetworkRoomManager_OnRoomServerCreateRoomPlayer_Mirror_NetworkConnectionToClient_">NetworkRoomManager.OnRoomServerCreateRoomPlayer(NetworkConnectionToClient)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkRoomManager.html#Mirror_NetworkRoomManager_OnRoomServerCreateGamePlayer_Mirror_NetworkConnectionToClient_UnityEngine_GameObject_">NetworkRoomManager.OnRoomServerCreateGamePlayer(NetworkConnectionToClient, GameObject)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkRoomManager.html#Mirror_NetworkRoomManager_OnRoomServerAddPlayer_Mirror_NetworkConnectionToClient_">NetworkRoomManager.OnRoomServerAddPlayer(NetworkConnectionToClient)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkRoomManager.html#Mirror_NetworkRoomManager_OnRoomServerSceneLoadedForPlayer_Mirror_NetworkConnectionToClient_UnityEngine_GameObject_UnityEngine_GameObject_">NetworkRoomManager.OnRoomServerSceneLoadedForPlayer(NetworkConnectionToClient, GameObject, GameObject)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkRoomManager.html#Mirror_NetworkRoomManager_OnRoomServerPlayersReady">NetworkRoomManager.OnRoomServerPlayersReady()</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkRoomManager.html#Mirror_NetworkRoomManager_OnRoomServerPlayersNotReady">NetworkRoomManager.OnRoomServerPlayersNotReady()</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkRoomManager.html#Mirror_NetworkRoomManager_OnRoomClientEnter">NetworkRoomManager.OnRoomClientEnter()</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkRoomManager.html#Mirror_NetworkRoomManager_OnRoomClientExit">NetworkRoomManager.OnRoomClientExit()</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkRoomManager.html#Mirror_NetworkRoomManager_OnRoomClientConnect">NetworkRoomManager.OnRoomClientConnect()</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkRoomManager.html#Mirror_NetworkRoomManager_OnRoomClientDisconnect">NetworkRoomManager.OnRoomClientDisconnect()</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkRoomManager.html#Mirror_NetworkRoomManager_OnRoomStartClient">NetworkRoomManager.OnRoomStartClient()</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkRoomManager.html#Mirror_NetworkRoomManager_OnRoomStopClient">NetworkRoomManager.OnRoomStopClient()</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkRoomManager.html#Mirror_NetworkRoomManager_OnRoomClientSceneChanged">NetworkRoomManager.OnRoomClientSceneChanged()</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkRoomManager.html#Mirror_NetworkRoomManager_OnRoomClientAddPlayerFailed">NetworkRoomManager.OnRoomClientAddPlayerFailed()</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkRoomManager.html#Mirror_NetworkRoomManager_OnGUI">NetworkRoomManager.OnGUI()</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkManager.html#Mirror_NetworkManager_dontDestroyOnLoad">NetworkManager.dontDestroyOnLoad</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkManager.html#Mirror_NetworkManager_runInBackground">NetworkManager.runInBackground</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkManager.html#Mirror_NetworkManager_autoStartServerBuild">NetworkManager.autoStartServerBuild</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkManager.html#Mirror_NetworkManager_serverTickRate">NetworkManager.serverTickRate</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkManager.html#Mirror_NetworkManager_offlineScene">NetworkManager.offlineScene</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkManager.html#Mirror_NetworkManager_onlineScene">NetworkManager.onlineScene</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkManager.html#Mirror_NetworkManager_transport">NetworkManager.transport</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkManager.html#Mirror_NetworkManager_networkAddress">NetworkManager.networkAddress</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkManager.html#Mirror_NetworkManager_maxConnections">NetworkManager.maxConnections</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkManager.html#Mirror_NetworkManager_authenticator">NetworkManager.authenticator</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkManager.html#Mirror_NetworkManager_playerPrefab">NetworkManager.playerPrefab</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkManager.html#Mirror_NetworkManager_autoCreatePlayer">NetworkManager.autoCreatePlayer</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkManager.html#Mirror_NetworkManager_playerSpawnMethod">NetworkManager.playerSpawnMethod</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkManager.html#Mirror_NetworkManager_spawnPrefabs">NetworkManager.spawnPrefabs</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkManager.html#Mirror_NetworkManager_startPositions">NetworkManager.startPositions</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkManager.html#Mirror_NetworkManager_startPositionIndex">NetworkManager.startPositionIndex</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkManager.html#Mirror_NetworkManager_singleton">NetworkManager.singleton</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkManager.html#Mirror_NetworkManager_numPlayers">NetworkManager.numPlayers</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkManager.html#Mirror_NetworkManager_isNetworkActive">NetworkManager.isNetworkActive</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkManager.html#Mirror_NetworkManager_clientLoadedScene">NetworkManager.clientLoadedScene</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkManager.html#Mirror_NetworkManager_mode">NetworkManager.mode</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkManager.html#Mirror_NetworkManager_Reset">NetworkManager.Reset()</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkManager.html#Mirror_NetworkManager_Awake">NetworkManager.Awake()</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkManager.html#Mirror_NetworkManager_Start">NetworkManager.Start()</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkManager.html#Mirror_NetworkManager_LateUpdate">NetworkManager.LateUpdate()</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkManager.html#Mirror_NetworkManager_IsSceneActive_System_String_">NetworkManager.IsSceneActive(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkManager.html#Mirror_NetworkManager_StartServer">NetworkManager.StartServer()</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkManager.html#Mirror_NetworkManager_StartClient">NetworkManager.StartClient()</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkManager.html#Mirror_NetworkManager_StartClient_System_Uri_">NetworkManager.StartClient(Uri)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkManager.html#Mirror_NetworkManager_StartHost">NetworkManager.StartHost()</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkManager.html#Mirror_NetworkManager_StopHost">NetworkManager.StopHost()</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkManager.html#Mirror_NetworkManager_StopServer">NetworkManager.StopServer()</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkManager.html#Mirror_NetworkManager_StopClient">NetworkManager.StopClient()</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkManager.html#Mirror_NetworkManager_OnApplicationQuit">NetworkManager.OnApplicationQuit()</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkManager.html#Mirror_NetworkManager_ConfigureHeadlessFrameRate">NetworkManager.ConfigureHeadlessFrameRate()</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkManager.html#Mirror_NetworkManager_ResetStatics">NetworkManager.ResetStatics()</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkManager.html#Mirror_NetworkManager_OnDestroy">NetworkManager.OnDestroy()</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkManager.html#Mirror_NetworkManager_networkSceneName">NetworkManager.networkSceneName</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkManager.html#Mirror_NetworkManager_loadingSceneAsync">NetworkManager.loadingSceneAsync</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkManager.html#Mirror_NetworkManager_FinishLoadScene">NetworkManager.FinishLoadScene()</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkManager.html#Mirror_NetworkManager_RegisterStartPosition_UnityEngine_Transform_">NetworkManager.RegisterStartPosition(Transform)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkManager.html#Mirror_NetworkManager_UnRegisterStartPosition_UnityEngine_Transform_">NetworkManager.UnRegisterStartPosition(Transform)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkManager.html#Mirror_NetworkManager_GetStartPosition">NetworkManager.GetStartPosition()</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkManager.html#Mirror_NetworkManager_OnServerError_Mirror_NetworkConnectionToClient_System_Exception_">NetworkManager.OnServerError(NetworkConnectionToClient, Exception)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkManager.html#Mirror_NetworkManager_OnServerError_Mirror_NetworkConnectionToClient_Mirror_TransportError_System_String_">NetworkManager.OnServerError(NetworkConnectionToClient, TransportError, String)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkManager.html#Mirror_NetworkManager_OnServerChangeScene_System_String_">NetworkManager.OnServerChangeScene(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkManager.html#Mirror_NetworkManager_OnClientError_System_Exception_">NetworkManager.OnClientError(Exception)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkManager.html#Mirror_NetworkManager_OnClientError_Mirror_TransportError_System_String_">NetworkManager.OnClientError(TransportError, String)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkManager.html#Mirror_NetworkManager_OnClientNotReady">NetworkManager.OnClientNotReady()</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkManager.html#Mirror_NetworkManager_OnClientChangeScene_System_String_Mirror_SceneOperation_System_Boolean_">NetworkManager.OnClientChangeScene(String, SceneOperation, Boolean)</a>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.IsInvoking()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.CancelInvoke()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.Invoke(System.String, System.Single)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.InvokeRepeating(System.String, System.Single, System.Single)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.CancelInvoke(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.IsInvoking(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StartCoroutine(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StartCoroutine(System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StartCoroutine(System.Collections.IEnumerator)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StartCoroutine_Auto(System.Collections.IEnumerator)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StopCoroutine(System.Collections.IEnumerator)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StopCoroutine(UnityEngine.Coroutine)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StopCoroutine(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StopAllCoroutines()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.print(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.useGUILayout</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.runInEditMode</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Behaviour.enabled</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Behaviour.isActiveAndEnabled</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponent(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponent&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.TryGetComponent(System.Type, UnityEngine.Component)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.TryGetComponent&lt;T&gt;(T)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponent(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInChildren(System.Type, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInChildren(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInChildren&lt;T&gt;(System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInChildren&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren(System.Type, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren&lt;T&gt;(System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren&lt;T&gt;(System.Boolean, System.Collections.Generic.List&lt;T&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren&lt;T&gt;(System.Collections.Generic.List&lt;T&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInParent(System.Type, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInParent(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInParent&lt;T&gt;(System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInParent&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInParent(System.Type, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInParent(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInParent&lt;T&gt;(System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInParent&lt;T&gt;(System.Boolean, System.Collections.Generic.List&lt;T&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInParent&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponents(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponents(System.Type, System.Collections.Generic.List&lt;UnityEngine.Component&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponents&lt;T&gt;(System.Collections.Generic.List&lt;T&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponents&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.CompareTag(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessageUpwards(System.String, System.Object, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessageUpwards(System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessageUpwards(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessageUpwards(System.String, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessage(System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessage(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessage(System.String, System.Object, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessage(System.String, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.BroadcastMessage(System.String, System.Object, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.BroadcastMessage(System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.BroadcastMessage(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.BroadcastMessage(System.String, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.transform</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.gameObject</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.tag</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.GetInstanceID()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Vector3, UnityEngine.Quaternion)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Vector3, UnityEngine.Quaternion, UnityEngine.Transform)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Transform)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Transform, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Vector3, UnityEngine.Quaternion)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Vector3, UnityEngine.Quaternion, UnityEngine.Transform)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Transform)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Transform, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Destroy(UnityEngine.Object, System.Single)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Destroy(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DestroyImmediate(UnityEngine.Object, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DestroyImmediate(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfType(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfType(System.Type, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DontDestroyOnLoad(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DestroyObject(UnityEngine.Object, System.Single)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DestroyObject(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindSceneObjectsOfType(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfTypeIncludingAssets(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfType&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfType&lt;T&gt;(System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectOfType&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectOfType&lt;T&gt;(System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfTypeAll(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectOfType(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectOfType(System.Type, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.name</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.hideFlags</span>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">Object.Equals(Object, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#system-object-gettype">Object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.memberwiseclone#system-object-memberwiseclone">Object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#system-object-referenceequals(system-object-system-object)">Object.ReferenceEquals(Object, Object)</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Mirror.html">Mirror</a></h6>
+  <h6><strong>Assembly</strong>: Mirror.Components.dll</h6>
+  <h5 id="Mirror_NetworkLobbyManager_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AddComponentMenu(&quot;Network/Network Lobby Manager&quot;)]
+[HelpURL(&quot;https://mirror-networking.gitbook.io/docs/components/network-room-manager&quot;)]
+[Obsolete(&quot;Use / inherit from NetworkRoomManager instead&quot;)]
+public class NetworkLobbyManager : NetworkRoomManager</code></pre>
+  </div>
+  <h5 id="Mirror_NetworkLobbyManager_remarks"><strong>Remarks</strong></h5>
+  <div class="markdown level0 remarks"><p>The lobby has slots that track the joined players, and a maximum player count that is enforced. It requires that the NetworkLobbyPlayer component be on the lobby player objects.</p>
+<p>NetworkLobbyManager is derived from NetworkManager, and so it implements many of the virtual functions provided by the NetworkManager class. To avoid accidentally replacing functionality of the NetworkLobbyManager, there are new virtual functions on the NetworkLobbyManager that begin with &quot;OnLobby&quot;. These should be used on classes derived from NetworkLobbyManager instead of the virtual functions on NetworkManager.</p>
+<p>The OnLobby*() functions have empty implementations on the NetworkLobbyManager base class, so the base class functions do not have to be called.</p>
+</div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkLobbyManager.md&amp;value=---%0Auid%3A%20Mirror.NetworkLobbyManager%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Components/NetworkLobbyManager.cs/#L14" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,2173 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class NetworkTransformBase
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class NetworkTransformBase
+   ">
+    <meta name="generator" content="docfx 2.56.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" style="display:flex;" href="http://mirror-networking.com">
+                <img id="logo" class="svg" style="vertical-align: middle;align-self:center;" src="../logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Mirror.NetworkTransformBase">
+  
+  
+  <h1 id="Mirror_NetworkTransformBase" data-uid="Mirror.NetworkTransformBase" class="text-break">Class NetworkTransformBase
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><span class="xref">UnityEngine.Object</span></div>
+    <div class="level2"><span class="xref">UnityEngine.Component</span></div>
+    <div class="level3"><span class="xref">UnityEngine.Behaviour</span></div>
+    <div class="level4"><span class="xref">UnityEngine.MonoBehaviour</span></div>
+    <div class="level5"><a class="xref" href="Mirror.NetworkBehaviour.html">NetworkBehaviour</a></div>
+    <div class="level6"><span class="xref">NetworkTransformBase</span></div>
+      <div class="level7"><a class="xref" href="Mirror.NetworkTransform.html">NetworkTransform</a></div>
+      <div class="level7"><a class="xref" href="Mirror.NetworkTransformChild.html">NetworkTransformChild</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_syncMode">NetworkBehaviour.syncMode</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_syncInterval">NetworkBehaviour.syncInterval</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_isServer">NetworkBehaviour.isServer</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_isClient">NetworkBehaviour.isClient</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_isLocalPlayer">NetworkBehaviour.isLocalPlayer</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_isServerOnly">NetworkBehaviour.isServerOnly</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_isClientOnly">NetworkBehaviour.isClientOnly</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_hasAuthority">NetworkBehaviour.hasAuthority</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_netId">NetworkBehaviour.netId</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_connectionToServer">NetworkBehaviour.connectionToServer</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_connectionToClient">NetworkBehaviour.connectionToClient</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_syncObjects">NetworkBehaviour.syncObjects</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_netIdentity">NetworkBehaviour.netIdentity</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_ComponentIndex">NetworkBehaviour.ComponentIndex</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_syncVarDirtyBits">NetworkBehaviour.syncVarDirtyBits</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_GetSyncVarHookGuard_System_UInt64_">NetworkBehaviour.GetSyncVarHookGuard(UInt64)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_SetSyncVarHookGuard_System_UInt64_System_Boolean_">NetworkBehaviour.SetSyncVarHookGuard(UInt64, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_SetSyncVarDirtyBit_System_UInt64_">NetworkBehaviour.SetSyncVarDirtyBit(UInt64)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_IsDirty">NetworkBehaviour.IsDirty()</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_ClearAllDirtyBits">NetworkBehaviour.ClearAllDirtyBits()</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_InitSyncObject_Mirror_SyncObject_">NetworkBehaviour.InitSyncObject(SyncObject)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_SendCommandInternal_System_String_Mirror_NetworkWriter_System_Int32_System_Boolean_">NetworkBehaviour.SendCommandInternal(String, NetworkWriter, Int32, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_SendRPCInternal_System_String_Mirror_NetworkWriter_System_Int32_System_Boolean_">NetworkBehaviour.SendRPCInternal(String, NetworkWriter, Int32, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_SendTargetRPCInternal_Mirror_NetworkConnection_System_String_Mirror_NetworkWriter_System_Int32_">NetworkBehaviour.SendTargetRPCInternal(NetworkConnection, String, NetworkWriter, Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_GeneratedSyncVarSetter__1___0___0__System_UInt64_System_Action___0___0__">NetworkBehaviour.GeneratedSyncVarSetter&lt;T&gt;(T, T, UInt64, Action&lt;T, T&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_GeneratedSyncVarSetter_GameObject_UnityEngine_GameObject_UnityEngine_GameObject__System_UInt64_System_Action_UnityEngine_GameObject_UnityEngine_GameObject__System_UInt32__">NetworkBehaviour.GeneratedSyncVarSetter_GameObject(GameObject, GameObject, UInt64, Action&lt;GameObject, GameObject&gt;, UInt32)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_GeneratedSyncVarSetter_NetworkIdentity_Mirror_NetworkIdentity_Mirror_NetworkIdentity__System_UInt64_System_Action_Mirror_NetworkIdentity_Mirror_NetworkIdentity__System_UInt32__">NetworkBehaviour.GeneratedSyncVarSetter_NetworkIdentity(NetworkIdentity, NetworkIdentity, UInt64, Action&lt;NetworkIdentity, NetworkIdentity&gt;, UInt32)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_GeneratedSyncVarSetter_NetworkBehaviour__1___0___0__System_UInt64_System_Action___0___0__Mirror_NetworkBehaviour_NetworkBehaviourSyncVar__">NetworkBehaviour.GeneratedSyncVarSetter_NetworkBehaviour&lt;T&gt;(T, T, UInt64, Action&lt;T, T&gt;, NetworkBehaviour.NetworkBehaviourSyncVar)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_SetSyncVarGameObject_UnityEngine_GameObject_UnityEngine_GameObject__System_UInt64_System_UInt32__">NetworkBehaviour.SetSyncVarGameObject(GameObject, GameObject, UInt64, UInt32)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_GetSyncVarGameObject_System_UInt32_UnityEngine_GameObject__">NetworkBehaviour.GetSyncVarGameObject(UInt32, GameObject)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_GeneratedSyncVarDeserialize__1___0__System_Action___0___0____0_">NetworkBehaviour.GeneratedSyncVarDeserialize&lt;T&gt;(T, Action&lt;T, T&gt;, T)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_GeneratedSyncVarDeserialize_GameObject_UnityEngine_GameObject__System_Action_UnityEngine_GameObject_UnityEngine_GameObject__Mirror_NetworkReader_System_UInt32__">NetworkBehaviour.GeneratedSyncVarDeserialize_GameObject(GameObject, Action&lt;GameObject, GameObject&gt;, NetworkReader, UInt32)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_GeneratedSyncVarDeserialize_NetworkIdentity_Mirror_NetworkIdentity__System_Action_Mirror_NetworkIdentity_Mirror_NetworkIdentity__Mirror_NetworkReader_System_UInt32__">NetworkBehaviour.GeneratedSyncVarDeserialize_NetworkIdentity(NetworkIdentity, Action&lt;NetworkIdentity, NetworkIdentity&gt;, NetworkReader, UInt32)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_GeneratedSyncVarDeserialize_NetworkBehaviour__1___0__System_Action___0___0__Mirror_NetworkReader_Mirror_NetworkBehaviour_NetworkBehaviourSyncVar__">NetworkBehaviour.GeneratedSyncVarDeserialize_NetworkBehaviour&lt;T&gt;(T, Action&lt;T, T&gt;, NetworkReader, NetworkBehaviour.NetworkBehaviourSyncVar)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_SetSyncVarNetworkIdentity_Mirror_NetworkIdentity_Mirror_NetworkIdentity__System_UInt64_System_UInt32__">NetworkBehaviour.SetSyncVarNetworkIdentity(NetworkIdentity, NetworkIdentity, UInt64, UInt32)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_GetSyncVarNetworkIdentity_System_UInt32_Mirror_NetworkIdentity__">NetworkBehaviour.GetSyncVarNetworkIdentity(UInt32, NetworkIdentity)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_SyncVarNetworkBehaviourEqual__1___0_Mirror_NetworkBehaviour_NetworkBehaviourSyncVar_">NetworkBehaviour.SyncVarNetworkBehaviourEqual&lt;T&gt;(T, NetworkBehaviour.NetworkBehaviourSyncVar)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_SetSyncVarNetworkBehaviour__1___0___0__System_UInt64_Mirror_NetworkBehaviour_NetworkBehaviourSyncVar__">NetworkBehaviour.SetSyncVarNetworkBehaviour&lt;T&gt;(T, T, UInt64, NetworkBehaviour.NetworkBehaviourSyncVar)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_GetSyncVarNetworkBehaviour__1_Mirror_NetworkBehaviour_NetworkBehaviourSyncVar___0__">NetworkBehaviour.GetSyncVarNetworkBehaviour&lt;T&gt;(NetworkBehaviour.NetworkBehaviourSyncVar, T)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_SyncVarEqual__1___0___0__">NetworkBehaviour.SyncVarEqual&lt;T&gt;(T, T)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_SetSyncVar__1___0___0__System_UInt64_">NetworkBehaviour.SetSyncVar&lt;T&gt;(T, T, UInt64)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_SerializeSyncVars_Mirror_NetworkWriter_System_Boolean_">NetworkBehaviour.SerializeSyncVars(NetworkWriter, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_DeserializeSyncVars_Mirror_NetworkReader_System_Boolean_">NetworkBehaviour.DeserializeSyncVars(NetworkReader, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_SerializeObjectsAll_Mirror_NetworkWriter_">NetworkBehaviour.SerializeObjectsAll(NetworkWriter)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_SerializeObjectsDelta_Mirror_NetworkWriter_">NetworkBehaviour.SerializeObjectsDelta(NetworkWriter)</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_OnStartServer">NetworkBehaviour.OnStartServer()</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_OnStopServer">NetworkBehaviour.OnStopServer()</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_OnStartClient">NetworkBehaviour.OnStartClient()</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_OnStopClient">NetworkBehaviour.OnStopClient()</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_OnStartLocalPlayer">NetworkBehaviour.OnStartLocalPlayer()</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_OnStopLocalPlayer">NetworkBehaviour.OnStopLocalPlayer()</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_OnStartAuthority">NetworkBehaviour.OnStartAuthority()</a>
+    </div>
+    <div>
+      <a class="xref" href="Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_OnStopAuthority">NetworkBehaviour.OnStopAuthority()</a>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.IsInvoking()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.CancelInvoke()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.Invoke(System.String, System.Single)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.InvokeRepeating(System.String, System.Single, System.Single)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.CancelInvoke(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.IsInvoking(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StartCoroutine(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StartCoroutine(System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StartCoroutine(System.Collections.IEnumerator)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StartCoroutine_Auto(System.Collections.IEnumerator)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StopCoroutine(System.Collections.IEnumerator)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StopCoroutine(UnityEngine.Coroutine)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StopCoroutine(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StopAllCoroutines()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.print(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.useGUILayout</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.runInEditMode</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Behaviour.enabled</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Behaviour.isActiveAndEnabled</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponent(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponent&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.TryGetComponent(System.Type, UnityEngine.Component)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.TryGetComponent&lt;T&gt;(T)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponent(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInChildren(System.Type, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInChildren(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInChildren&lt;T&gt;(System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInChildren&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren(System.Type, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren&lt;T&gt;(System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren&lt;T&gt;(System.Boolean, System.Collections.Generic.List&lt;T&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren&lt;T&gt;(System.Collections.Generic.List&lt;T&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInParent(System.Type, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInParent(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInParent&lt;T&gt;(System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInParent&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInParent(System.Type, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInParent(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInParent&lt;T&gt;(System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInParent&lt;T&gt;(System.Boolean, System.Collections.Generic.List&lt;T&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInParent&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponents(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponents(System.Type, System.Collections.Generic.List&lt;UnityEngine.Component&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponents&lt;T&gt;(System.Collections.Generic.List&lt;T&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponents&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.CompareTag(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessageUpwards(System.String, System.Object, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessageUpwards(System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessageUpwards(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessageUpwards(System.String, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessage(System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessage(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessage(System.String, System.Object, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessage(System.String, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.BroadcastMessage(System.String, System.Object, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.BroadcastMessage(System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.BroadcastMessage(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.BroadcastMessage(System.String, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.transform</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.gameObject</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.tag</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.GetInstanceID()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Vector3, UnityEngine.Quaternion)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Vector3, UnityEngine.Quaternion, UnityEngine.Transform)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Transform)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Transform, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Vector3, UnityEngine.Quaternion)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Vector3, UnityEngine.Quaternion, UnityEngine.Transform)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Transform)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Transform, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Destroy(UnityEngine.Object, System.Single)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Destroy(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DestroyImmediate(UnityEngine.Object, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DestroyImmediate(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfType(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfType(System.Type, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DontDestroyOnLoad(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DestroyObject(UnityEngine.Object, System.Single)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DestroyObject(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindSceneObjectsOfType(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfTypeIncludingAssets(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfType&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfType&lt;T&gt;(System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectOfType&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectOfType&lt;T&gt;(System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfTypeAll(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectOfType(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectOfType(System.Type, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.name</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.hideFlags</span>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">Object.Equals(Object, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#system-object-gettype">Object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.memberwiseclone#system-object-memberwiseclone">Object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#system-object-referenceequals(system-object-system-object)">Object.ReferenceEquals(Object, Object)</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Mirror.html">Mirror</a></h6>
+  <h6><strong>Assembly</strong>: Mirror.Components.dll</h6>
+  <h5 id="Mirror_NetworkTransformBase_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract class NetworkTransformBase : NetworkBehaviour</code></pre>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkTransformBase_bufferResetMultiplier.md&amp;value=---%0Auid%3A%20Mirror.NetworkTransformBase.bufferResetMultiplier%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Components/NetworkTransform2k/NetworkTransformBase.cs/#L153">View Source</a>
+  </span>
+  <h4 id="Mirror_NetworkTransformBase_bufferResetMultiplier" data-uid="Mirror.NetworkTransformBase.bufferResetMultiplier">bufferResetMultiplier</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;How much time, as a multiple of send interval, has passed before clearing buffers.&quot;)]
+public float bufferResetMultiplier</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkTransformBase_bufferSizeLimit.md&amp;value=---%0Auid%3A%20Mirror.NetworkTransformBase.bufferSizeLimit%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Components/NetworkTransform2k/NetworkTransformBase.cs/#L56">View Source</a>
+  </span>
+  <h4 id="Mirror_NetworkTransformBase_bufferSizeLimit" data-uid="Mirror.NetworkTransformBase.bufferSizeLimit">bufferSizeLimit</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Buffer size limit to avoid ever growing list memory consumption attacks.&quot;)]
+public int bufferSizeLimit</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkTransformBase_bufferTimeMultiplier.md&amp;value=---%0Auid%3A%20Mirror.NetworkTransformBase.bufferTimeMultiplier%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Components/NetworkTransform2k/NetworkTransformBase.cs/#L52">View Source</a>
+  </span>
+  <h4 id="Mirror_NetworkTransformBase_bufferTimeMultiplier" data-uid="Mirror.NetworkTransformBase.bufferTimeMultiplier">bufferTimeMultiplier</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Header(&quot;Buffering&quot;)]
+[Tooltip(&quot;Local simulation is behind by sendInterval * multiplier seconds.\n\nThis guarantees that we always have enough snapshots in the buffer to mitigate lags &amp; jitter.\n\nIncrease this if the simulation isn't smooth. By default, it should be around 2.&quot;)]
+public double bufferTimeMultiplier</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.double">Double</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkTransformBase_cachedSnapshotComparison.md&amp;value=---%0Auid%3A%20Mirror.NetworkTransformBase.cachedSnapshotComparison%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Components/NetworkTransform2k/NetworkTransformBase.cs/#L166">View Source</a>
+  </span>
+  <h4 id="Mirror_NetworkTransformBase_cachedSnapshotComparison" data-uid="Mirror.NetworkTransformBase.cachedSnapshotComparison">cachedSnapshotComparison</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected bool cachedSnapshotComparison</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkTransformBase_catchupNegativeThreshold.md&amp;value=---%0Auid%3A%20Mirror.NetworkTransformBase.catchupNegativeThreshold%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Components/NetworkTransform2k/NetworkTransformBase.cs/#L63">View Source</a>
+  </span>
+  <h4 id="Mirror_NetworkTransformBase_catchupNegativeThreshold" data-uid="Mirror.NetworkTransformBase.catchupNegativeThreshold">catchupNegativeThreshold</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Header(&quot;Catchup / Slowdown&quot;)]
+[Tooltip(&quot;Slowdown begins when the local timeline is moving too fast towards remote time. Threshold is in frames worth of snapshots.\n\nThis needs to be negative.\n\nDon't modify unless you know what you are doing.&quot;)]
+public float catchupNegativeThreshold</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkTransformBase_catchupPositiveThreshold.md&amp;value=---%0Auid%3A%20Mirror.NetworkTransformBase.catchupPositiveThreshold%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Components/NetworkTransform2k/NetworkTransformBase.cs/#L66">View Source</a>
+  </span>
+  <h4 id="Mirror_NetworkTransformBase_catchupPositiveThreshold" data-uid="Mirror.NetworkTransformBase.catchupPositiveThreshold">catchupPositiveThreshold</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Catchup begins when the local timeline is moving too slow and getting too far away from remote time. Threshold is in frames worth of snapshots.\n\nThis needs to be positive.\n\nDon't modify unless you know what you are doing.&quot;)]
+public float catchupPositiveThreshold</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkTransformBase_catchupSpeed.md&amp;value=---%0Auid%3A%20Mirror.NetworkTransformBase.catchupSpeed%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Components/NetworkTransform2k/NetworkTransformBase.cs/#L70">View Source</a>
+  </span>
+  <h4 id="Mirror_NetworkTransformBase_catchupSpeed" data-uid="Mirror.NetworkTransformBase.catchupSpeed">catchupSpeed</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Local timeline acceleration in % while catching up.&quot;)]
+[Range(0F, 1F)]
+public double catchupSpeed</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.double">Double</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkTransformBase_clientAuthority.md&amp;value=---%0Auid%3A%20Mirror.NetworkTransformBase.clientAuthority%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Components/NetworkTransform2k/NetworkTransformBase.cs/#L33">View Source</a>
+  </span>
+  <h4 id="Mirror_NetworkTransformBase_clientAuthority" data-uid="Mirror.NetworkTransformBase.clientAuthority">clientAuthority</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Header(&quot;Authority&quot;)]
+[Tooltip(&quot;Set to true if moves come from owner client, set to false if moves always come from server&quot;)]
+public bool clientAuthority</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkTransformBase_deliveryTimeEmaDuration.md&amp;value=---%0Auid%3A%20Mirror.NetworkTransformBase.deliveryTimeEmaDuration%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Components/NetworkTransform2k/NetworkTransformBase.cs/#L111">View Source</a>
+  </span>
+  <h4 id="Mirror_NetworkTransformBase_deliveryTimeEmaDuration" data-uid="Mirror.NetworkTransformBase.deliveryTimeEmaDuration">deliveryTimeEmaDuration</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Dynamic adjustment is computed over n-second exponential moving average standard deviation.&quot;)]
+public int deliveryTimeEmaDuration</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkTransformBase_driftEmaDuration.md&amp;value=---%0Auid%3A%20Mirror.NetworkTransformBase.driftEmaDuration%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Components/NetworkTransform2k/NetworkTransformBase.cs/#L77">View Source</a>
+  </span>
+  <h4 id="Mirror_NetworkTransformBase_driftEmaDuration" data-uid="Mirror.NetworkTransformBase.driftEmaDuration">driftEmaDuration</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Catchup/Slowdown is adjusted over n-second exponential moving average.&quot;)]
+public int driftEmaDuration</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkTransformBase_dynamicAdjustment.md&amp;value=---%0Auid%3A%20Mirror.NetworkTransformBase.dynamicAdjustment%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Components/NetworkTransform2k/NetworkTransformBase.cs/#L105">View Source</a>
+  </span>
+  <h4 id="Mirror_NetworkTransformBase_dynamicAdjustment" data-uid="Mirror.NetworkTransformBase.dynamicAdjustment">dynamicAdjustment</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Header(&quot;Dynamic Adjustment&quot;)]
+[Tooltip(&quot;Automatically adjust bufferTimeMultiplier for smooth results.\nSets a low multiplier on stable connections, and a high multiplier on jittery connections.&quot;)]
+public bool dynamicAdjustment</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkTransformBase_dynamicAdjustmentTolerance.md&amp;value=---%0Auid%3A%20Mirror.NetworkTransformBase.dynamicAdjustmentTolerance%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Components/NetworkTransform2k/NetworkTransformBase.cs/#L108">View Source</a>
+  </span>
+  <h4 id="Mirror_NetworkTransformBase_dynamicAdjustmentTolerance" data-uid="Mirror.NetworkTransformBase.dynamicAdjustmentTolerance">dynamicAdjustmentTolerance</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Safety buffer that is always added to the dynamic bufferTimeMultiplier adjustment.&quot;)]
+public float dynamicAdjustmentTolerance</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkTransformBase_hasSentUnchangedPosition.md&amp;value=---%0Auid%3A%20Mirror.NetworkTransformBase.hasSentUnchangedPosition%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Components/NetworkTransform2k/NetworkTransformBase.cs/#L167">View Source</a>
+  </span>
+  <h4 id="Mirror_NetworkTransformBase_hasSentUnchangedPosition" data-uid="Mirror.NetworkTransformBase.hasSentUnchangedPosition">hasSentUnchangedPosition</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected bool hasSentUnchangedPosition</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkTransformBase_lastSnapshot.md&amp;value=---%0Auid%3A%20Mirror.NetworkTransformBase.lastSnapshot%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Components/NetworkTransform2k/NetworkTransformBase.cs/#L165">View Source</a>
+  </span>
+  <h4 id="Mirror_NetworkTransformBase_lastSnapshot" data-uid="Mirror.NetworkTransformBase.lastSnapshot">lastSnapshot</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected NTSnapshot lastSnapshot</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mirror.NTSnapshot.html">NTSnapshot</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkTransformBase_onlySyncOnChange.md&amp;value=---%0Auid%3A%20Mirror.NetworkTransformBase.onlySyncOnChange%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Components/NetworkTransform2k/NetworkTransformBase.cs/#L149">View Source</a>
+  </span>
+  <h4 id="Mirror_NetworkTransformBase_onlySyncOnChange" data-uid="Mirror.NetworkTransformBase.onlySyncOnChange">onlySyncOnChange</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Header(&quot;Sync Only If Changed&quot;)]
+[Tooltip(&quot;When true, changes are not sent unless greater than sensitivity values below.&quot;)]
+public bool onlySyncOnChange</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkTransformBase_overlayColor.md&amp;value=---%0Auid%3A%20Mirror.NetworkTransformBase.overlayColor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Components/NetworkTransform2k/NetworkTransformBase.cs/#L182">View Source</a>
+  </span>
+  <h4 id="Mirror_NetworkTransformBase_overlayColor" data-uid="Mirror.NetworkTransformBase.overlayColor">overlayColor</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Color overlayColor</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Color</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkTransformBase_positionChanged.md&amp;value=---%0Auid%3A%20Mirror.NetworkTransformBase.positionChanged%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Components/NetworkTransform2k/NetworkTransformBase.cs/#L160">View Source</a>
+  </span>
+  <h4 id="Mirror_NetworkTransformBase_positionChanged" data-uid="Mirror.NetworkTransformBase.positionChanged">positionChanged</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected bool positionChanged</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkTransformBase_positionSensitivity.md&amp;value=---%0Auid%3A%20Mirror.NetworkTransformBase.positionSensitivity%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Components/NetworkTransform2k/NetworkTransformBase.cs/#L156">View Source</a>
+  </span>
+  <h4 id="Mirror_NetworkTransformBase_positionSensitivity" data-uid="Mirror.NetworkTransformBase.positionSensitivity">positionSensitivity</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Header(&quot;Sensitivity&quot;)]
+[Tooltip(&quot;Sensitivity of changes needed before an updated state is sent over the network&quot;)]
+public float positionSensitivity</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkTransformBase_rotationChanged.md&amp;value=---%0Auid%3A%20Mirror.NetworkTransformBase.rotationChanged%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Components/NetworkTransform2k/NetworkTransformBase.cs/#L161">View Source</a>
+  </span>
+  <h4 id="Mirror_NetworkTransformBase_rotationChanged" data-uid="Mirror.NetworkTransformBase.rotationChanged">rotationChanged</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected bool rotationChanged</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkTransformBase_rotationSensitivity.md&amp;value=---%0Auid%3A%20Mirror.NetworkTransformBase.rotationSensitivity%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Components/NetworkTransform2k/NetworkTransformBase.cs/#L157">View Source</a>
+  </span>
+  <h4 id="Mirror_NetworkTransformBase_rotationSensitivity" data-uid="Mirror.NetworkTransformBase.rotationSensitivity">rotationSensitivity</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float rotationSensitivity</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkTransformBase_scaleChanged.md&amp;value=---%0Auid%3A%20Mirror.NetworkTransformBase.scaleChanged%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Components/NetworkTransform2k/NetworkTransformBase.cs/#L162">View Source</a>
+  </span>
+  <h4 id="Mirror_NetworkTransformBase_scaleChanged" data-uid="Mirror.NetworkTransformBase.scaleChanged">scaleChanged</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected bool scaleChanged</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkTransformBase_scaleSensitivity.md&amp;value=---%0Auid%3A%20Mirror.NetworkTransformBase.scaleSensitivity%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Components/NetworkTransform2k/NetworkTransformBase.cs/#L158">View Source</a>
+  </span>
+  <h4 id="Mirror_NetworkTransformBase_scaleSensitivity" data-uid="Mirror.NetworkTransformBase.scaleSensitivity">scaleSensitivity</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float scaleSensitivity</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkTransformBase_sendRate.md&amp;value=---%0Auid%3A%20Mirror.NetworkTransformBase.sendRate%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Components/NetworkTransform2k/NetworkTransformBase.cs/#L44">View Source</a>
+  </span>
+  <h4 id="Mirror_NetworkTransformBase_sendRate" data-uid="Mirror.NetworkTransformBase.sendRate">sendRate</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Header(&quot;Synchronization&quot;)]
+[Tooltip(&quot;Send N snapshots per second. Multiples of frame rate make sense.&quot;)]
+public int sendRate</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkTransformBase_showGizmos.md&amp;value=---%0Auid%3A%20Mirror.NetworkTransformBase.showGizmos%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Components/NetworkTransform2k/NetworkTransformBase.cs/#L180">View Source</a>
+  </span>
+  <h4 id="Mirror_NetworkTransformBase_showGizmos" data-uid="Mirror.NetworkTransformBase.showGizmos">showGizmos</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Header(&quot;Debug&quot;)]
+public bool showGizmos</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkTransformBase_showOverlay.md&amp;value=---%0Auid%3A%20Mirror.NetworkTransformBase.showOverlay%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Components/NetworkTransform2k/NetworkTransformBase.cs/#L181">View Source</a>
+  </span>
+  <h4 id="Mirror_NetworkTransformBase_showOverlay" data-uid="Mirror.NetworkTransformBase.showOverlay">showOverlay</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool showOverlay</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkTransformBase_slowdownSpeed.md&amp;value=---%0Auid%3A%20Mirror.NetworkTransformBase.slowdownSpeed%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Components/NetworkTransform2k/NetworkTransformBase.cs/#L74">View Source</a>
+  </span>
+  <h4 id="Mirror_NetworkTransformBase_slowdownSpeed" data-uid="Mirror.NetworkTransformBase.slowdownSpeed">slowdownSpeed</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Local timeline slowdown in % while slowing down.&quot;)]
+[Range(0F, 1F)]
+public double slowdownSpeed</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.double">Double</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkTransformBase_syncPosition.md&amp;value=---%0Auid%3A%20Mirror.NetworkTransformBase.syncPosition%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Components/NetworkTransform2k/NetworkTransformBase.cs/#L171">View Source</a>
+  </span>
+  <h4 id="Mirror_NetworkTransformBase_syncPosition" data-uid="Mirror.NetworkTransformBase.syncPosition">syncPosition</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Header(&quot;Selective Sync &amp; interpolation&quot;)]
+public bool syncPosition</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkTransformBase_syncRotation.md&amp;value=---%0Auid%3A%20Mirror.NetworkTransformBase.syncRotation%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Components/NetworkTransform2k/NetworkTransformBase.cs/#L172">View Source</a>
+  </span>
+  <h4 id="Mirror_NetworkTransformBase_syncRotation" data-uid="Mirror.NetworkTransformBase.syncRotation">syncRotation</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool syncRotation</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkTransformBase_syncScale.md&amp;value=---%0Auid%3A%20Mirror.NetworkTransformBase.syncScale%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Components/NetworkTransform2k/NetworkTransformBase.cs/#L173">View Source</a>
+  </span>
+  <h4 id="Mirror_NetworkTransformBase_syncScale" data-uid="Mirror.NetworkTransformBase.syncScale">syncScale</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool syncScale</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkTransformBase_bufferTime.md&amp;value=---%0Auid%3A%20Mirror.NetworkTransformBase.bufferTime%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Components/NetworkTransform2k/NetworkTransformBase.cs/#L53">View Source</a>
+  </span>
+  <a id="Mirror_NetworkTransformBase_bufferTime_" data-uid="Mirror.NetworkTransformBase.bufferTime*"></a>
+  <h4 id="Mirror_NetworkTransformBase_bufferTime" data-uid="Mirror.NetworkTransformBase.bufferTime">bufferTime</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double bufferTime { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.double">Double</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkTransformBase_IsClientWithAuthority.md&amp;value=---%0Auid%3A%20Mirror.NetworkTransformBase.IsClientWithAuthority%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Components/NetworkTransform2k/NetworkTransformBase.cs/#L37">View Source</a>
+  </span>
+  <a id="Mirror_NetworkTransformBase_IsClientWithAuthority_" data-uid="Mirror.NetworkTransformBase.IsClientWithAuthority*"></a>
+  <h4 id="Mirror_NetworkTransformBase_IsClientWithAuthority" data-uid="Mirror.NetworkTransformBase.IsClientWithAuthority">IsClientWithAuthority</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected bool IsClientWithAuthority { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkTransformBase_sendInterval.md&amp;value=---%0Auid%3A%20Mirror.NetworkTransformBase.sendInterval%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Components/NetworkTransform2k/NetworkTransformBase.cs/#L45">View Source</a>
+  </span>
+  <a id="Mirror_NetworkTransformBase_sendInterval_" data-uid="Mirror.NetworkTransformBase.sendInterval*"></a>
+  <h4 id="Mirror_NetworkTransformBase_sendInterval" data-uid="Mirror.NetworkTransformBase.sendInterval">sendInterval</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float sendInterval { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkTransformBase_targetComponent.md&amp;value=---%0Auid%3A%20Mirror.NetworkTransformBase.targetComponent%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Components/NetworkTransform2k/NetworkTransformBase.cs/#L40">View Source</a>
+  </span>
+  <a id="Mirror_NetworkTransformBase_targetComponent_" data-uid="Mirror.NetworkTransformBase.targetComponent*"></a>
+  <h4 id="Mirror_NetworkTransformBase_targetComponent" data-uid="Mirror.NetworkTransformBase.targetComponent">targetComponent</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected abstract Transform targetComponent { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Transform</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkTransformBase_ApplySnapshot_Mirror_NTSnapshot_.md&amp;value=---%0Auid%3A%20Mirror.NetworkTransformBase.ApplySnapshot(Mirror.NTSnapshot)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Components/NetworkTransform2k/NetworkTransformBase.cs/#L224">View Source</a>
+  </span>
+  <a id="Mirror_NetworkTransformBase_ApplySnapshot_" data-uid="Mirror.NetworkTransformBase.ApplySnapshot*"></a>
+  <h4 id="Mirror_NetworkTransformBase_ApplySnapshot_Mirror_NTSnapshot_" data-uid="Mirror.NetworkTransformBase.ApplySnapshot(Mirror.NTSnapshot)">ApplySnapshot(NTSnapshot)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void ApplySnapshot(NTSnapshot interpolated)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mirror.NTSnapshot.html">NTSnapshot</a></td>
+        <td><span class="parametername">interpolated</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkTransformBase_Awake.md&amp;value=---%0Auid%3A%20Mirror.NetworkTransformBase.Awake%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Components/NetworkTransform2k/NetworkTransformBase.cs/#L186">View Source</a>
+  </span>
+  <a id="Mirror_NetworkTransformBase_Awake_" data-uid="Mirror.NetworkTransformBase.Awake*"></a>
+  <h4 id="Mirror_NetworkTransformBase_Awake" data-uid="Mirror.NetworkTransformBase.Awake">Awake()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void Awake()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkTransformBase_CmdTeleport_UnityEngine_Vector3_.md&amp;value=---%0Auid%3A%20Mirror.NetworkTransformBase.CmdTeleport(UnityEngine.Vector3)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Components/NetworkTransform2k/NetworkTransformBase.cs/#L694">View Source</a>
+  </span>
+  <a id="Mirror_NetworkTransformBase_CmdTeleport_" data-uid="Mirror.NetworkTransformBase.CmdTeleport*"></a>
+  <h4 id="Mirror_NetworkTransformBase_CmdTeleport_UnityEngine_Vector3_" data-uid="Mirror.NetworkTransformBase.CmdTeleport(UnityEngine.Vector3)">CmdTeleport(Vector3)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void CmdTeleport(Vector3 destination)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td><span class="parametername">destination</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkTransformBase_CmdTeleport_UnityEngine_Vector3_UnityEngine_Quaternion_.md&amp;value=---%0Auid%3A%20Mirror.NetworkTransformBase.CmdTeleport(UnityEngine.Vector3%2CUnityEngine.Quaternion)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Components/NetworkTransform2k/NetworkTransformBase.cs/#L716">View Source</a>
+  </span>
+  <a id="Mirror_NetworkTransformBase_CmdTeleport_" data-uid="Mirror.NetworkTransformBase.CmdTeleport*"></a>
+  <h4 id="Mirror_NetworkTransformBase_CmdTeleport_UnityEngine_Vector3_UnityEngine_Quaternion_" data-uid="Mirror.NetworkTransformBase.CmdTeleport(UnityEngine.Vector3,UnityEngine.Quaternion)">CmdTeleport(Vector3, Quaternion)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void CmdTeleport(Vector3 destination, Quaternion rotation)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td><span class="parametername">destination</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Quaternion</span></td>
+        <td><span class="parametername">rotation</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkTransformBase_CompareSnapshots_Mirror_NTSnapshot_.md&amp;value=---%0Auid%3A%20Mirror.NetworkTransformBase.CompareSnapshots(Mirror.NTSnapshot)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Components/NetworkTransform2k/NetworkTransformBase.cs/#L245">View Source</a>
+  </span>
+  <a id="Mirror_NetworkTransformBase_CompareSnapshots_" data-uid="Mirror.NetworkTransformBase.CompareSnapshots*"></a>
+  <h4 id="Mirror_NetworkTransformBase_CompareSnapshots_Mirror_NTSnapshot_" data-uid="Mirror.NetworkTransformBase.CompareSnapshots(Mirror.NTSnapshot)">CompareSnapshots(NTSnapshot)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual bool CompareSnapshots(NTSnapshot currentSnapshot)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mirror.NTSnapshot.html">NTSnapshot</a></td>
+        <td><span class="parametername">currentSnapshot</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkTransformBase_ConstructSnapshot.md&amp;value=---%0Auid%3A%20Mirror.NetworkTransformBase.ConstructSnapshot%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Components/NetworkTransform2k/NetworkTransformBase.cs/#L200">View Source</a>
+  </span>
+  <a id="Mirror_NetworkTransformBase_ConstructSnapshot_" data-uid="Mirror.NetworkTransformBase.ConstructSnapshot*"></a>
+  <h4 id="Mirror_NetworkTransformBase_ConstructSnapshot" data-uid="Mirror.NetworkTransformBase.ConstructSnapshot">ConstructSnapshot()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual NTSnapshot ConstructSnapshot()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mirror.NTSnapshot.html">NTSnapshot</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkTransformBase_OnClientToServerSync_System_Nullable_UnityEngine_Vector3__System_Nullable_UnityEngine_Quaternion__System_Nullable_UnityEngine_Vector3__.md&amp;value=---%0Auid%3A%20Mirror.NetworkTransformBase.OnClientToServerSync(System.Nullable%7BUnityEngine.Vector3%7D%2CSystem.Nullable%7BUnityEngine.Quaternion%7D%2CSystem.Nullable%7BUnityEngine.Vector3%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Components/NetworkTransform2k/NetworkTransformBase.cs/#L269">View Source</a>
+  </span>
+  <a id="Mirror_NetworkTransformBase_OnClientToServerSync_" data-uid="Mirror.NetworkTransformBase.OnClientToServerSync*"></a>
+  <h4 id="Mirror_NetworkTransformBase_OnClientToServerSync_System_Nullable_UnityEngine_Vector3__System_Nullable_UnityEngine_Quaternion__System_Nullable_UnityEngine_Vector3__" data-uid="Mirror.NetworkTransformBase.OnClientToServerSync(System.Nullable{UnityEngine.Vector3},System.Nullable{UnityEngine.Quaternion},System.Nullable{UnityEngine.Vector3})">OnClientToServerSync(Nullable&lt;Vector3&gt;, Nullable&lt;Quaternion&gt;, Nullable&lt;Vector3&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnClientToServerSync(Vector3? position, Quaternion? rotation, Vector3? scale)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<span class="xref">UnityEngine.Vector3</span>&gt;</td>
+        <td><span class="parametername">position</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<span class="xref">UnityEngine.Quaternion</span>&gt;</td>
+        <td><span class="parametername">rotation</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<span class="xref">UnityEngine.Vector3</span>&gt;</td>
+        <td><span class="parametername">scale</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkTransformBase_OnDeserialize_Mirror_NetworkReader_System_Boolean_.md&amp;value=---%0Auid%3A%20Mirror.NetworkTransformBase.OnDeserialize(Mirror.NetworkReader%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Components/NetworkTransform2k/NetworkTransformBase.cs/#L777">View Source</a>
+  </span>
+  <a id="Mirror_NetworkTransformBase_OnDeserialize_" data-uid="Mirror.NetworkTransformBase.OnDeserialize*"></a>
+  <h4 id="Mirror_NetworkTransformBase_OnDeserialize_Mirror_NetworkReader_System_Boolean_" data-uid="Mirror.NetworkTransformBase.OnDeserialize(Mirror.NetworkReader,System.Boolean)">OnDeserialize(NetworkReader, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void OnDeserialize(NetworkReader reader, bool initialState)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mirror.NetworkReader.html">NetworkReader</a></td>
+        <td><span class="parametername">reader</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">initialState</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_OnDeserialize_Mirror_NetworkReader_System_Boolean_">NetworkBehaviour.OnDeserialize(NetworkReader, Boolean)</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkTransformBase_OnDisable.md&amp;value=---%0Auid%3A%20Mirror.NetworkTransformBase.OnDisable%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Components/NetworkTransform2k/NetworkTransformBase.cs/#L749">View Source</a>
+  </span>
+  <a id="Mirror_NetworkTransformBase_OnDisable_" data-uid="Mirror.NetworkTransformBase.OnDisable*"></a>
+  <h4 id="Mirror_NetworkTransformBase_OnDisable" data-uid="Mirror.NetworkTransformBase.OnDisable">OnDisable()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnDisable()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkTransformBase_OnEnable.md&amp;value=---%0Auid%3A%20Mirror.NetworkTransformBase.OnEnable%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Components/NetworkTransform2k/NetworkTransformBase.cs/#L750">View Source</a>
+  </span>
+  <a id="Mirror_NetworkTransformBase_OnEnable_" data-uid="Mirror.NetworkTransformBase.OnEnable*"></a>
+  <h4 id="Mirror_NetworkTransformBase_OnEnable" data-uid="Mirror.NetworkTransformBase.OnEnable">OnEnable()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnEnable()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkTransformBase_OnSerialize_Mirror_NetworkWriter_System_Boolean_.md&amp;value=---%0Auid%3A%20Mirror.NetworkTransformBase.OnSerialize(Mirror.NetworkWriter%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Components/NetworkTransform2k/NetworkTransformBase.cs/#L762">View Source</a>
+  </span>
+  <a id="Mirror_NetworkTransformBase_OnSerialize_" data-uid="Mirror.NetworkTransformBase.OnSerialize*"></a>
+  <h4 id="Mirror_NetworkTransformBase_OnSerialize_Mirror_NetworkWriter_System_Boolean_" data-uid="Mirror.NetworkTransformBase.OnSerialize(Mirror.NetworkWriter,System.Boolean)">OnSerialize(NetworkWriter, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool OnSerialize(NetworkWriter writer, bool initialState)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mirror.NetworkWriter.html">NetworkWriter</a></td>
+        <td><span class="parametername">writer</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">initialState</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Mirror.NetworkBehaviour.html#Mirror_NetworkBehaviour_OnSerialize_Mirror_NetworkWriter_System_Boolean_">NetworkBehaviour.OnSerialize(NetworkWriter, Boolean)</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkTransformBase_OnServerToClientSync_System_Nullable_UnityEngine_Vector3__System_Nullable_UnityEngine_Quaternion__System_Nullable_UnityEngine_Vector3__.md&amp;value=---%0Auid%3A%20Mirror.NetworkTransformBase.OnServerToClientSync(System.Nullable%7BUnityEngine.Vector3%7D%2CSystem.Nullable%7BUnityEngine.Quaternion%7D%2CSystem.Nullable%7BUnityEngine.Vector3%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Components/NetworkTransform2k/NetworkTransformBase.cs/#L348">View Source</a>
+  </span>
+  <a id="Mirror_NetworkTransformBase_OnServerToClientSync_" data-uid="Mirror.NetworkTransformBase.OnServerToClientSync*"></a>
+  <h4 id="Mirror_NetworkTransformBase_OnServerToClientSync_System_Nullable_UnityEngine_Vector3__System_Nullable_UnityEngine_Quaternion__System_Nullable_UnityEngine_Vector3__" data-uid="Mirror.NetworkTransformBase.OnServerToClientSync(System.Nullable{UnityEngine.Vector3},System.Nullable{UnityEngine.Quaternion},System.Nullable{UnityEngine.Vector3})">OnServerToClientSync(Nullable&lt;Vector3&gt;, Nullable&lt;Quaternion&gt;, Nullable&lt;Vector3&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnServerToClientSync(Vector3? position, Quaternion? rotation, Vector3? scale)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<span class="xref">UnityEngine.Vector3</span>&gt;</td>
+        <td><span class="parametername">position</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<span class="xref">UnityEngine.Quaternion</span>&gt;</td>
+        <td><span class="parametername">rotation</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.nullable-1">Nullable</a>&lt;<span class="xref">UnityEngine.Vector3</span>&gt;</td>
+        <td><span class="parametername">scale</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkTransformBase_OnTeleport_UnityEngine_Vector3_.md&amp;value=---%0Auid%3A%20Mirror.NetworkTransformBase.OnTeleport(UnityEngine.Vector3)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Components/NetworkTransform2k/NetworkTransformBase.cs/#L627">View Source</a>
+  </span>
+  <a id="Mirror_NetworkTransformBase_OnTeleport_" data-uid="Mirror.NetworkTransformBase.OnTeleport*"></a>
+  <h4 id="Mirror_NetworkTransformBase_OnTeleport_UnityEngine_Vector3_" data-uid="Mirror.NetworkTransformBase.OnTeleport(UnityEngine.Vector3)">OnTeleport(Vector3)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnTeleport(Vector3 destination)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td><span class="parametername">destination</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkTransformBase_OnTeleport_UnityEngine_Vector3_UnityEngine_Quaternion_.md&amp;value=---%0Auid%3A%20Mirror.NetworkTransformBase.OnTeleport(UnityEngine.Vector3%2CUnityEngine.Quaternion)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Components/NetworkTransform2k/NetworkTransformBase.cs/#L643">View Source</a>
+  </span>
+  <a id="Mirror_NetworkTransformBase_OnTeleport_" data-uid="Mirror.NetworkTransformBase.OnTeleport*"></a>
+  <h4 id="Mirror_NetworkTransformBase_OnTeleport_UnityEngine_Vector3_UnityEngine_Quaternion_" data-uid="Mirror.NetworkTransformBase.OnTeleport(UnityEngine.Vector3,UnityEngine.Quaternion)">OnTeleport(Vector3, Quaternion)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnTeleport(Vector3 destination, Quaternion rotation)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td><span class="parametername">destination</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Quaternion</span></td>
+        <td><span class="parametername">rotation</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkTransformBase_OnValidate.md&amp;value=---%0Auid%3A%20Mirror.NetworkTransformBase.OnValidate%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Components/NetworkTransform2k/NetworkTransformBase.cs/#L752">View Source</a>
+  </span>
+  <a id="Mirror_NetworkTransformBase_OnValidate_" data-uid="Mirror.NetworkTransformBase.OnValidate*"></a>
+  <h4 id="Mirror_NetworkTransformBase_OnValidate" data-uid="Mirror.NetworkTransformBase.OnValidate">OnValidate()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnValidate()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkTransformBase_Reset.md&amp;value=---%0Auid%3A%20Mirror.NetworkTransformBase.Reset%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Components/NetworkTransform2k/NetworkTransformBase.cs/#L735">View Source</a>
+  </span>
+  <a id="Mirror_NetworkTransformBase_Reset_" data-uid="Mirror.NetworkTransformBase.Reset*"></a>
+  <h4 id="Mirror_NetworkTransformBase_Reset" data-uid="Mirror.NetworkTransformBase.Reset">Reset()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void Reset()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkTransformBase_RpcTeleport_UnityEngine_Vector3_.md&amp;value=---%0Auid%3A%20Mirror.NetworkTransformBase.RpcTeleport(UnityEngine.Vector3)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Components/NetworkTransform2k/NetworkTransformBase.cs/#L662">View Source</a>
+  </span>
+  <a id="Mirror_NetworkTransformBase_RpcTeleport_" data-uid="Mirror.NetworkTransformBase.RpcTeleport*"></a>
+  <h4 id="Mirror_NetworkTransformBase_RpcTeleport_UnityEngine_Vector3_" data-uid="Mirror.NetworkTransformBase.RpcTeleport(UnityEngine.Vector3)">RpcTeleport(Vector3)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RpcTeleport(Vector3 destination)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td><span class="parametername">destination</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkTransformBase_RpcTeleport_UnityEngine_Vector3_UnityEngine_Quaternion_.md&amp;value=---%0Auid%3A%20Mirror.NetworkTransformBase.RpcTeleport(UnityEngine.Vector3%2CUnityEngine.Quaternion)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Components/NetworkTransform2k/NetworkTransformBase.cs/#L678">View Source</a>
+  </span>
+  <a id="Mirror_NetworkTransformBase_RpcTeleport_" data-uid="Mirror.NetworkTransformBase.RpcTeleport*"></a>
+  <h4 id="Mirror_NetworkTransformBase_RpcTeleport_UnityEngine_Vector3_UnityEngine_Quaternion_" data-uid="Mirror.NetworkTransformBase.RpcTeleport(UnityEngine.Vector3,UnityEngine.Quaternion)">RpcTeleport(Vector3, Quaternion)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RpcTeleport(Vector3 destination, Quaternion rotation)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td><span class="parametername">destination</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Quaternion</span></td>
+        <td><span class="parametername">rotation</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkTransformBase.md&amp;value=---%0Auid%3A%20Mirror.NetworkTransformBase%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Components/NetworkTransform2k/NetworkTransformBase.cs/#L28" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

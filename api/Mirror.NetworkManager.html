@@ -1,0 +1,2194 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class NetworkManager
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class NetworkManager
+   ">
+    <meta name="generator" content="docfx 2.56.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" style="display:flex;" href="http://mirror-networking.com">
+                <img id="logo" class="svg" style="vertical-align: middle;align-self:center;" src="../logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Mirror.NetworkManager">
+  
+  
+  <h1 id="Mirror_NetworkManager" data-uid="Mirror.NetworkManager" class="text-break">Class NetworkManager
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><span class="xref">UnityEngine.Object</span></div>
+    <div class="level2"><span class="xref">UnityEngine.Component</span></div>
+    <div class="level3"><span class="xref">UnityEngine.Behaviour</span></div>
+    <div class="level4"><span class="xref">UnityEngine.MonoBehaviour</span></div>
+    <div class="level5"><span class="xref">NetworkManager</span></div>
+      <div class="level6"><a class="xref" href="Mirror.NetworkRoomManager.html">NetworkRoomManager</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.IsInvoking()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.CancelInvoke()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.Invoke(System.String, System.Single)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.InvokeRepeating(System.String, System.Single, System.Single)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.CancelInvoke(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.IsInvoking(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StartCoroutine(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StartCoroutine(System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StartCoroutine(System.Collections.IEnumerator)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StartCoroutine_Auto(System.Collections.IEnumerator)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StopCoroutine(System.Collections.IEnumerator)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StopCoroutine(UnityEngine.Coroutine)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StopCoroutine(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StopAllCoroutines()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.print(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.useGUILayout</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.runInEditMode</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Behaviour.enabled</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Behaviour.isActiveAndEnabled</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponent(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponent&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.TryGetComponent(System.Type, UnityEngine.Component)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.TryGetComponent&lt;T&gt;(T)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponent(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInChildren(System.Type, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInChildren(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInChildren&lt;T&gt;(System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInChildren&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren(System.Type, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren&lt;T&gt;(System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren&lt;T&gt;(System.Boolean, System.Collections.Generic.List&lt;T&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren&lt;T&gt;(System.Collections.Generic.List&lt;T&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInParent(System.Type, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInParent(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInParent&lt;T&gt;(System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInParent&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInParent(System.Type, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInParent(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInParent&lt;T&gt;(System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInParent&lt;T&gt;(System.Boolean, System.Collections.Generic.List&lt;T&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInParent&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponents(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponents(System.Type, System.Collections.Generic.List&lt;UnityEngine.Component&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponents&lt;T&gt;(System.Collections.Generic.List&lt;T&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponents&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.CompareTag(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessageUpwards(System.String, System.Object, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessageUpwards(System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessageUpwards(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessageUpwards(System.String, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessage(System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessage(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessage(System.String, System.Object, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessage(System.String, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.BroadcastMessage(System.String, System.Object, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.BroadcastMessage(System.String, System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.BroadcastMessage(System.String)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.BroadcastMessage(System.String, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.transform</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.gameObject</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.tag</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.GetInstanceID()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Equals(System.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Vector3, UnityEngine.Quaternion)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Vector3, UnityEngine.Quaternion, UnityEngine.Transform)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Transform)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Transform, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Vector3, UnityEngine.Quaternion)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Vector3, UnityEngine.Quaternion, UnityEngine.Transform)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Transform)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Transform, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Destroy(UnityEngine.Object, System.Single)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Destroy(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DestroyImmediate(UnityEngine.Object, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DestroyImmediate(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfType(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfType(System.Type, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DontDestroyOnLoad(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DestroyObject(UnityEngine.Object, System.Single)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DestroyObject(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindSceneObjectsOfType(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfTypeIncludingAssets(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfType&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfType&lt;T&gt;(System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectOfType&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectOfType&lt;T&gt;(System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfTypeAll(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectOfType(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectOfType(System.Type, System.Boolean)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.name</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.hideFlags</span>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">Object.Equals(Object, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#system-object-gettype">Object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.memberwiseclone#system-object-memberwiseclone">Object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#system-object-referenceequals(system-object-system-object)">Object.ReferenceEquals(Object, Object)</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Mirror.html">Mirror</a></h6>
+  <h6><strong>Assembly</strong>: Mirror.dll</h6>
+  <h5 id="Mirror_NetworkManager_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DisallowMultipleComponent]
+[AddComponentMenu(&quot;Network/Network Manager&quot;)]
+[HelpURL(&quot;https://mirror-networking.gitbook.io/docs/components/network-manager&quot;)]
+public class NetworkManager : MonoBehaviour</code></pre>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkManager_authenticator.md&amp;value=---%0Auid%3A%20Mirror.NetworkManager.authenticator%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkManager.cs/#L71">View Source</a>
+  </span>
+  <h4 id="Mirror_NetworkManager_authenticator" data-uid="Mirror.NetworkManager.authenticator">authenticator</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Header(&quot;Authentication&quot;)]
+[Tooltip(&quot;Authentication component attached to this object&quot;)]
+public NetworkAuthenticator authenticator</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mirror.NetworkAuthenticator.html">NetworkAuthenticator</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkManager_autoCreatePlayer.md&amp;value=---%0Auid%3A%20Mirror.NetworkManager.autoCreatePlayer%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkManager.cs/#L84">View Source</a>
+  </span>
+  <h4 id="Mirror_NetworkManager_autoCreatePlayer" data-uid="Mirror.NetworkManager.autoCreatePlayer">autoCreatePlayer</h4>
+  <div class="markdown level1 summary"><p>Enable to automatically create player objects on connect and on scene change.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[FormerlySerializedAs(&quot;m_AutoCreatePlayer&quot;)]
+[Tooltip(&quot;Should Mirror automatically spawn the player after scene change?&quot;)]
+public bool autoCreatePlayer</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkManager_autoStartServerBuild.md&amp;value=---%0Auid%3A%20Mirror.NetworkManager.autoStartServerBuild%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkManager.cs/#L34">View Source</a>
+  </span>
+  <h4 id="Mirror_NetworkManager_autoStartServerBuild" data-uid="Mirror.NetworkManager.autoStartServerBuild">autoStartServerBuild</h4>
+  <div class="markdown level1 summary"><p>Should the server auto-start when 'Server Build' is checked in build settings</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Should the server auto-start when 'Server Build' is checked in build settings&quot;)]
+[FormerlySerializedAs(&quot;startOnHeadless&quot;)]
+public bool autoStartServerBuild</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkManager_clientLoadedScene.md&amp;value=---%0Auid%3A%20Mirror.NetworkManager.clientLoadedScene%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkManager.cs/#L115">View Source</a>
+  </span>
+  <h4 id="Mirror_NetworkManager_clientLoadedScene" data-uid="Mirror.NetworkManager.clientLoadedScene">clientLoadedScene</h4>
+  <div class="markdown level1 summary"><p>True if the client loaded a new scene when connecting to the server.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected bool clientLoadedScene</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkManager_dontDestroyOnLoad.md&amp;value=---%0Auid%3A%20Mirror.NetworkManager.dontDestroyOnLoad%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkManager.cs/#L24">View Source</a>
+  </span>
+  <h4 id="Mirror_NetworkManager_dontDestroyOnLoad" data-uid="Mirror.NetworkManager.dontDestroyOnLoad">dontDestroyOnLoad</h4>
+  <div class="markdown level1 summary"><p>Enable to keep NetworkManager alive when changing scenes.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Header(&quot;Configuration&quot;)]
+[FormerlySerializedAs(&quot;m_DontDestroyOnLoad&quot;)]
+[Tooltip(&quot;Should the Network Manager object be persisted through scene changes?&quot;)]
+public bool dontDestroyOnLoad</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkManager_loadingSceneAsync.md&amp;value=---%0Auid%3A%20Mirror.NetworkManager.loadingSceneAsync%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkManager.cs/#L745">View Source</a>
+  </span>
+  <h4 id="Mirror_NetworkManager_loadingSceneAsync" data-uid="Mirror.NetworkManager.loadingSceneAsync">loadingSceneAsync</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static AsyncOperation loadingSceneAsync</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.AsyncOperation</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkManager_maxConnections.md&amp;value=---%0Auid%3A%20Mirror.NetworkManager.maxConnections%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkManager.cs/#L67">View Source</a>
+  </span>
+  <h4 id="Mirror_NetworkManager_maxConnections" data-uid="Mirror.NetworkManager.maxConnections">maxConnections</h4>
+  <div class="markdown level1 summary"><p>The maximum number of concurrent network connections to support.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[FormerlySerializedAs(&quot;m_MaxConnections&quot;)]
+[Tooltip(&quot;Maximum number of concurrent connections.&quot;)]
+public int maxConnections</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkManager_networkAddress.md&amp;value=---%0Auid%3A%20Mirror.NetworkManager.networkAddress%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkManager.cs/#L62">View Source</a>
+  </span>
+  <h4 id="Mirror_NetworkManager_networkAddress" data-uid="Mirror.NetworkManager.networkAddress">networkAddress</h4>
+  <div class="markdown level1 summary"><p>Server's address for clients to connect to.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[FormerlySerializedAs(&quot;m_NetworkAddress&quot;)]
+[Tooltip(&quot;Network Address where the client should connect to the server. Server does not use this for anything.&quot;)]
+public string networkAddress</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkManager_offlineScene.md&amp;value=---%0Auid%3A%20Mirror.NetworkManager.offlineScene%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkManager.cs/#L45">View Source</a>
+  </span>
+  <h4 id="Mirror_NetworkManager_offlineScene" data-uid="Mirror.NetworkManager.offlineScene">offlineScene</h4>
+  <div class="markdown level1 summary"><p>Automatically switch to this scene upon going offline (on start / on disconnect / on shutdown).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Header(&quot;Scene Management&quot;)]
+[FormerlySerializedAs(&quot;m_OfflineScene&quot;)]
+[Tooltip(&quot;Scene that Mirror will switch to when the client or server is stopped&quot;)]
+public string offlineScene</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkManager_onlineScene.md&amp;value=---%0Auid%3A%20Mirror.NetworkManager.onlineScene%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkManager.cs/#L51">View Source</a>
+  </span>
+  <h4 id="Mirror_NetworkManager_onlineScene" data-uid="Mirror.NetworkManager.onlineScene">onlineScene</h4>
+  <div class="markdown level1 summary"><p>Automatically switch to this scene upon going online (after connect/startserver).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[FormerlySerializedAs(&quot;m_OnlineScene&quot;)]
+[Tooltip(&quot;Scene that Mirror will switch to when the server is started. Clients will recieve a Scene Message to load the server's current scene when they connect.&quot;)]
+public string onlineScene</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkManager_playerPrefab.md&amp;value=---%0Auid%3A%20Mirror.NetworkManager.playerPrefab%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkManager.cs/#L79">View Source</a>
+  </span>
+  <h4 id="Mirror_NetworkManager_playerPrefab" data-uid="Mirror.NetworkManager.playerPrefab">playerPrefab</h4>
+  <div class="markdown level1 summary"><p>The default prefab to be used to create player objects on the server.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Header(&quot;Player Object&quot;)]
+[FormerlySerializedAs(&quot;m_PlayerPrefab&quot;)]
+[Tooltip(&quot;Prefab of the player object. Prefab must have a Network Identity component. May be an empty game object or a full avatar.&quot;)]
+public GameObject playerPrefab</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.GameObject</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkManager_playerSpawnMethod.md&amp;value=---%0Auid%3A%20Mirror.NetworkManager.playerSpawnMethod%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkManager.cs/#L89">View Source</a>
+  </span>
+  <h4 id="Mirror_NetworkManager_playerSpawnMethod" data-uid="Mirror.NetworkManager.playerSpawnMethod">playerSpawnMethod</h4>
+  <div class="markdown level1 summary"><p>Where to spawn players.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[FormerlySerializedAs(&quot;m_PlayerSpawnMethod&quot;)]
+[Tooltip(&quot;Round Robin or Random order of Start Position selection&quot;)]
+public PlayerSpawnMethod playerSpawnMethod</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mirror.PlayerSpawnMethod.html">PlayerSpawnMethod</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkManager_runInBackground.md&amp;value=---%0Auid%3A%20Mirror.NetworkManager.runInBackground%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkManager.cs/#L29">View Source</a>
+  </span>
+  <h4 id="Mirror_NetworkManager_runInBackground" data-uid="Mirror.NetworkManager.runInBackground">runInBackground</h4>
+  <div class="markdown level1 summary"><p>Multiplayer games should always run in the background so the network doesn't time out.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[FormerlySerializedAs(&quot;m_RunInBackground&quot;)]
+[Tooltip(&quot;Multiplayer games should always run in the background so the network doesn't time out.&quot;)]
+public bool runInBackground</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkManager_serverTickRate.md&amp;value=---%0Auid%3A%20Mirror.NetworkManager.serverTickRate%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkManager.cs/#L38">View Source</a>
+  </span>
+  <h4 id="Mirror_NetworkManager_serverTickRate" data-uid="Mirror.NetworkManager.serverTickRate">serverTickRate</h4>
+  <div class="markdown level1 summary"><p>Server Update frequency, per second. Use around 60Hz for fast paced games like Counter-Strike to minimize latency. Use around 30Hz for games like WoW to minimize computations. Use around 1-10Hz for slow paced games like EVE.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Tooltip(&quot;Server Update frequency, per second. Use around 60Hz for fast paced games like Counter-Strike to minimize latency. Use around 30Hz for games like WoW to minimize computations. Use around 1-10Hz for slow paced games like EVE.&quot;)]
+public int serverTickRate</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkManager_spawnPrefabs.md&amp;value=---%0Auid%3A%20Mirror.NetworkManager.spawnPrefabs%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkManager.cs/#L93">View Source</a>
+  </span>
+  <h4 id="Mirror_NetworkManager_spawnPrefabs" data-uid="Mirror.NetworkManager.spawnPrefabs">spawnPrefabs</h4>
+  <div class="markdown level1 summary"><p>Prefabs that can be spawned over the network need to be registered here.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[FormerlySerializedAs(&quot;m_SpawnPrefabs&quot;)]
+[HideInInspector]
+public List&lt;GameObject&gt; spawnPrefabs</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">UnityEngine.GameObject</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkManager_startPositionIndex.md&amp;value=---%0Auid%3A%20Mirror.NetworkManager.startPositionIndex%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkManager.cs/#L97">View Source</a>
+  </span>
+  <h4 id="Mirror_NetworkManager_startPositionIndex" data-uid="Mirror.NetworkManager.startPositionIndex">startPositionIndex</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int startPositionIndex</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkManager_startPositions.md&amp;value=---%0Auid%3A%20Mirror.NetworkManager.startPositions%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkManager.cs/#L96">View Source</a>
+  </span>
+  <h4 id="Mirror_NetworkManager_startPositions" data-uid="Mirror.NetworkManager.startPositions">startPositions</h4>
+  <div class="markdown level1 summary"><p>List of transforms populated by NetworkStartPositions</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static List&lt;Transform&gt; startPositions</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<span class="xref">UnityEngine.Transform</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkManager_transport.md&amp;value=---%0Auid%3A%20Mirror.NetworkManager.transport%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkManager.cs/#L57">View Source</a>
+  </span>
+  <h4 id="Mirror_NetworkManager_transport" data-uid="Mirror.NetworkManager.transport">transport</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Header(&quot;Network Info&quot;)]
+[Tooltip(&quot;Transport component attached to this object that server and client will use to connect&quot;)]
+[SerializeField]
+protected Transport transport</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mirror.Transport.html">Transport</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkManager_isNetworkActive.md&amp;value=---%0Auid%3A%20Mirror.NetworkManager.isNetworkActive%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkManager.cs/#L106">View Source</a>
+  </span>
+  <a id="Mirror_NetworkManager_isNetworkActive_" data-uid="Mirror.NetworkManager.isNetworkActive*"></a>
+  <h4 id="Mirror_NetworkManager_isNetworkActive" data-uid="Mirror.NetworkManager.isNetworkActive">isNetworkActive</h4>
+  <div class="markdown level1 summary"><p>True if the server is running or client is connected/connecting.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool isNetworkActive { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkManager_mode.md&amp;value=---%0Auid%3A%20Mirror.NetworkManager.mode%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkManager.cs/#L123">View Source</a>
+  </span>
+  <a id="Mirror_NetworkManager_mode_" data-uid="Mirror.NetworkManager.mode*"></a>
+  <h4 id="Mirror_NetworkManager_mode" data-uid="Mirror.NetworkManager.mode">mode</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public NetworkManagerMode mode { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mirror.NetworkManagerMode.html">NetworkManagerMode</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkManager_networkSceneName.md&amp;value=---%0Auid%3A%20Mirror.NetworkManager.networkSceneName%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkManager.cs/#L743">View Source</a>
+  </span>
+  <a id="Mirror_NetworkManager_networkSceneName_" data-uid="Mirror.NetworkManager.networkSceneName*"></a>
+  <h4 id="Mirror_NetworkManager_networkSceneName" data-uid="Mirror.NetworkManager.networkSceneName">networkSceneName</h4>
+  <div class="markdown level1 summary"><p>The name of the current network scene.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string networkSceneName { get; protected set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkManager_numPlayers.md&amp;value=---%0Auid%3A%20Mirror.NetworkManager.numPlayers%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkManager.cs/#L103">View Source</a>
+  </span>
+  <a id="Mirror_NetworkManager_numPlayers_" data-uid="Mirror.NetworkManager.numPlayers*"></a>
+  <h4 id="Mirror_NetworkManager_numPlayers" data-uid="Mirror.NetworkManager.numPlayers">numPlayers</h4>
+  <div class="markdown level1 summary"><p>Number of active player objects across all connections on the server.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int numPlayers { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkManager_singleton.md&amp;value=---%0Auid%3A%20Mirror.NetworkManager.singleton%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkManager.cs/#L100">View Source</a>
+  </span>
+  <a id="Mirror_NetworkManager_singleton_" data-uid="Mirror.NetworkManager.singleton*"></a>
+  <h4 id="Mirror_NetworkManager_singleton" data-uid="Mirror.NetworkManager.singleton">singleton</h4>
+  <div class="markdown level1 summary"><p>The one and only NetworkManager</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static NetworkManager singleton { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mirror.NetworkManager.html">NetworkManager</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkManager_Awake.md&amp;value=---%0Auid%3A%20Mirror.NetworkManager.Awake%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkManager.cs/#L185">View Source</a>
+  </span>
+  <a id="Mirror_NetworkManager_Awake_" data-uid="Mirror.NetworkManager.Awake*"></a>
+  <h4 id="Mirror_NetworkManager_Awake" data-uid="Mirror.NetworkManager.Awake">Awake()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void Awake()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkManager_ConfigureHeadlessFrameRate.md&amp;value=---%0Auid%3A%20Mirror.NetworkManager.ConfigureHeadlessFrameRate%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkManager.cs/#L642">View Source</a>
+  </span>
+  <a id="Mirror_NetworkManager_ConfigureHeadlessFrameRate_" data-uid="Mirror.NetworkManager.ConfigureHeadlessFrameRate*"></a>
+  <h4 id="Mirror_NetworkManager_ConfigureHeadlessFrameRate" data-uid="Mirror.NetworkManager.ConfigureHeadlessFrameRate">ConfigureHeadlessFrameRate()</h4>
+  <div class="markdown level1 summary"><p>Set the frame rate for a headless builds. Override to disable or modify.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void ConfigureHeadlessFrameRate()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkManager_FinishLoadScene.md&amp;value=---%0Auid%3A%20Mirror.NetworkManager.FinishLoadScene%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkManager.cs/#L919">View Source</a>
+  </span>
+  <a id="Mirror_NetworkManager_FinishLoadScene_" data-uid="Mirror.NetworkManager.FinishLoadScene*"></a>
+  <h4 id="Mirror_NetworkManager_FinishLoadScene" data-uid="Mirror.NetworkManager.FinishLoadScene">FinishLoadScene()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void FinishLoadScene()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkManager_GetStartPosition.md&amp;value=---%0Auid%3A%20Mirror.NetworkManager.GetStartPosition%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkManager.cs/#L1056">View Source</a>
+  </span>
+  <a id="Mirror_NetworkManager_GetStartPosition_" data-uid="Mirror.NetworkManager.GetStartPosition*"></a>
+  <h4 id="Mirror_NetworkManager_GetStartPosition" data-uid="Mirror.NetworkManager.GetStartPosition">GetStartPosition()</h4>
+  <div class="markdown level1 summary"><p>Get the next NetworkStartPosition based on the selected PlayerSpawnMethod.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Transform GetStartPosition()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Transform</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkManager_IsSceneActive_System_String_.md&amp;value=---%0Auid%3A%20Mirror.NetworkManager.IsSceneActive(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkManager.cs/#L229">View Source</a>
+  </span>
+  <a id="Mirror_NetworkManager_IsSceneActive_" data-uid="Mirror.NetworkManager.IsSceneActive*"></a>
+  <h4 id="Mirror_NetworkManager_IsSceneActive_System_String_" data-uid="Mirror.NetworkManager.IsSceneActive(System.String)">IsSceneActive(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsSceneActive(string scene)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">scene</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkManager_LateUpdate.md&amp;value=---%0Auid%3A%20Mirror.NetworkManager.LateUpdate%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkManager.cs/#L217">View Source</a>
+  </span>
+  <a id="Mirror_NetworkManager_LateUpdate_" data-uid="Mirror.NetworkManager.LateUpdate*"></a>
+  <h4 id="Mirror_NetworkManager_LateUpdate" data-uid="Mirror.NetworkManager.LateUpdate">LateUpdate()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void LateUpdate()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkManager_OnApplicationQuit.md&amp;value=---%0Auid%3A%20Mirror.NetworkManager.OnApplicationQuit%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkManager.cs/#L617">View Source</a>
+  </span>
+  <a id="Mirror_NetworkManager_OnApplicationQuit_" data-uid="Mirror.NetworkManager.OnApplicationQuit*"></a>
+  <h4 id="Mirror_NetworkManager_OnApplicationQuit" data-uid="Mirror.NetworkManager.OnApplicationQuit">OnApplicationQuit()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnApplicationQuit()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkManager_OnClientChangeScene_System_String_Mirror_SceneOperation_System_Boolean_.md&amp;value=---%0Auid%3A%20Mirror.NetworkManager.OnClientChangeScene(System.String%2CMirror.SceneOperation%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkManager.cs/#L1306">View Source</a>
+  </span>
+  <a id="Mirror_NetworkManager_OnClientChangeScene_" data-uid="Mirror.NetworkManager.OnClientChangeScene*"></a>
+  <h4 id="Mirror_NetworkManager_OnClientChangeScene_System_String_Mirror_SceneOperation_System_Boolean_" data-uid="Mirror.NetworkManager.OnClientChangeScene(System.String,Mirror.SceneOperation,System.Boolean)">OnClientChangeScene(String, SceneOperation, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Called from ClientChangeScene immediately before SceneManager.LoadSceneAsync is executed</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnClientChangeScene(string newSceneName, SceneOperation sceneOperation, bool customHandling)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">newSceneName</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Mirror.SceneOperation.html">SceneOperation</a></td>
+        <td><span class="parametername">sceneOperation</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">customHandling</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkManager_OnClientConnect.md&amp;value=---%0Auid%3A%20Mirror.NetworkManager.OnClientConnect%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkManager.cs/#L1264">View Source</a>
+  </span>
+  <a id="Mirror_NetworkManager_OnClientConnect_" data-uid="Mirror.NetworkManager.OnClientConnect*"></a>
+  <h4 id="Mirror_NetworkManager_OnClientConnect" data-uid="Mirror.NetworkManager.OnClientConnect">OnClientConnect()</h4>
+  <div class="markdown level1 summary"><p>Called on the client when connected to a server. By default it sets client as ready and adds a player.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnClientConnect()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkManager_OnClientDisconnect.md&amp;value=---%0Auid%3A%20Mirror.NetworkManager.OnClientDisconnect%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkManager.cs/#L1282">View Source</a>
+  </span>
+  <a id="Mirror_NetworkManager_OnClientDisconnect_" data-uid="Mirror.NetworkManager.OnClientDisconnect*"></a>
+  <h4 id="Mirror_NetworkManager_OnClientDisconnect" data-uid="Mirror.NetworkManager.OnClientDisconnect">OnClientDisconnect()</h4>
+  <div class="markdown level1 summary"><p>Called on clients when disconnected from a server.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnClientDisconnect()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkManager_OnClientError_Mirror_TransportError_System_String_.md&amp;value=---%0Auid%3A%20Mirror.NetworkManager.OnClientError(Mirror.TransportError%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkManager.cs/#L1294">View Source</a>
+  </span>
+  <a id="Mirror_NetworkManager_OnClientError_" data-uid="Mirror.NetworkManager.OnClientError*"></a>
+  <h4 id="Mirror_NetworkManager_OnClientError_Mirror_TransportError_System_String_" data-uid="Mirror.NetworkManager.OnClientError(Mirror.TransportError,System.String)">OnClientError(TransportError, String)</h4>
+  <div class="markdown level1 summary"><p>Called on client when transport raises an exception.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnClientError(TransportError error, string reason)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mirror.TransportError.html">TransportError</a></td>
+        <td><span class="parametername">error</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">reason</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkManager_OnClientError_System_Exception_.md&amp;value=---%0Auid%3A%20Mirror.NetworkManager.OnClientError(System.Exception)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkManager.cs/#L1291">View Source</a>
+  </span>
+  <a id="Mirror_NetworkManager_OnClientError_" data-uid="Mirror.NetworkManager.OnClientError*"></a>
+  <h4 id="Mirror_NetworkManager_OnClientError_System_Exception_" data-uid="Mirror.NetworkManager.OnClientError(System.Exception)">OnClientError(Exception)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;OnClientError(Exception) was changed to OnClientError(TransportError, string)&quot;)]
+public virtual void OnClientError(Exception exception)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.exception">Exception</a></td>
+        <td><span class="parametername">exception</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkManager_OnClientNotReady.md&amp;value=---%0Auid%3A%20Mirror.NetworkManager.OnClientNotReady%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkManager.cs/#L1302">View Source</a>
+  </span>
+  <a id="Mirror_NetworkManager_OnClientNotReady_" data-uid="Mirror.NetworkManager.OnClientNotReady*"></a>
+  <h4 id="Mirror_NetworkManager_OnClientNotReady" data-uid="Mirror.NetworkManager.OnClientNotReady">OnClientNotReady()</h4>
+  <div class="markdown level1 summary"><p>Called on clients when a servers tells the client it is no longer ready, e.g. when switching scenes.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnClientNotReady()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkManager_OnClientSceneChanged.md&amp;value=---%0Auid%3A%20Mirror.NetworkManager.OnClientSceneChanged%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkManager.cs/#L1312">View Source</a>
+  </span>
+  <a id="Mirror_NetworkManager_OnClientSceneChanged_" data-uid="Mirror.NetworkManager.OnClientSceneChanged*"></a>
+  <h4 id="Mirror_NetworkManager_OnClientSceneChanged" data-uid="Mirror.NetworkManager.OnClientSceneChanged">OnClientSceneChanged()</h4>
+  <div class="markdown level1 summary"><p>Called on clients when a scene has completed loaded, when the scene load was initiated by the server.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnClientSceneChanged()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkManager_OnDestroy.md&amp;value=---%0Auid%3A%20Mirror.NetworkManager.OnDestroy%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkManager.cs/#L734">View Source</a>
+  </span>
+  <a id="Mirror_NetworkManager_OnDestroy_" data-uid="Mirror.NetworkManager.OnDestroy*"></a>
+  <h4 id="Mirror_NetworkManager_OnDestroy" data-uid="Mirror.NetworkManager.OnDestroy">OnDestroy()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnDestroy()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkManager_OnServerAddPlayer_Mirror_NetworkConnectionToClient_.md&amp;value=---%0Auid%3A%20Mirror.NetworkManager.OnServerAddPlayer(Mirror.NetworkConnectionToClient)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkManager.cs/#L1233">View Source</a>
+  </span>
+  <a id="Mirror_NetworkManager_OnServerAddPlayer_" data-uid="Mirror.NetworkManager.OnServerAddPlayer*"></a>
+  <h4 id="Mirror_NetworkManager_OnServerAddPlayer_Mirror_NetworkConnectionToClient_" data-uid="Mirror.NetworkManager.OnServerAddPlayer(Mirror.NetworkConnectionToClient)">OnServerAddPlayer(NetworkConnectionToClient)</h4>
+  <div class="markdown level1 summary"><p>Called on server when a client requests to add the player. Adds playerPrefab by default. Can be overwritten.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnServerAddPlayer(NetworkConnectionToClient conn)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mirror.NetworkConnectionToClient.html">NetworkConnectionToClient</a></td>
+        <td><span class="parametername">conn</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkManager_OnServerChangeScene_System_String_.md&amp;value=---%0Auid%3A%20Mirror.NetworkManager.OnServerChangeScene(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkManager.cs/#L1258">View Source</a>
+  </span>
+  <a id="Mirror_NetworkManager_OnServerChangeScene_" data-uid="Mirror.NetworkManager.OnServerChangeScene*"></a>
+  <h4 id="Mirror_NetworkManager_OnServerChangeScene_System_String_" data-uid="Mirror.NetworkManager.OnServerChangeScene(System.String)">OnServerChangeScene(String)</h4>
+  <div class="markdown level1 summary"><p>Called from ServerChangeScene immediately before SceneManager.LoadSceneAsync is executed</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnServerChangeScene(string newSceneName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">newSceneName</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkManager_OnServerConnect_Mirror_NetworkConnectionToClient_.md&amp;value=---%0Auid%3A%20Mirror.NetworkManager.OnServerConnect(Mirror.NetworkConnectionToClient)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkManager.cs/#L1207">View Source</a>
+  </span>
+  <a id="Mirror_NetworkManager_OnServerConnect_" data-uid="Mirror.NetworkManager.OnServerConnect*"></a>
+  <h4 id="Mirror_NetworkManager_OnServerConnect_Mirror_NetworkConnectionToClient_" data-uid="Mirror.NetworkManager.OnServerConnect(Mirror.NetworkConnectionToClient)">OnServerConnect(NetworkConnectionToClient)</h4>
+  <div class="markdown level1 summary"><p>Called on the server when a new client connects.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnServerConnect(NetworkConnectionToClient conn)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mirror.NetworkConnectionToClient.html">NetworkConnectionToClient</a></td>
+        <td><span class="parametername">conn</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkManager_OnServerDisconnect_Mirror_NetworkConnectionToClient_.md&amp;value=---%0Auid%3A%20Mirror.NetworkManager.OnServerDisconnect(Mirror.NetworkConnectionToClient)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkManager.cs/#L1211">View Source</a>
+  </span>
+  <a id="Mirror_NetworkManager_OnServerDisconnect_" data-uid="Mirror.NetworkManager.OnServerDisconnect*"></a>
+  <h4 id="Mirror_NetworkManager_OnServerDisconnect_Mirror_NetworkConnectionToClient_" data-uid="Mirror.NetworkManager.OnServerDisconnect(Mirror.NetworkConnectionToClient)">OnServerDisconnect(NetworkConnectionToClient)</h4>
+  <div class="markdown level1 summary"><p>Called on the server when a client disconnects.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnServerDisconnect(NetworkConnectionToClient conn)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mirror.NetworkConnectionToClient.html">NetworkConnectionToClient</a></td>
+        <td><span class="parametername">conn</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkManager_OnServerError_Mirror_NetworkConnectionToClient_Mirror_TransportError_System_String_.md&amp;value=---%0Auid%3A%20Mirror.NetworkManager.OnServerError(Mirror.NetworkConnectionToClient%2CMirror.TransportError%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkManager.cs/#L1250">View Source</a>
+  </span>
+  <a id="Mirror_NetworkManager_OnServerError_" data-uid="Mirror.NetworkManager.OnServerError*"></a>
+  <h4 id="Mirror_NetworkManager_OnServerError_Mirror_NetworkConnectionToClient_Mirror_TransportError_System_String_" data-uid="Mirror.NetworkManager.OnServerError(Mirror.NetworkConnectionToClient,Mirror.TransportError,System.String)">OnServerError(NetworkConnectionToClient, TransportError, String)</h4>
+  <div class="markdown level1 summary"><p>Called on server when transport raises an exception. NetworkConnection may be null.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnServerError(NetworkConnectionToClient conn, TransportError error, string reason)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mirror.NetworkConnectionToClient.html">NetworkConnectionToClient</a></td>
+        <td><span class="parametername">conn</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Mirror.TransportError.html">TransportError</a></td>
+        <td><span class="parametername">error</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">reason</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkManager_OnServerError_Mirror_NetworkConnectionToClient_System_Exception_.md&amp;value=---%0Auid%3A%20Mirror.NetworkManager.OnServerError(Mirror.NetworkConnectionToClient%2CSystem.Exception)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkManager.cs/#L1247">View Source</a>
+  </span>
+  <a id="Mirror_NetworkManager_OnServerError_" data-uid="Mirror.NetworkManager.OnServerError*"></a>
+  <h4 id="Mirror_NetworkManager_OnServerError_Mirror_NetworkConnectionToClient_System_Exception_" data-uid="Mirror.NetworkManager.OnServerError(Mirror.NetworkConnectionToClient,System.Exception)">OnServerError(NetworkConnectionToClient, Exception)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;OnServerError(conn, Exception) was changed to OnServerError(conn, TransportError, string)&quot;)]
+public virtual void OnServerError(NetworkConnectionToClient conn, Exception exception)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mirror.NetworkConnectionToClient.html">NetworkConnectionToClient</a></td>
+        <td><span class="parametername">conn</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.exception">Exception</a></td>
+        <td><span class="parametername">exception</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkManager_OnServerReady_Mirror_NetworkConnectionToClient_.md&amp;value=---%0Auid%3A%20Mirror.NetworkManager.OnServerReady(Mirror.NetworkConnectionToClient)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkManager.cs/#L1221">View Source</a>
+  </span>
+  <a id="Mirror_NetworkManager_OnServerReady_" data-uid="Mirror.NetworkManager.OnServerReady*"></a>
+  <h4 id="Mirror_NetworkManager_OnServerReady_Mirror_NetworkConnectionToClient_" data-uid="Mirror.NetworkManager.OnServerReady(Mirror.NetworkConnectionToClient)">OnServerReady(NetworkConnectionToClient)</h4>
+  <div class="markdown level1 summary"><p>Called on the server when a client is ready (= loaded the scene)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnServerReady(NetworkConnectionToClient conn)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Mirror.NetworkConnectionToClient.html">NetworkConnectionToClient</a></td>
+        <td><span class="parametername">conn</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkManager_OnServerSceneChanged_System_String_.md&amp;value=---%0Auid%3A%20Mirror.NetworkManager.OnServerSceneChanged(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkManager.cs/#L1261">View Source</a>
+  </span>
+  <a id="Mirror_NetworkManager_OnServerSceneChanged_" data-uid="Mirror.NetworkManager.OnServerSceneChanged*"></a>
+  <h4 id="Mirror_NetworkManager_OnServerSceneChanged_System_String_" data-uid="Mirror.NetworkManager.OnServerSceneChanged(System.String)">OnServerSceneChanged(String)</h4>
+  <div class="markdown level1 summary"><p>Called on server after a scene load with ServerChangeScene() is completed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnServerSceneChanged(string sceneName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">sceneName</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkManager_OnStartClient.md&amp;value=---%0Auid%3A%20Mirror.NetworkManager.OnStartClient%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkManager.cs/#L1337">View Source</a>
+  </span>
+  <a id="Mirror_NetworkManager_OnStartClient_" data-uid="Mirror.NetworkManager.OnStartClient*"></a>
+  <h4 id="Mirror_NetworkManager_OnStartClient" data-uid="Mirror.NetworkManager.OnStartClient">OnStartClient()</h4>
+  <div class="markdown level1 summary"><p>This is invoked when the client is started.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnStartClient()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkManager_OnStartHost.md&amp;value=---%0Auid%3A%20Mirror.NetworkManager.OnStartHost%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkManager.cs/#L1331">View Source</a>
+  </span>
+  <a id="Mirror_NetworkManager_OnStartHost_" data-uid="Mirror.NetworkManager.OnStartHost*"></a>
+  <h4 id="Mirror_NetworkManager_OnStartHost" data-uid="Mirror.NetworkManager.OnStartHost">OnStartHost()</h4>
+  <div class="markdown level1 summary"><p>This is invoked when a host is started.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnStartHost()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkManager_OnStartServer.md&amp;value=---%0Auid%3A%20Mirror.NetworkManager.OnStartServer%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkManager.cs/#L1334">View Source</a>
+  </span>
+  <a id="Mirror_NetworkManager_OnStartServer_" data-uid="Mirror.NetworkManager.OnStartServer*"></a>
+  <h4 id="Mirror_NetworkManager_OnStartServer" data-uid="Mirror.NetworkManager.OnStartServer">OnStartServer()</h4>
+  <div class="markdown level1 summary"><p>This is invoked when a server is started - including when a host is started.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnStartServer()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkManager_OnStopClient.md&amp;value=---%0Auid%3A%20Mirror.NetworkManager.OnStopClient%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkManager.cs/#L1343">View Source</a>
+  </span>
+  <a id="Mirror_NetworkManager_OnStopClient_" data-uid="Mirror.NetworkManager.OnStopClient*"></a>
+  <h4 id="Mirror_NetworkManager_OnStopClient" data-uid="Mirror.NetworkManager.OnStopClient">OnStopClient()</h4>
+  <div class="markdown level1 summary"><p>This is called when a client is stopped.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnStopClient()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkManager_OnStopHost.md&amp;value=---%0Auid%3A%20Mirror.NetworkManager.OnStopHost%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkManager.cs/#L1346">View Source</a>
+  </span>
+  <a id="Mirror_NetworkManager_OnStopHost_" data-uid="Mirror.NetworkManager.OnStopHost*"></a>
+  <h4 id="Mirror_NetworkManager_OnStopHost" data-uid="Mirror.NetworkManager.OnStopHost">OnStopHost()</h4>
+  <div class="markdown level1 summary"><p>This is called when a host is stopped.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnStopHost()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkManager_OnStopServer.md&amp;value=---%0Auid%3A%20Mirror.NetworkManager.OnStopServer%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkManager.cs/#L1340">View Source</a>
+  </span>
+  <a id="Mirror_NetworkManager_OnStopServer_" data-uid="Mirror.NetworkManager.OnStopServer*"></a>
+  <h4 id="Mirror_NetworkManager_OnStopServer" data-uid="Mirror.NetworkManager.OnStopServer">OnStopServer()</h4>
+  <div class="markdown level1 summary"><p>This is called when a server is stopped - including when a host is stopped.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnStopServer()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkManager_OnValidate.md&amp;value=---%0Auid%3A%20Mirror.NetworkManager.OnValidate%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkManager.cs/#L126">View Source</a>
+  </span>
+  <a id="Mirror_NetworkManager_OnValidate_" data-uid="Mirror.NetworkManager.OnValidate*"></a>
+  <h4 id="Mirror_NetworkManager_OnValidate" data-uid="Mirror.NetworkManager.OnValidate">OnValidate()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void OnValidate()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkManager_RegisterStartPosition_UnityEngine_Transform_.md&amp;value=---%0Auid%3A%20Mirror.NetworkManager.RegisterStartPosition(UnityEngine.Transform)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkManager.cs/#L1034">View Source</a>
+  </span>
+  <a id="Mirror_NetworkManager_RegisterStartPosition_" data-uid="Mirror.NetworkManager.RegisterStartPosition*"></a>
+  <h4 id="Mirror_NetworkManager_RegisterStartPosition_UnityEngine_Transform_" data-uid="Mirror.NetworkManager.RegisterStartPosition(UnityEngine.Transform)">RegisterStartPosition(Transform)</h4>
+  <div class="markdown level1 summary"><p>Registers the transform of a game object as a player spawn location.</p>
+<p>This is done automatically by NetworkStartPosition components, but can be done manually from user script code.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void RegisterStartPosition(Transform start)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Transform</span></td>
+        <td><span class="parametername">start</span></td>
+        <td><p>Transform to register.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkManager_Reset.md&amp;value=---%0Auid%3A%20Mirror.NetworkManager.Reset%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkManager.cs/#L149">View Source</a>
+  </span>
+  <a id="Mirror_NetworkManager_Reset_" data-uid="Mirror.NetworkManager.Reset*"></a>
+  <h4 id="Mirror_NetworkManager_Reset" data-uid="Mirror.NetworkManager.Reset">Reset()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void Reset()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkManager_ResetStatics.md&amp;value=---%0Auid%3A%20Mirror.NetworkManager.ResetStatics%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkManager.cs/#L715">View Source</a>
+  </span>
+  <a id="Mirror_NetworkManager_ResetStatics_" data-uid="Mirror.NetworkManager.ResetStatics*"></a>
+  <h4 id="Mirror_NetworkManager_ResetStatics" data-uid="Mirror.NetworkManager.ResetStatics">ResetStatics()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.BeforeSceneLoad)]
+public static void ResetStatics()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkManager_ServerChangeScene_System_String_.md&amp;value=---%0Auid%3A%20Mirror.NetworkManager.ServerChangeScene(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkManager.cs/#L752">View Source</a>
+  </span>
+  <a id="Mirror_NetworkManager_ServerChangeScene_" data-uid="Mirror.NetworkManager.ServerChangeScene*"></a>
+  <h4 id="Mirror_NetworkManager_ServerChangeScene_System_String_" data-uid="Mirror.NetworkManager.ServerChangeScene(System.String)">ServerChangeScene(String)</h4>
+  <div class="markdown level1 summary"><p>Change the server scene and all client's scenes across the network.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void ServerChangeScene(string newSceneName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">newSceneName</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkManager_Start.md&amp;value=---%0Auid%3A%20Mirror.NetworkManager.Start%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkManager.cs/#L201">View Source</a>
+  </span>
+  <a id="Mirror_NetworkManager_Start_" data-uid="Mirror.NetworkManager.Start*"></a>
+  <h4 id="Mirror_NetworkManager_Start" data-uid="Mirror.NetworkManager.Start">Start()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void Start()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkManager_StartClient.md&amp;value=---%0Auid%3A%20Mirror.NetworkManager.StartClient%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkManager.cs/#L311">View Source</a>
+  </span>
+  <a id="Mirror_NetworkManager_StartClient_" data-uid="Mirror.NetworkManager.StartClient*"></a>
+  <h4 id="Mirror_NetworkManager_StartClient" data-uid="Mirror.NetworkManager.StartClient">StartClient()</h4>
+  <div class="markdown level1 summary"><p>Starts the client, connects it to the server with networkAddress.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void StartClient()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkManager_StartClient_System_Uri_.md&amp;value=---%0Auid%3A%20Mirror.NetworkManager.StartClient(System.Uri)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkManager.cs/#L350">View Source</a>
+  </span>
+  <a id="Mirror_NetworkManager_StartClient_" data-uid="Mirror.NetworkManager.StartClient*"></a>
+  <h4 id="Mirror_NetworkManager_StartClient_System_Uri_" data-uid="Mirror.NetworkManager.StartClient(System.Uri)">StartClient(Uri)</h4>
+  <div class="markdown level1 summary"><p>Starts the client, connects it to the server via Uri</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void StartClient(Uri uri)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uri">Uri</a></td>
+        <td><span class="parametername">uri</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkManager_StartHost.md&amp;value=---%0Auid%3A%20Mirror.NetworkManager.StartHost%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkManager.cs/#L382">View Source</a>
+  </span>
+  <a id="Mirror_NetworkManager_StartHost_" data-uid="Mirror.NetworkManager.StartHost*"></a>
+  <h4 id="Mirror_NetworkManager_StartHost" data-uid="Mirror.NetworkManager.StartHost">StartHost()</h4>
+  <div class="markdown level1 summary"><p>Starts a network &quot;host&quot; - a server and client in the same application.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void StartHost()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkManager_StartServer.md&amp;value=---%0Auid%3A%20Mirror.NetworkManager.StartServer%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkManager.cs/#L270">View Source</a>
+  </span>
+  <a id="Mirror_NetworkManager_StartServer_" data-uid="Mirror.NetworkManager.StartServer*"></a>
+  <h4 id="Mirror_NetworkManager_StartServer" data-uid="Mirror.NetworkManager.StartServer">StartServer()</h4>
+  <div class="markdown level1 summary"><p>Starts the server, listening for incoming connections.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void StartServer()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkManager_StopClient.md&amp;value=---%0Auid%3A%20Mirror.NetworkManager.StopClient%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkManager.cs/#L568">View Source</a>
+  </span>
+  <a id="Mirror_NetworkManager_StopClient_" data-uid="Mirror.NetworkManager.StopClient*"></a>
+  <h4 id="Mirror_NetworkManager_StopClient" data-uid="Mirror.NetworkManager.StopClient">StopClient()</h4>
+  <div class="markdown level1 summary"><p>Stops and disconnects the client.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void StopClient()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkManager_StopHost.md&amp;value=---%0Auid%3A%20Mirror.NetworkManager.StopHost%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkManager.cs/#L510">View Source</a>
+  </span>
+  <a id="Mirror_NetworkManager_StopHost_" data-uid="Mirror.NetworkManager.StopHost*"></a>
+  <h4 id="Mirror_NetworkManager_StopHost" data-uid="Mirror.NetworkManager.StopHost">StopHost()</h4>
+  <div class="markdown level1 summary"><p>This stops both the client and the server that the manager is using.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void StopHost()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkManager_StopServer.md&amp;value=---%0Auid%3A%20Mirror.NetworkManager.StopServer%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkManager.cs/#L526">View Source</a>
+  </span>
+  <a id="Mirror_NetworkManager_StopServer_" data-uid="Mirror.NetworkManager.StopServer*"></a>
+  <h4 id="Mirror_NetworkManager_StopServer" data-uid="Mirror.NetworkManager.StopServer">StopServer()</h4>
+  <div class="markdown level1 summary"><p>Stops the server from listening and simulating the game.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void StopServer()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkManager_UnRegisterStartPosition_UnityEngine_Transform_.md&amp;value=---%0Auid%3A%20Mirror.NetworkManager.UnRegisterStartPosition(UnityEngine.Transform)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkManager.cs/#L1049">View Source</a>
+  </span>
+  <a id="Mirror_NetworkManager_UnRegisterStartPosition_" data-uid="Mirror.NetworkManager.UnRegisterStartPosition*"></a>
+  <h4 id="Mirror_NetworkManager_UnRegisterStartPosition_UnityEngine_Transform_" data-uid="Mirror.NetworkManager.UnRegisterStartPosition(UnityEngine.Transform)">UnRegisterStartPosition(Transform)</h4>
+  <div class="markdown level1 summary"><p>Unregister a Transform from start positions.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void UnRegisterStartPosition(Transform start)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Transform</span></td>
+        <td><span class="parametername">start</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/vis2k/mirror/new/master/apiSpec/new?filename=Mirror_NetworkManager.md&amp;value=---%0Auid%3A%20Mirror.NetworkManager%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/vis2k/mirror/blob/master/Assets/Mirror/Runtime/NetworkManager.cs/#L14" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
